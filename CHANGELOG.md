@@ -17,3 +17,7 @@
   - `docs/DESIGN.md`（デザイン方針）
   - `docs/GLOSSARY.md`（学習用 用語集）
   - `README.md`
+- 最小の学習プレイヤー雛形を作成：`src/index.html`（ロードマップ表示）, `src/style.css`（モバイルファースト・青アクセント）。
+- `.gitignore`, `.claude/launch.json`（ローカル確認用）を追加。
+- Git を初期化（`main` ブランチ）し、初回コミット `e020916` を作成。
+  - 次の作業：GitHub リポジトリ作成 → push → GitHub Pages 公開（スマホアクセス解禁）。

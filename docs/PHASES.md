@@ -13,8 +13,11 @@
 
 - [x] 要件・方針のヒアリング（B方式 / 公開前提 / localStorage で合意）
 - [x] ドキュメント一式の作成（CLAUDE / REQUIREMENTS / PHASES / DESIGN / WORKFLOW / REVIEW / GLOSSARY）
-- [ ] フォルダ構成の確定（`src/` `data/` `docs/`）と最小の動く `index.html`（Hello表示）
-- [ ] Git 初期化 → GitHub リポジトリ作成 → **GitHub Pages 公開**（最初の公開体験）
+- [x] フォルダ構成の確定（`src/` `data/` `docs/`）と最小の動く `index.html`（Hello表示）
+- [~] Git 初期化 → GitHub リポジトリ作成 → **GitHub Pages 公開**（最初の公開体験）
+      - [x] git init（main ブランチ）＋ 初回コミット `e020916`
+      - [ ] GitHub リポジトリ作成 → push（※先生のGitHubアカウントが必要）
+      - [ ] GitHub Pages 有効化 → 公開URL確認
 - [ ] セルフレビュー & 記録更新
 
 > 🎓 学びポイント：Git とは何か、`commit` / `push` とは、GitHub Pages とは。
@@ -71,4 +74,7 @@ B方式の「記事探し→要約→クイズ化」を実運用できる形に�
 
 ## 進行ログ（直近の状況メモ）
 
-- 2026-06-02: プロジェクト開始。要件確定。ドキュメント一式を作成。次は フェーズ0 の「最小index.html + Git/Pages公開」。
+- 2026-06-02: プロジェクト開始。要件確定。ドキュメント一式を作成。
+- 2026-06-02: 最小 `src/index.html` + `style.css` 作成。git init（main）＋初回コミット `e020916`。
+  ※プレビュー自動確認は環境制約（プレビューが沖縄そばプロジェクトに固定）で未実施。要・実機目視。
+  次は GitHub リポジトリ作成 → push → Pages 公開（先生のGitHubアカウント確認が必要）。
