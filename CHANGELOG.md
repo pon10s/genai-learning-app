@@ -21,3 +21,7 @@
 - `.gitignore`, `.claude/launch.json`（ローカル確認用）を追加。
 - Git を初期化（`main` ブランチ）し、初回コミット `e020916` を作成。
   - 次の作業：GitHub リポジトリ作成 → push → GitHub Pages 公開（スマホアクセス解禁）。
+- GitHub CLI (gh) を導入。リポジトリ `pon10s/genai-learning-app`（public）を作成し push。
+- `.github/workflows/pages.yml` を追加し、GitHub Actions で `src/` を自動デプロイ。
+- **GitHub Pages 公開完了** 🎉 → https://pon10s.github.io/genai-learning-app/ （HTTP 200 確認）。
+- **フェーズ0 完了。** スマホからもアクセス可能に。

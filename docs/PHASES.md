@@ -7,23 +7,26 @@
 
 ---
 
-## フェーズ0：基盤づくり 🏗️（← いまここ）
+## フェーズ0：基盤づくり 🏗️（✅ 完了）
 
 土台と「記録の流儀」を整える。手戻りの一番の予防策。
 
 - [x] 要件・方針のヒアリング（B方式 / 公開前提 / localStorage で合意）
 - [x] ドキュメント一式の作成（CLAUDE / REQUIREMENTS / PHASES / DESIGN / WORKFLOW / REVIEW / GLOSSARY）
 - [x] フォルダ構成の確定（`src/` `data/` `docs/`）と最小の動く `index.html`（Hello表示）
-- [~] Git 初期化 → GitHub リポジトリ作成 → **GitHub Pages 公開**（最初の公開体験）
+- [x] Git 初期化 → GitHub リポジトリ作成 → **GitHub Pages 公開**（最初の公開体験）
       - [x] git init（main ブランチ）＋ 初回コミット `e020916`
-      - [ ] GitHub リポジトリ作成 → push（※先生のGitHubアカウントが必要）
-      - [ ] GitHub Pages 有効化 → 公開URL確認
-- [ ] セルフレビュー & 記録更新
+      - [x] GitHub リポジトリ作成 → push（pon10s/genai-learning-app）
+      - [x] GitHub Actions で src/ を自動デプロイ → 公開URL確認（HTTP 200）
+- [R] セルフレビュー & 記録更新（公開URL目視・スマホ表示は朱音さんと次回確認）
+
+> 🌐 公開URL: https://pon10s.github.io/genai-learning-app/
+> 📦 リポジトリ: https://github.com/pon10s/genai-learning-app
 
 > 🎓 学びポイント：Git とは何か、`commit` / `push` とは、GitHub Pages とは。
 > 操作のたびに一言解説を添える。
 
-## フェーズ1：クイズプレイヤー MVP 🎯
+## フェーズ1：クイズプレイヤー MVP 🎯（← いまここ）
 
 「手書きのサンプルJSON 1〜3問」を読んで、出題→正誤→解説まで動かす。
 
@@ -78,3 +81,7 @@ B方式の「記事探し→要約→クイズ化」を実運用できる形に�
 - 2026-06-02: 最小 `src/index.html` + `style.css` 作成。git init（main）＋初回コミット `e020916`。
   ※プレビュー自動確認は環境制約（プレビューが沖縄そばプロジェクトに固定）で未実施。要・実機目視。
   次は GitHub リポジトリ作成 → push → Pages 公開（先生のGitHubアカウント確認が必要）。
+- 2026-06-02: GitHub CLI(gh)導入。リポジトリ `pon10s/genai-learning-app` 作成・push。
+  GitHub Actions で `src/` を自動デプロイ → **公開成功**（https://pon10s.github.io/genai-learning-app/ HTTP200）。
+  **フェーズ0 完了。** 次はフェーズ1（クイズプレイヤーMVP）。
+  ※デプロイ警告：actions が Node.js 20 で「将来非推奨」。動作には影響なし。後日 v4→新版へ上げる候補。
