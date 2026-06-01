@@ -25,3 +25,15 @@
 - `.github/workflows/pages.yml` を追加し、GitHub Actions で `src/` を自動デプロイ。
 - **GitHub Pages 公開完了** 🎉 → https://pon10s.github.io/genai-learning-app/ （HTTP 200 確認）。
 - **フェーズ0 完了。** スマホからもアクセス可能に。
+
+## 2026-06-02（フェーズ1）
+
+- クイズJSONスキーマを確定（4択固定、`type` は持たない。`category` は trend/ai-dev/basics）。
+- データ保存場所を **`src/data/quizzes/`** に統一（公開サイトに載せるため）。`src/data/manifest.json` で一覧管理。
+  これに合わせて CLAUDE.md / REQUIREMENTS.md / docs/WORKFLOW.md を更新。
+- **クイズプレイヤーMVPを実装**：
+  - `src/app.js` — manifest経由でクイズ読込 → 1問ずつ出題 → 正誤判定 → 解説＋出典表示 → 結果画面（正答率）。
+  - `src/style.css` — カード型UI、カテゴリ色分け、正誤の色付け、モバイルファースト。
+  - `src/data/quizzes/sample.json` — 評価用サンプル3問（トークン／RAG／システムプロンプト。各出典付き）。
+- 検証：JSON妥当性・`app.js` 文法・公開サイトの全アセット HTTP 200・クイズ3問取得を確認。
+  （ブラウザ実クリックは環境制約で自動検証できず、実機確認に委ねる。）
