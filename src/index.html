@@ -9,30 +9,18 @@
 <body>
   <main class="container">
     <header class="hero">
-      <p class="badge">フェーズ0・基盤づくり</p>
-      <h1>生成AIキャッチアップ学習アプリ</h1>
-      <p class="lead">
-        最新の生成AI・LLMの話題を「読む → クイズで定着」で学ぶ、先生専用の学習アプリです。
-      </p>
+      <p class="badge">生成AI キャッチアップ</p>
+      <h1>クイズで学ぶ 生成AI</h1>
     </header>
 
-    <section class="card">
-      <h2>セットアップ完了 🎉</h2>
-      <p>
-        この画面が表示されていれば、土台はうまく動いています。<br />
-        ここから少しずつ、クイズ機能を育てていきます。
-      </p>
-      <ul class="roadmap">
-        <li><span class="done">済</span> 基盤・ドキュメント整備</li>
-        <li><span class="done">済</span> 最小ページ表示（いまここ）</li>
-        <li><span class="todo">次</span> GitHub Pages で公開</li>
-        <li><span class="todo">　</span> クイズプレイヤー（出題→正誤→解説）</li>
-      </ul>
-    </section>
+    <!-- アプリの中身は app.js がここに描画する -->
+    <div id="app" class="app"></div>
 
     <footer class="foot">
       <p>made with Claude Code ・ B方式（APIキー不要）</p>
     </footer>
   </main>
+
+  <script src="app.js"></script>
 </body>
 </html>

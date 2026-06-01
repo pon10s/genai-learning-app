@@ -40,19 +40,26 @@
 
 ```json
 {
-  "id": "2026-06-02-llm-trend-01",
+  "id": "2026-06-02-trend-01",
   "category": "trend | ai-dev | basics",
   "difficulty": 1,
   "source": { "title": "記事タイトル", "url": "https://...", "date": "2026-06-01" },
-  "summary": "この問題の前提となる記事の要約（数行）",
+  "summary": "この問題の前提となる記事の要約（2〜4行）",
   "question": "問題文",
-  "type": "single-choice",
   "choices": ["選択肢A", "選択肢B", "選択肢C", "選択肢D"],
   "answerIndex": 1,
   "explanation": "なぜそれが正解か。学びになる解説。"
 }
 ```
-※ 最終スキーマはフェーズ1で確定する。上は叩き台。
+- **確定済み（フェーズ1）**。当面は **4択のみ**（`type` は持たない）。○×・穴埋めは後フェーズで追加。
+- `category` は `trend`（最新トレンド）/ `ai-dev`（AI駆動開発）/ `basics`（開発基礎）の3種。
+- `difficulty` は 1〜3（やさしい〜むずかしい）。
+
+### 保存場所とまとめ方
+- クイズファイルは **`src/data/quizzes/*.json`**（配列で複数問）。
+  ※ 公開サイトには `src/` 配下しか載らないため、データは src/ の中に置く。
+- 読み込む一覧は **`src/data/manifest.json`**（クイズファイル名の配列）で管理。
+  新しいクイズを足したら、ファイルを `src/data/quizzes/` に置き、manifest に1行追加する。
 
 ## 6. データ保存（localStorage に持つもの）
 
