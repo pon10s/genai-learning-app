@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "learning-app",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5500", "--directory", "src"],
+      "port": 5500
+    }
+  ]
+}

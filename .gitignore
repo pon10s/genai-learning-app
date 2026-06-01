@@ -1,0 +1,12 @@
+# OS / エディタが作る余計なファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタ設定（個人環境）
+.vscode/
+.idea/
+
+# 一時ファイル
+*.log
+*.tmp
