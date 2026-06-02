@@ -1,0 +1,54 @@
+{
+  "id": "art-kiro-requirements-analysis",
+  "category": "ai-dev",
+  "title": "AIが書く前に要件を数学的証明で検証——AWS Kiroの新機能",
+  "readMinutes": 2,
+  "source": {
+    "title": "AWS targets AI slop with new spec check in Kiro coding tool, amid scrutiny of agent reliability",
+    "url": "https://www.geekwire.com/2026/aws-targets-ai-slop-with-new-spec-check-in-kiro-coding-tool-amid-scrutiny-of-agent-reliability/",
+    "date": "2026-05"
+  },
+  "summary": [
+    "AWSのエージェント型IDE「Kiro」が2026年5月に「Requirements Analysis（要件分析）」機能を追加した。AIエージェントがコードを書き始める前に、要件定義に潜む矛盾・曖昧さ・抜け漏れを数学的証明で検出するのが狙いだ。",
+    "仕組みは3段階。まずLLMが曖昧な自然言語の要件を明確で検証可能な基準に書き直す。次にその出力を形式的な数学的ロジックに変換し、最後にSMT（充足可能性モジュロ理論）ソルバーと呼ばれる自動推論エンジンが矛盾や未定義の挙動を「証明」する。これはLLMのような確率的な推測ではなく、論理的に「矛盾が存在しない可能性はない」と数学的に示すアプローチだ。",
+    "AWSの内部テスト（35プロジェクト・1,400以上の受け入れ基準）では、初稿の要件の約60%に何らかのバグが含まれていた。曖昧なプロンプトからAIエージェントが意図せず誤ったコードを量産してしまう「AIスロップ」問題への解決策として注目される。問題の指摘は2択の平易な質問として開発者に提示され、1問あたり10〜15秒で解決できる設計となっている。"
+  ],
+  "questions": [
+    {
+      "question": "AWS KiroのRequirements Analysisが要件の矛盾を「証明」するために使う技術はどれか？",
+      "choices": [
+        "LLMによる確率的チェック（プロンプトで問題箇所を推測）",
+        "SMT（充足可能性モジュロ理論）ソルバーによる形式的自動推論",
+        "ユニットテストの自動生成・実行によるデグレ検知",
+        "静的コード解析ツールによる構文エラー検出"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "正解はSMTソルバー。LLMは確率的であるため「矛盾がありそう」と推測するにとどまるが、SMTソルバーは数学的論理を使い矛盾の存在を厳密に「証明」できる。ユニットテストや静的解析はコードに対して行うものであり、コードが書かれる前の要件定義段階では機能しない。"
+    },
+    {
+      "question": "AWSの内部テストで、AIエージェントに渡す前の初稿の要件定義にバグ（矛盾・曖昧さ・抜け漏れ）が含まれていた割合として正しいのはどれか？",
+      "choices": [
+        "約20%",
+        "約40%",
+        "約60%",
+        "約80%"
+      ],
+      "answerIndex": 2,
+      "difficulty": 1,
+      "explanation": "記事によればAWSは35プロジェクト・1,400以上の受け入れ基準を対象とした内部テストを実施し、初稿要件の約60%に何らかのバグが含まれていたと報告している。この数字がKiro Requirements Analysis開発の動機となっている。"
+    },
+    {
+      "question": "Kiroが「バイブコーディング（Vibe Coding）」ツールと大きく異なるとされる点はどれか？",
+      "choices": [
+        "VS Codeをベースにしたフォークである",
+        "コードを書く前に要件定義（スペック）を形式化するスペック駆動開発を中心に据えている",
+        "Amazon Bedrockを経由してモデルを呼び出す",
+        "MCP（Model Context Protocol）サーバーに対応している"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "VS Codeベースであること、Bedrock経由、MCP対応はKiroの特徴ではあるが、Cursor・Windsurf・GitHub Copilotなど競合ツールも同様の特徴を持つ場合がある。Kiroの最大の差別化ポイントは「プロンプト→コード」ではなく「プロンプト→スペック（要件・設計・タスク）→コード」というスペック駆動開発のフローを強制する点にある。"
+    }
+  ]
+}

@@ -1,11 +1,9 @@
 {
   "articles": [
-    "articles/basics-terms.json",
-    "articles/claude-code-bp.json",
-    "articles/llm-compare.json",
-    "articles/local-llm.json",
-    "articles/ai-dev-tools.json",
-    "articles/ai-agents.json",
-    "articles/llm-jp-4-open-source-2026.json"
+    "articles/google-io-2026-gemini-spark.json",
+    "articles/ai-coding-agent-comparison-2026.json",
+    "articles/cicd-tools-2026-basics.json",
+    "articles/openai-gpt55-release.json",
+    "articles/kiro-requirements-analysis.json"
   ]
 }

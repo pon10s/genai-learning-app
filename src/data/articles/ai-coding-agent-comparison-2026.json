@@ -1,0 +1,54 @@
+{
+  "id": "art-ai-coding-agent-comparison-2026",
+  "category": "ai-dev",
+  "title": "AIコーディングエージェント6製品を実務で徹底比較",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年最新】AIコーディングエージェント比較｜6製品を実務で検証",
+    "url": "https://uravation.com/media/ai-coding-agents-comparison-2026/",
+    "date": "2026-05"
+  },
+  "summary": [
+    "2026年のAIコーディングツール市場では、Claude Code・Cursor・GitHub Copilot・Windsurf・Codex CLI・Devinの6製品が主要プレイヤーとして競い合っています。料金はCursor ProやCopilot Proなど月20ドル前後が中心ですが、フルマネージド型のDevinはチームプランで月数百ドル規模になります。",
+    "これらの製品は大きく3つの「型」に分かれます。①ターミナルから指示してファイル操作からコミットまで行う「CLI型エージェント」（Claude Code・Codex CLI）、②既存のコードエディタに統合されて補完やチャットを提供する「IDE組み込み型」（Cursor・Windsurf・GitHub Copilot）、③タスクを渡すと計画・実装・テスト・PR作成まで人手をほぼ介さずに進める「フルマネージド自律エージェント」（Devin）の3種類です。",
+    "ツール選びの基本原則は「どれが一番優れているか」ではなく「自分たちが手放したい工程はどこか」です。補完だけならCopilot、コードベース横断の編集も任せたいならCursor/Claude Code、タスクをそのままPRまで丸投げしたいならDevin、という使い分けが推奨されています。チームへ導入する際は、権限境界・サンドボックス・監査ログ・ソースコードの学習利用オプトアウトの4点を必ず契約・設定レベルで確認することが重要です。"
+  ],
+  "questions": [
+    {
+      "question": "記事が紹介する6製品のうち、「タスクを与えるとクラウド上の隔離環境で計画→実装→テスト→PR作成まで自律的に進める」フルマネージド型エージェントはどれか？",
+      "choices": [
+        "Devin",
+        "Claude Code",
+        "Codex CLI",
+        "Windsurf"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Devinがフルマネージド自律エージェントに分類されます。Claude CodeとCodex CLIはCLI/ターミナル型、WindsurfはIDE組み込み型です。Devinは「AIエンジニアの一員」として並列タスク実行まで担う設計で、他の製品とは設計思想の次元が異なります。"
+    },
+    {
+      "question": "記事の3類型分類において、「CLI/ターミナル型エージェント」に該当する製品の組み合わせはどれか？",
+      "choices": [
+        "Claude Code と Codex CLI",
+        "Claude Code と Cursor",
+        "Windsurf と Devin",
+        "GitHub Copilot と Codex CLI"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事はCLI/ターミナル型として「Claude CodeとCodex CLI」を挙げています。CursorはIDE組み込み型、DevinはフルマネージドAI型、GitHub CopilotもIDE組み込み型に分類されます。CLIツールはエディタに縛られず、CI・スクリプトとの組み合わせが強みです。"
+    },
+    {
+      "question": "記事がチームへのAIコーディングエージェント社内導入時に「契約・設定レベルで確認すべき4点」として挙げていないものはどれか？",
+      "choices": [
+        "利用するAIモデルのパラメータ数（モデルサイズ）",
+        "権限境界（ファイル書き込み・コマンド実行の許可制）",
+        "ソースコードの学習利用オプトアウト",
+        "監査ログ"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "記事が挙げる4点は「権限境界」「サンドボックス」「監査ログ」「ソースコードの学習利用オプトアウト」です。モデルのパラメータ数は記事が示す4点には含まれていません。性能指標として参考になることはありますが、セキュリティ・ガバナンス観点での必須確認事項ではないとされています。"
+    }
+  ]
+}
