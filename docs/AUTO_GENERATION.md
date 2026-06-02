@@ -5,9 +5,11 @@
 > まず `CLAUDE.md` `REQUIREMENTS.md`（§5）`docs/WORKFLOW.md` を読んでから実行すること。
 
 ## ゴール
-- 最新の生成AI情報から **記事を1本** 作り、`src/data/articles/` に追加 → manifest更新 → 検証 → push。
+- 最新かつ重要な生成AI情報から **記事を5本** 作り、`src/data/articles/` を**まるごと入れ替える**（古い記事は削除）→ manifest書き換え → 検証 → push。
+- 「最近かつ重要」を優先（できれば直近1〜2ヶ月のニュース・重要解説）。カテゴリは分散させる。
 - push されると GitHub Pages が自動デプロイし、そのまま公開される（人の確認は挟まない）。
 - だからこそ **検証ゲートを必ず通す**。通らなければ push しない。
+- 実装は `tools/generate-article.js`（COUNT=5 既定）。最低3本作れなければ入れ替えを中止する。
 
 ## 手順
 

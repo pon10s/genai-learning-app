@@ -1,15 +1,15 @@
 // ============================================================
-// generate-article.js — 記事を1本 自動生成する（GitHub Actions / cron 用）
+// generate-article.js — 「今日の5記事」を生成して総入れ替えする（GitHub Actions / cron 用）
 //
 // Anthropic Messages API を「依存ライブラリなし・Node標準 fetch」で呼び、
-// web search ツールで最新の生成AI記事を1本探して、
-// 「要約(段落配列)＋4択クイズ2〜3問」のJSONを生成し、
-// src/data/articles/ に保存して manifest を更新する。
+// web search ツールで “最近かつ重要” な生成AI記事を複数本探して、
+// 各記事ごとに「要約(段落配列)＋4択クイズ2〜3問」のJSONを作る。
+// 既存の記事は削除し、新しい5本にきれいに入れ替える（manifest も書き換え）。
 //
 // 必要な環境変数: ANTHROPIC_API_KEY
-// 任意: MODEL（既定 claude-opus-4-8）
+// 任意: MODEL（既定 claude-opus-4-8）, COUNT（既定 5）, MIN_OK（既定 3）
 //
-// このスクリプトは「データを足す」だけ。検証は tools/validate-articles.js が行う。
+// このスクリプトは「データを差し替える」だけ。検証は tools/validate-articles.js が行う。
 // ============================================================
 "use strict";
 const fs = require("fs");
@@ -23,8 +23,9 @@ const API_URL = "https://api.anthropic.com/v1/messages";
 const API_VERSION = "2023-06-01";
 const MODEL = process.env.MODEL || "claude-opus-4-8";
 const API_KEY = process.env.ANTHROPIC_API_KEY;
+const COUNT = parseInt(process.env.COUNT || "5", 10);
+const MIN_OK = parseInt(process.env.MIN_OK || "3", 10);
 
-// カテゴリ
 const CATEGORIES = ["trend", "ai-dev", "basics"];
 const CATEGORY_JP = { trend: "最新トレンド", "ai-dev": "AI駆動開発", basics: "開発の基礎" };
 
@@ -33,8 +34,11 @@ const SYSTEM_PROMPT = `あなたは日本語の「生成AIキャッチアップ�
 最新の生成AI/LLM・AI駆動開発・開発基礎に関する記事を1本、web_searchで探して読み、
 学習者向けに「まず読む要約」と「4択クイズ」をセットで作ります。
 
+# 記事選びの方針（重要）
+- 「最近かつ重要」を最優先。できるだけ直近1〜2ヶ月以内の、話題になった/重要度の高いニュースや解説を選ぶ。
+- 信頼できる情報源（一次情報・公式ブログ・定番技術メディア）を優先。広告だらけ/中身の薄い記事は避ける。
+
 # 品質ルール（厳守）
-- 信頼できる新しめの記事を選ぶ（一次情報・公式ブログ・定番技術メディアを優先。広告だらけ/古すぎる記事は避ける）。
 - 事実は記事に書かれている内容だけを使う。推測で断定しない。数値・モデル名・日付など時点依存の情報は「その記事の時点の主張」として扱う。
 - summary は段落の配列。合計300〜500字程度で、1〜2分で読めるやさしい全体まとめ。専門用語はかみ砕く。
 - questions は2〜3問。各 choices は4個。「紛らわしい良問」にする（同じ分野・同じ粒度のもっともらしいダミー。
@@ -61,26 +65,6 @@ function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); } catch { return fallback; }
 }
 
-// 既存記事から「タイトル一覧」と「カテゴリ別本数」を集める
-function surveyExisting() {
-  const manifest = readJson(MANIFEST, { articles: [] });
-  const titles = [];
-  const counts = { trend: 0, "ai-dev": 0, basics: 0 };
-  for (const rel of manifest.articles || []) {
-    const a = readJson(path.join(DATA, rel), null);
-    if (!a) continue;
-    if (a.title) titles.push(a.title);
-    if (counts[a.category] != null) counts[a.category]++;
-  }
-  return { manifest, titles, counts };
-}
-
-// 一番少ないカテゴリを選ぶ（同数なら配列順）
-function leastCoveredCategory(counts) {
-  return CATEGORIES.slice().sort((x, y) => (counts[x] || 0) - (counts[y] || 0))[0];
-}
-
-// Messages API を1回呼ぶ
 async function callApi(messages) {
   const res = await fetch(API_URL, {
     method: "POST",
@@ -99,10 +83,7 @@ async function callApi(messages) {
       messages,
     }),
   });
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`API ${res.status}: ${body.slice(0, 500)}`);
-  }
+  if (!res.ok) throw new Error(`API ${res.status}: ${(await res.text()).slice(0, 400)}`);
   return res.json();
 }
 
@@ -121,7 +102,6 @@ async function runConversation(userPrompt) {
   return resp;
 }
 
-// 応答のテキストブロックを連結
 function extractText(resp) {
   return (resp.content || [])
     .filter((b) => b.type === "text" && typeof b.text === "string")
@@ -129,16 +109,34 @@ function extractText(resp) {
     .join("\n");
 }
 
-// テキストから JSON オブジェクトを取り出す
 function extractJson(text) {
   const fenced = text.match(/```json\s*([\s\S]*?)```/i) || text.match(/```\s*([\s\S]*?)```/);
   const candidate = fenced ? fenced[1] : text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1);
   return JSON.parse(candidate);
 }
 
-// slug を id から作る（安全化）
-function slugFromId(id) {
-  return String(id).replace(/^art-/, "").replace(/[^a-z0-9-]/gi, "-").toLowerCase() || "article";
+function slugFromId(id, fallback) {
+  return String(id || fallback).replace(/^art-/, "").replace(/[^a-z0-9-]/gi, "-").toLowerCase() || fallback;
+}
+
+// 1記事を生成（失敗時は null）
+async function generateOne(category, avoidTitles, todayStr) {
+  const userPrompt =
+    `今日のテーマは「${CATEGORY_JP[category]}」（category: "${category}"）です。` +
+    `このテーマで、最近かつ重要な記事を web_search で1本見つけ、要約とクイズのJSONを作ってください。\n` +
+    `本日: ${todayStr}。直近1〜2ヶ月以内の記事を優先してください。\n` +
+    `次のタイトルと内容が重複しないものにしてください:\n- ` +
+    (avoidTitles.length ? avoidTitles.join("\n- ") : "(まだ無し)");
+  try {
+    const resp = await runConversation(userPrompt);
+    const article = extractJson(extractText(resp));
+    if (!CATEGORIES.includes(article.category)) article.category = category;
+    if (!Array.isArray(article.questions) || article.questions.length < 2) throw new Error("設問不足");
+    return article;
+  } catch (e) {
+    console.error(`  生成失敗(${category}): ${e.message}`);
+    return null;
+  }
 }
 
 async function main() {
@@ -146,56 +144,53 @@ async function main() {
     console.error("ANTHROPIC_API_KEY が設定されていません。");
     process.exit(1);
   }
-
-  const { manifest, titles, counts } = surveyExisting();
-  const category = leastCoveredCategory(counts);
   const today = new Date().toISOString().slice(0, 10);
 
-  const userPrompt =
-    `今日のテーマは「${CATEGORY_JP[category]}」（category: "${category}"）です。` +
-    `このテーマで最新の良い記事を web_search で1本見つけ、要約とクイズのJSONを作ってください。\n` +
-    `本日: ${today}。\n` +
-    `次の既存タイトルと内容が重複しないものにしてください:\n- ` +
-    (titles.length ? titles.join("\n- ") : "(まだ無し)");
+  // 5枠をカテゴリで埋める（round-robin で分散）
+  const slots = Array.from({ length: COUNT }, (_, i) => CATEGORIES[i % CATEGORIES.length]);
 
-  console.log(`テーマ=${category} / 既存 ${JSON.stringify(counts)} / 記事 ${titles.length}本`);
+  const newArticles = [];
+  const avoidTitles = [];
+  const usedSlugs = new Set();
 
-  const resp = await runConversation(userPrompt);
-  const text = extractText(resp);
-  let article;
-  try {
-    article = extractJson(text);
-  } catch (e) {
-    console.error("JSONの取り出しに失敗:", e.message);
-    console.error("---応答の末尾---\n" + text.slice(-800));
+  for (let i = 0; i < slots.length; i++) {
+    const category = slots[i];
+    console.log(`(${i + 1}/${slots.length}) テーマ=${category} を生成中…`);
+    const article = await generateOne(category, avoidTitles, today);
+    if (!article) continue;
+
+    // slug を一意にする
+    let slug = slugFromId(article.id, `${category}-${today}-${i + 1}`);
+    if (usedSlugs.has(slug)) slug = `${slug}-${i + 1}`;
+    usedSlugs.add(slug);
+    article.id = "art-" + slug;
+    article._slug = slug;
+
+    newArticles.push(article);
+    if (article.title) avoidTitles.push(article.title);
+    console.log(`   ✅ 「${article.title}」 設問${article.questions.length}問 / 出典: ${article.source && article.source.url}`);
+  }
+
+  if (newArticles.length < MIN_OK) {
+    console.error(`生成できたのが ${newArticles.length} 本（最低 ${MIN_OK} 本必要）。入れ替えを中止します。`);
     process.exit(1);
   }
 
-  // カテゴリは安全側で今日のテーマに固定
-  if (!CATEGORIES.includes(article.category)) article.category = category;
-
-  const slug = slugFromId(article.id || `art-${category}-${today}`);
-  article.id = "art-" + slug;
-  const rel = `articles/${slug}.json`;
-  const outPath = path.join(DATA, rel);
-
-  if (fs.existsSync(outPath)) {
-    console.error(`同名ファイルが既にあります: ${rel}（重複の可能性）。中止します。`);
-    process.exit(1);
-  }
-
+  // --- ここで初めて総入れ替え（既存の記事ファイルを全削除→新規を書き込み）---
   fs.mkdirSync(ARTICLES_DIR, { recursive: true });
-  fs.writeFileSync(outPath, JSON.stringify(article, null, 2) + "\n", "utf8");
-
-  if (!manifest.articles.includes(rel)) {
-    manifest.articles.push(rel);
-    fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2) + "\n", "utf8");
+  for (const f of fs.readdirSync(ARTICLES_DIR)) {
+    if (f.endsWith(".json")) fs.unlinkSync(path.join(ARTICLES_DIR, f));
   }
+  const manifestArticles = [];
+  for (const a of newArticles) {
+    const rel = `articles/${a._slug}.json`;
+    delete a._slug;
+    fs.writeFileSync(path.join(DATA, rel), JSON.stringify(a, null, 2) + "\n", "utf8");
+    manifestArticles.push(rel);
+  }
+  fs.writeFileSync(MANIFEST, JSON.stringify({ articles: manifestArticles }, null, 2) + "\n", "utf8");
 
-  const usage = resp.usage || {};
-  console.log(`✅ 生成: ${rel}  「${article.title}」  設問${(article.questions || []).length}問`);
-  console.log(`   出典: ${article.source && article.source.url}`);
-  console.log(`   tokens: in=${usage.input_tokens} out=${usage.output_tokens} cache_read=${usage.cache_read_input_tokens || 0}`);
+  console.log(`\n✅ 入れ替え完了：${newArticles.length} 本（${manifestArticles.join(", ")}）`);
 }
 
 main().catch((e) => { console.error("失敗:", e.message); process.exit(1); });

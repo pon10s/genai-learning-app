@@ -8,6 +8,7 @@
 // {
 //   version: 1,
 //   perQuestion: { [問題id]: { seen, correct, lastWrong, lastAt } },
+//   articleResults: { [記事id]: { score, total, at } },  // 記事ごとの最新スコア（上書き）
 //   stats: { totalAnswered, totalCorrect },
 //   streak: { current, longest, lastStudyDate }   // 連続学習日数
 // }
@@ -20,6 +21,7 @@ function emptyProgress() {
   return {
     version: 1,
     perQuestion: {},
+    articleResults: {},
     stats: { totalAnswered: 0, totalCorrect: 0 },
     streak: { current: 0, longest: 0, lastStudyDate: null },
   };
@@ -34,6 +36,7 @@ function loadProgress() {
     // 念のため、足りない項目は初期値で補う
     return Object.assign(emptyProgress(), data, {
       perQuestion: data.perQuestion || {},
+      articleResults: data.articleResults || {},
       stats: Object.assign({ totalAnswered: 0, totalCorrect: 0 }, data.stats),
       streak: Object.assign({ current: 0, longest: 0, lastStudyDate: null }, data.streak),
     });
@@ -99,6 +102,17 @@ function touchStreakToday(p) {
   return { changed: true, current: s.current };
 }
 
+// 記事の結果を記録（同じ記事は毎回“上書き”。リトライ＝最新スコアで置き換え）
+function recordArticleResult(p, articleId, score, total) {
+  p.articleResults[articleId] = { score, total, at: new Date().toISOString() };
+  return p;
+}
+
+// 記事の結果を取得（未挑戦なら null）
+function getArticleResult(p, articleId) {
+  return p.articleResults[articleId] || null;
+}
+
 // 通算の正答率（%）。まだ0問なら0。
 function accuracy(p) {
   if (p.stats.totalAnswered === 0) return 0;
@@ -116,6 +130,8 @@ window.Progress = {
   load: loadProgress,
   save: saveProgress,
   recordAnswer,
+  recordArticleResult,
+  getArticleResult,
   touchStreakToday,
   accuracy,
   reset: resetProgress,

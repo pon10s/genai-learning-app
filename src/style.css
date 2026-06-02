@@ -256,6 +256,43 @@ h1 { font-size: 24px; margin: 0; font-weight: 900; letter-spacing: .02em; }
 .home-lead { font-size: 15px; margin: 4px 0 16px; line-height: 1.7; }
 .lib-note { font-size: 12px; color: var(--muted); margin: 12px 0 0; }
 
+/* ===== 記事一覧（ホーム） ===== */
+.list-head { font-weight: 800; font-size: 15px; margin: 18px 2px 10px; }
+.article-list { display: flex; flex-direction: column; gap: 10px; }
+
+.article-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  border: 2px solid #ece3d6;
+  border-radius: 16px;
+  padding: 13px 14px;
+  font: inherit;
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: 0 4px 0 #ece3d6;
+  transition: transform .08s, box-shadow .08s, border-color .15s;
+}
+.article-item:hover { border-color: var(--purple); }
+.article-item:active { transform: translateY(3px); box-shadow: 0 1px 0 #ece3d6; }
+
+.ai-title { font-weight: 800; font-size: 14.5px; line-height: 1.45; }
+
+.ai-status {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 4px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.ai-status.done { background: #dcfce7; color: var(--green-d); }
+.ai-status.todo { background: #f5efe6; color: var(--muted); }
+
 /* おまけの控えめボタン */
 .ghost {
   display: block;

@@ -2,9 +2,9 @@
 // 生成AIキャッチアップ学習アプリ — クイズプレイヤー
 //
 // 画面の流れ：
-//   ホーム → （ランダムに1記事）→ 読む（1〜2分）→ クイズ → 結果 → ホーム
+//   ホーム（今日の記事一覧＋達成状況）→ 記事を選ぶ → 読む → クイズ → 結果 → ホーム
 //
-// 「いきなり出題」だと当てずっぽうになるので、まず記事の要約を読んでから解く。
+// 記事は毎日5本に入れ替わる。挑戦済みは点数(◯/◯)を表示。リトライOK（記録は上書き）。
 // 進捗の保存は storage.js（window.Progress）に任せる。
 // ============================================================
 
@@ -15,14 +15,13 @@ const CATEGORY_LABELS = {
 };
 
 const state = {
-  articles: [],        // 読み込んだ記事の配列
-  article: null,       // いま挑戦中の記事
-  questions: [],       // その記事の問題
+  articles: [],
+  article: null,
+  questions: [],
   current: 0,
   correct: 0,
   combo: 0,
   answered: false,
-  lastArticleId: null, // 直前に出した記事（連続で同じを避ける）
   progress: null,
 };
 
@@ -42,7 +41,7 @@ async function init() {
     state.articles = state.articles.filter((a) => a && Array.isArray(a.questions) && a.questions.length);
 
     if (state.articles.length === 0) {
-      renderMessage("まだ記事がありません 🐣", "Claude Codeに「今日のキャッチアップ」と頼んで追加できます。");
+      renderMessage("まだ記事がありません 🐣", "明日の自動更新で記事が入ります。");
       return;
     }
     renderHome();
@@ -61,14 +60,6 @@ async function fetchJson(path) {
   return res.json();
 }
 
-// 記事をランダムに1つ選ぶ（直前と同じはなるべく避ける）
-function pickRandomArticle() {
-  const pool = state.articles.length > 1
-    ? state.articles.filter((a) => a.id !== state.lastArticleId)
-    : state.articles;
-  return pool[Math.floor(Math.random() * pool.length)];
-}
-
 // ------------------------------------------------------------
 // 画面：読み込み中 / メッセージ
 // ------------------------------------------------------------
@@ -84,12 +75,30 @@ function renderMessage(title, body) {
 }
 
 // ------------------------------------------------------------
-// 画面：ホーム（成績・ストリーク・今日のクイズ）
+// 画面：ホーム（成績サマリー＋今日の記事一覧）
 // ------------------------------------------------------------
 function renderHome() {
   const p = state.progress;
   const acc = window.Progress.accuracy(p);
   const streak = p.streak.current;
+  const total = state.articles.length;
+  const doneCount = state.articles.filter((a) => window.Progress.getArticleResult(p, a.id)).length;
+
+  const listHtml = state.articles
+    .map((a) => {
+      const r = window.Progress.getArticleResult(p, a.id);
+      const catLabel = CATEGORY_LABELS[a.category] || a.category;
+      const status = r
+        ? `<span class="ai-status done">${r.score}/${r.total}点 ✓</span>`
+        : `<span class="ai-status todo">未挑戦</span>`;
+      return `
+        <button class="article-item" data-id="${escapeHtml(a.id)}">
+          <span class="cat cat-${a.category}">${escapeHtml(catLabel)}</span>
+          <span class="ai-title">${escapeHtml(a.title)}</span>
+          ${status}
+        </button>`;
+    })
+    .join("");
 
   appEl.innerHTML = `
     <div class="card home-card">
@@ -99,25 +108,29 @@ function renderHome() {
           <div class="stat-label">連続学習日数</div>
         </div>
         <div class="stat">
-          <div class="stat-num">${p.stats.totalAnswered}</div>
-          <div class="stat-label">これまで解いた</div>
+          <div class="stat-num">${doneCount}<span class="unit">/${total}</span></div>
+          <div class="stat-label">今日の達成</div>
         </div>
         <div class="stat">
           <div class="stat-num">${acc}<span class="unit">%</span></div>
           <div class="stat-label">通算 正答率</div>
         </div>
       </div>
-      <p class="home-lead">記事をランダムに1本ピックアップ。<br><b>まず1〜2分読んで</b>、それからクイズに挑戦！</p>
-      <button id="startBtn" class="primary">今日のクイズ ▶</button>
-      ${p.stats.totalAnswered > 0 ? `<button id="resetBtn" class="ghost">記録をリセット</button>` : ""}
-      <p class="lib-note">収録記事：${state.articles.length}本</p>
-    </div>`;
+    </div>
+    <p class="list-head">📚 今日の記事（${total}本）— 読みたいものを選ぼう</p>
+    <div class="article-list">${listHtml}</div>
+    ${p.stats.totalAnswered > 0 ? `<button id="resetBtn" class="ghost">記録をリセット</button>` : ""}`;
 
-  document.getElementById("startBtn").addEventListener("click", () => openArticle(pickRandomArticle()));
+  appEl.querySelectorAll(".article-item").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const a = state.articles.find((x) => x.id === btn.dataset.id);
+      if (a) openArticle(a);
+    });
+  });
   const resetBtn = document.getElementById("resetBtn");
   if (resetBtn) {
     resetBtn.addEventListener("click", () => {
-      if (confirm("これまでの学習記録（正答率・連続日数）をすべて消します。よろしいですか？")) {
+      if (confirm("これまでの学習記録（点数・正答率・連続日数）をすべて消します。よろしいですか？")) {
         state.progress = window.Progress.reset();
         renderHome();
       }
@@ -130,7 +143,6 @@ function renderHome() {
 // ------------------------------------------------------------
 function openArticle(article) {
   state.article = article;
-  state.lastArticleId = article.id;
   const catLabel = CATEGORY_LABELS[article.category] || article.category;
   const src = article.source || {};
   const paragraphs = (article.summary || []).map((para) => `<p>${escapeHtml(para)}</p>`).join("");
@@ -148,14 +160,16 @@ function openArticle(article) {
       <div class="reading-body">${paragraphs}</div>
       ${sourceHtml}
       <button id="toQuizBtn" class="primary">クイズに挑戦（全${article.questions.length}問）▶</button>
-      <button id="otherBtn" class="ghost">別の記事にする 🔀</button>
+      <button id="backBtn" class="ghost">← 一覧にもどる</button>
     </div>`;
 
   document.getElementById("toQuizBtn").addEventListener("click", startQuiz);
-  document.getElementById("otherBtn").addEventListener("click", () => {
-    openArticle(pickRandomArticle());
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+  document.getElementById("backBtn").addEventListener("click", goHome);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function goHome() {
+  renderHome();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -223,7 +237,6 @@ function onAnswer(selectedIndex, selectedBtn) {
   if (isCorrect) { state.correct++; state.combo++; }
   else { state.combo = 0; }
 
-  // --- 記録を保存（問題は 記事id#番号 で識別）---
   const p = state.progress;
   const qid = state.article.id + "#" + state.current;
   window.Progress.touchStreakToday(p);
@@ -277,12 +290,16 @@ function goNext() {
 }
 
 // ------------------------------------------------------------
-// 画面：結果（この記事の成績＋通算）
+// 画面：結果（この記事の成績を保存＝上書き）
 // ------------------------------------------------------------
 function renderResult() {
   const total = state.questions.length;
   const rate = Math.round((state.correct / total) * 100);
   const p = state.progress;
+
+  // 記事ごとの最新スコアを上書き保存
+  window.Progress.recordArticleResult(p, state.article.id, state.correct, total);
+  window.Progress.save(p);
 
   let emoji, message;
   if (rate === 100) { emoji = "🏆"; message = "全問正解！ すごい！"; }
@@ -295,29 +312,15 @@ function renderResult() {
       <div class="result-emoji">${emoji}</div>
       <h2>${escapeHtml(message)}</h2>
       <p class="score">${state.correct} / ${total}</p>
-      <p class="rate">この記事の正答率 ${rate}%</p>
-      <div class="overall">
-        <span>🔥 連続 ${p.streak.current}日</span>
-        <span>通算 ${window.Progress.accuracy(p)}%</span>
-        <span>累計 ${p.stats.totalAnswered}問</span>
-      </div>
-      <button id="nextArticleBtn" class="primary">別の記事に挑戦 🔀</button>
-      <button id="retryBtn" class="ghost">この記事をもう一度</button>
-      <button id="homeBtn" class="ghost">ホームへ戻る</button>
+      <p class="rate">この記事の正答率 ${rate}%（記録を更新しました）</p>
+      <button id="homeBtn" class="primary">一覧にもどる 📚</button>
+      <button id="retryBtn" class="ghost">この記事をもう一度（記録は上書き）</button>
     </div>`;
 
   if (rate >= 67) launchConfetti();
 
-  document.getElementById("nextArticleBtn").addEventListener("click", () => {
-    openArticle(pickRandomArticle());
-  });
-  document.getElementById("retryBtn").addEventListener("click", () => {
-    openArticle(state.article);
-  });
-  document.getElementById("homeBtn").addEventListener("click", () => {
-    renderHome();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+  document.getElementById("homeBtn").addEventListener("click", goHome);
+  document.getElementById("retryBtn").addEventListener("click", () => openArticle(state.article));
 }
 
 // ------------------------------------------------------------

@@ -78,7 +78,11 @@ B方式の「記事探し→要約→クイズ化」を実運用できる形に�
       - [x] **代替＝GitHub Actions で真の自動化**を採用（朱音さんのAPIキーを使い、GitHubのクラウドで毎朝動く＝PCオフOK）：
             - `tools/generate-article.js`（Node標準fetchでClaude API＋web search→記事JSON生成→保存→manifest更新）
             - `.github/workflows/daily-article.yml`（毎朝7時JST cron → 生成 → 検証ゲート → commit/push → Pages自動デプロイ）
-      - [ ] **朱音さんの操作待ち**：GitHubに Secret `ANTHROPIC_API_KEY` を登録する（私はキーを扱えないため）。登録後に手動実行で初回確認。
+      - [x] 朱音さんが Secret `ANTHROPIC_API_KEY` を登録 → 手動実行でパイプライン全体が成功（記事自動生成・公開を確認）。
+- [x] 朱音さんFB反映（2026-06-02）：
+      - アプリを「今日の記事一覧から選ぶ」形に（ランダム廃止）。達成状況「◯/◯点」表示・リトライ上書き（storage.js articleResults）。
+      - 自動生成を「**毎日5記事に総入れ替え＋最近で重要**」に変更（generate-article.js / COUNT=5）。
+      - ローカルで全フロー＋上書き確認済み。※5記事生成の実走は費用が出るため、初回は朝7時の自動実行 or 手動実行で確認。
 
 ## フェーズ5：デザイン適用と仕上げ 🎨（一部前倒し実施中）
 

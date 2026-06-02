@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: 記事を1本生成（Claude API + Web検索）
+      - name: 今日の5記事を生成して入れ替え（Claude API + Web検索）
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node tools/generate-article.js
@@ -47,7 +47,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "変更なし（生成されませんでした）"
           else
-            git commit -m "content: 自動生成 daily記事 ($(date -u +%Y-%m-%d))"
+            git commit -m "content: 今日の5記事に自動更新 ($(date -u +%Y-%m-%d))"
             git push
           fi
 
