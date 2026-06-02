@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/google-io-2026-gemini-spark.json",
-    "articles/ai-coding-agent-comparison-2026.json",
-    "articles/cicd-tools-2026-basics.json",
-    "articles/openai-gpt55-release.json",
-    "articles/kiro-requirements-analysis.json"
+    "articles/mit-ai-trends-2026.json",
+    "articles/github-copilot-agent-native-2026.json",
+    "articles/cicd-tools-2026-jetbrains.json",
+    "articles/google-io-2026-agentic-era.json",
+    "articles/anthropic-agentic-coding-trends-2026.json"
   ]
 }

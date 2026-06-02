@@ -1,0 +1,54 @@
+{
+  "id": "art-cicd-tools-2026-jetbrains",
+  "category": "basics",
+  "title": "2026年版 CI/CDツール選びの実態：JetBrainsデータで読み解く",
+  "readMinutes": 2,
+  "source": {
+    "title": "Best CI/CD Tools for 2026: What the Data Actually Shows",
+    "url": "https://blog.jetbrains.com/teamcity/2026/03/best-ci-tools/",
+    "date": "2026-03"
+  },
+  "summary": [
+    "CI/CD（継続的インテグレーション／継続的デリバリー）とは、コードをビルド・テスト・デプロイする一連の工程を自動化する仕組みです。現代の開発では「オプション」ではなく「開発の基盤」として欠かせない存在になっています。",
+    "JetBrains が実施した「State of Developer Ecosystem」調査によると、組織での利用率トップは GitHub Actions（33%）、続いて Jenkins（28%）、GitLab CI（19%）。一方で、回答者の18%がCI/CDツールを一切使っていないと回答しており、普及に温度差があることも明らかになりました。",
+    "ツール選びは「オープンソース系 vs クラウド系 vs エンタープライズ系」というトレードオフで考えるのが整理の近道です。Jenkins・Tekton・Drone のような OSS は無償で高い自由度を持つ反面、保守は自己責任。GitHub Actions や CircleCI などのクラウド系はセットアップが手軽で既存スタックとの連携が速い。TeamCity・GitLab（セルフホスト）・Harness などのエンタープライズ系は監査ログや権限管理が充実し、金融・医療など規制業界に向いています。チームの規模・リリース頻度・インフラ方針に応じて選ぶことが重要です。"
+  ],
+  "questions": [
+    {
+      "question": "JetBrains の調査において、2026年時点で組織での採用率が最も高い CI/CD ツールはどれですか？",
+      "choices": [
+        "GitHub Actions（33%）",
+        "Jenkins（28%）",
+        "GitLab CI（19%）",
+        "CircleCI（15%）"
+      ],
+      "answerIndex": 0,
+      "difficulty": 1,
+      "explanation": "調査データでは GitHub Actions が33%でトップ。Jenkins（28%）、GitLab CI（19%）が続きます。CircleCI は記事中でクラウド系の代表例として挙げられていますが、具体的な組織採用率の数値はトップ3には含まれていません。"
+    },
+    {
+      "question": "JetBrains の調査で「CI/CDツールをまったく使っていない」と回答した開発者の割合として、記事に記載されている数値はどれですか？",
+      "choices": [
+        "約5%",
+        "約10%",
+        "約18%",
+        "約30%"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事によると回答者の18%がCI/CDツールを使っていないと回答しています。これは「CI/CDを全員が当然使っている」という前提が誤りであることを示す重要な数値です。5%・10%・30%はいずれも記事に記載がなく誤りです。"
+    },
+    {
+      "question": "記事がCI/CDツール選びの軸として示している「オープンソース系ツールのデメリット」として正しいものはどれですか？",
+      "choices": [
+        "YAMLでパイプラインを定義できない",
+        "GitHub リポジトリとの連携が不可能",
+        "メンテナンス・セキュリティパッチ・スケーラビリティを自チームで担う必要がある",
+        "無償で利用できないため費用が高い"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では Jenkins・Tekton・Drone などのOSSは「無償で高い制御性を持つが、保守・セキュリティパッチ・スケーラビリティは自己責任」と明示しています。「YAMLが使えない」「GitHub連携不可」は事実と異なり、「無償でない」はOSSの逆の説明です。"
+    }
+  ]
+}

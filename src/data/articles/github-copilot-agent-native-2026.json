@@ -1,0 +1,54 @@
+{
+  "id": "art-github-copilot-agent-native-2026",
+  "category": "ai-dev",
+  "title": "GitHub Copilot がエージェントネイティブな開発体験へ進化（Build 2026）",
+  "readMinutes": 2,
+  "source": {
+    "title": "GitHub Copilot app: The agent-native desktop experience",
+    "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+    "date": "2026-06"
+  },
+  "summary": [
+    "2026年6月2日のMicrosoft Build 2026にて、GitHubはエージェント（AI自律タスク実行）を開発ワークフローの中心に据えた新しいデスクトップアプリ「GitHub Copilot app」を発表しました。AIエージェントの普及で開発スピードは上がった一方、複数のウィンドウにコンテキストが分散し、レビュー負荷が増大するという課題が顕在化していました。",
+    "新アプリのキーワードは「AX（エージェント体験）」です。チャットで指示を与えると、その意図を可視化・確認できる「Canvas（キャンバス）」という作業空間に変換されます。また、エージェントがコードを実行・テストするための「サンドボックス」を選べるようになり、ローカル実行（ファイルシステム・ネットワークアクセスを制限した隔離環境）とクラウド実行（GitHub がホストする使い捨て Linux 環境）の2択が用意されています。コードレビュー機能も強化され、高精度モデルへルーティングする「ミディアムティア」レビューが追加されました。",
+    "あわせて「GitHub Copilot SDK」の正式リリース（GA）も発表されました。Node.js/TypeScript・Python・Go・.NET・Rust・Javaの6言語で利用可能で、Copilotのエージェントエンジン（計画立案・ツール呼び出し・ファイル編集・マルチターンセッション）を自社アプリやサービスに組み込めます。独自ツールやMCPサーバーの登録、OpenTelemetryによるトレーシング、BYOKによる柔軟な認証も備えています。"
+  ],
+  "questions": [
+    {
+      "question": "GitHub Copilot appで新たに導入された「Canvas（キャンバス）」の主な役割は何か？",
+      "choices": [
+        "チャットで与えた指示をエージェントの可視化された作業空間として表示し、人間が確認・操作できるようにする",
+        "プルリクエストのマージを自動化し、CI/CDパイプラインをトリガーする専用ビュー",
+        "複数リポジトリのコードを横断検索するためのグラフィカルなインターフェース",
+        "エージェントが生成したコードを本番環境へ即座にデプロイするためのプレビュー画面"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では「Chat is where you instruct, discuss, and reason through ambiguity. Canvases are where that intent becomes visible work you can inspect, steer, and verify.」と説明されています。キャンバスはエージェントの意図（＝指示）を可視化し、人間が検査・修正・確認できる作業空間です。CI/CDトリガーや横断検索・即時デプロイとは異なります。"
+    },
+    {
+      "question": "Copilot appのクラウドサンドボックスとローカルサンドボックスの説明として正しいものはどれか？",
+      "choices": [
+        "クラウドはGitHubがホストする使い捨てのLinux環境で、ローカルはファイルシステムやネットワークを制限した隔離環境として動作する",
+        "クラウドは開発者のマシン上で動作し、ローカルはGitHubのサーバー上で動作する",
+        "クラウドサンドボックスはWindowsのみ対応で、ローカルサンドボックスはmacOSのみ対応している",
+        "クラウドとローカルの違いはデバッグ機能の有無のみで、実行環境は同一のコンテナ基盤を共有する"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では「With local sandboxing, Copilot runs in an isolated environment directly on your machine, with restricted access to filesystems, network connectivity, and system capabilities」「In the cloud, each sandbox runs in a fully isolated, ephemeral Linux environment hosted by GitHub」と明記されています。ローカルとクラウドの役割が逆になっているB、OS制限を述べるC、実行環境が同一とするDはいずれも誤りです。"
+    },
+    {
+      "question": "2026年6月にGAとなったGitHub Copilot SDKについて、正しい説明はどれか？",
+      "choices": [
+        "GitHub Copilotのエージェントエンジンを自社アプリに組み込めるSDKで、Node.js/TypeScript・Python・Go・.NET・Rust・Javaの6言語をサポートする",
+        "GitHub Actionsのワークフローファイルを自動生成するCLIツールで、YAMLの記述を不要にする",
+        "Copilotのコード補完モデルを直接ファインチューニングできるトレーニング用フレームワーク",
+        "Visual Studio Code専用の拡張機能APIで、他のIDEやサービスへの組み込みはサポートしない"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "記事では「The GitHub Copilot SDK is now generally available. You can embed GitHub Copilot's agentic engine into your own applications, services, and developer tools」「generally available in Node.js/TypeScript, Python, Go, .NET, Rust, and Java」と説明されています。Actions YAMLを自動生成するツール（B）、モデルのファインチューニングフレームワーク（C）、VSCode専用（D）はいずれも記事の内容と異なります。"
+    }
+  ]
+}
