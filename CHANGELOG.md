@@ -56,3 +56,17 @@
 - 検証：storage.js/app.js 文法OK。Claude自身のブラウザで全フロー操作＋**リロード後も記録が残る**ことを確認。
   localStorage 内容も妥当（3問・全正解・ストリーク1日）。コンソールエラー無し。
 - **フェーズ2 完了。**
+
+## 2026-06-02（フェーズ3：本物のクイズ生成 / B方式 初回バッチ）
+
+- WORKFLOW手順で最新記事を検索→朱音さんが4記事を選定→本文を読んで要約→クイズ化。
+- 出典差し替え：Zenn(403)→Anthropic公式ベストプラクティス、Qiita(本文薄)→クラウドエース比較記事。
+- 追加した問題（計8問、すべて出典付き）：
+  - `2026-06-02-claude-code.json`（3問・ai-dev）CLAUDE.md / Explore-Plan-Code-Commit / /clear
+  - `2026-06-02-llm-compare.json`（2問・trend）ARC-AGI-2 / SWE-bench の意味
+  - `2026-06-02-local-llm.json`（2問・basics）MoE / Ollama
+  - `2026-06-02-ai-dev-tools.json`（1問・ai-dev）AIツールの移り変わりの速さ
+- `manifest.json` を更新（全5ファイル）。アプリの合計は **11問**（trend2 / ai-dev6 / basics3）。
+- 検証：全問のJSON妥当性・出典URL有・answerIndex正常・id重複なし。
+  Claude自身のブラウザで「全11問」「1問目が正しく描画」「コンソールエラー無し」を確認。
+- **フェーズ3（初回バッチ）完了。** 今後は同手順でクイズを増やせる。

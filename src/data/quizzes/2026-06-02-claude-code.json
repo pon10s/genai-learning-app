@@ -1,0 +1,62 @@
+[
+  {
+    "id": "2026-06-02-ai-dev-cc-01",
+    "category": "ai-dev",
+    "difficulty": 1,
+    "source": {
+      "title": "Anthropic公式: Claude Code ベストプラクティス",
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "date": "2026-06"
+    },
+    "summary": "Anthropic公式の Claude Code ベストプラクティス。CLAUDE.md・計画ワークフロー・コンテキスト管理などの定石をまとめている。",
+    "question": "Claude Code の「CLAUDE.md」の役割として正しいものは？",
+    "choices": [
+      "完成したコードを保存しておく場所",
+      "毎回の会話の冒頭で読み込まれる、プロジェクトの永続的な指示ファイル",
+      "AIのパスワードを書いておくファイル",
+      "画像を貼り付けるための置き場"
+    ],
+    "answerIndex": 1,
+    "explanation": "公式ドキュメントによると、CLAUDE.md は毎セッションの冒頭で読み込まれ、ビルドコマンド・コード規約・ワークフロー等の『いつも効かせたい前提』を書く場所です。ただし長すぎると肝心の指示が埋もれて無視されやすくなるため、簡潔に保つのがコツとされています。"
+  },
+  {
+    "id": "2026-06-02-ai-dev-cc-02",
+    "category": "ai-dev",
+    "difficulty": 2,
+    "source": {
+      "title": "Anthropic公式: Claude Code ベストプラクティス",
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "date": "2026-06"
+    },
+    "summary": "公式が勧める基本ワークフローは Explore（調査）→ Plan（計画）→ Code（実装）→ Commit（記録）の4段階。",
+    "question": "公式が勧めるワークフロー「Explore → Plan → Code → Commit」の狙いは？",
+    "choices": [
+      "実装の前に調査と計画を分け、“間違った問題”を解くのを防ぐため",
+      "とにかく一番速くコードを書き始めるため",
+      "計画書をいっさい作らないため",
+      "レビューを省略してすぐ公開するため"
+    ],
+    "answerIndex": 0,
+    "explanation": "いきなりコードに入ると的外れな実装になりがちです。まず調べて(Explore)、計画し(Plan)、実装(Code)、最後にコミット(Commit)と段階を分けることで手戻りを減らせます。このプロジェクトの『要件→計画→実装→記録』の進め方とも一致します。"
+  },
+  {
+    "id": "2026-06-02-ai-dev-cc-03",
+    "category": "ai-dev",
+    "difficulty": 2,
+    "source": {
+      "title": "Anthropic公式: Claude Code ベストプラクティス",
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "date": "2026-06"
+    },
+    "summary": "コンテキストウィンドウ（AIが一度に覚えていられる量）は埋まると性能が落ち、前の指示を忘れやすくなる。",
+    "question": "長い作業の途中で“無関係な別の話題”に移るとき、公式が勧める操作は？",
+    "choices": [
+      "/clear でコンテキスト（文脈）をリセットする",
+      "パソコンを再起動する",
+      "新しいパソコンを買う",
+      "CLAUDE.md を削除する"
+    ],
+    "answerIndex": 0,
+    "explanation": "コンテキストウィンドウが埋まるとAIの性能が落ち、前の指示を“忘れ”やすくなります。無関係なタスクへ切り替えるときは /clear で文脈をリセットすると精度を保てる、と公式は説明しています。"
+  }
+]
