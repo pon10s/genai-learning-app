@@ -1,9 +1,9 @@
 {
-  "quizFiles": [
-    "quizzes/2026-06-02-claude-code.json",
-    "quizzes/2026-06-02-llm-compare.json",
-    "quizzes/2026-06-02-local-llm.json",
-    "quizzes/2026-06-02-ai-dev-tools.json",
-    "quizzes/sample.json"
+  "articles": [
+    "articles/basics-terms.json",
+    "articles/claude-code-bp.json",
+    "articles/llm-compare.json",
+    "articles/local-llm.json",
+    "articles/ai-dev-tools.json"
   ]
 }
