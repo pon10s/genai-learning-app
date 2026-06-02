@@ -68,6 +68,8 @@ Claude Code（あなた）= コンテンツ生成エンジン
 | `docs/DESIGN.md` | デザイン方針（見た目のブレ防止） |
 | `docs/WORKFLOW.md` | コンテンツ生成の手順（記事探し→クイズ化） |
 | `docs/REVIEW.md` | セルフレビューのチェックリスト |
+| `docs/AUTO_GENERATION.md` | 毎日の自動生成ルーティンの手順書（スケジュール実行用） |
+| `tools/validate-articles.js` | 記事データの検証ゲート（公開前に必ず通す） |
 | `docs/GLOSSARY.md` | 用語集（先生の学習メモ。出てきた言葉を貯める） |
 | `src/` | 学習プレイヤー本体のコード |
 | `src/data/articles/` | 記事データ（1ファイル＝1記事：読み物＋クイズ）。src/ 内に置く |
