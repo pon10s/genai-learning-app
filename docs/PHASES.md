@@ -73,11 +73,12 @@ B方式の「記事探し→要約→クイズ化」を実運用できる形に�
       - [x] 検証ゲート `tools/validate-articles.js`（公開前の機械チェック）
       - [x] 手順書 `docs/AUTO_GENERATION.md`（スケジュール実行Claude向け）
       - [x] 試し生成を手動実行し、検索→生成→検証→公開まで一気通貫を実証（記事6本・17問に）
-      - [ ] スケジュール登録（毎朝・クラウド版）※後日再試行
-            - 原因切り分け済み：`/schedule`＝**クラウド版ルーティン**（PCオフでも動く／claude.aiへのオンライン接続が必要）が
-              接続不可で登録できなかった。一方 **ローカル版**（mcp scheduled-tasks：このアプリを開いている時だけ動く）は
-              一覧取得が成功＝正常。朱音さんの希望は「完全放置で毎朝」→**クラウド版が本命**なので接続復旧後に再試行する。
-            - 復旧時の登録内容：毎朝7時(JST)に docs/AUTO_GENERATION.md の手順で記事1本を自動生成→検証→push。
+      - [x] 原因究明：`/schedule`（クラウド版ルーティン）が失敗したのは障害ではなく、この環境に
+            **claude.aiサブスクのログインが無い（APIキー方式）**ため、と判断（status正常／.credentials無し／oauthAccount無し／ANTHROPIC_API_KEY有り）。
+      - [x] **代替＝GitHub Actions で真の自動化**を採用（朱音さんのAPIキーを使い、GitHubのクラウドで毎朝動く＝PCオフOK）：
+            - `tools/generate-article.js`（Node標準fetchでClaude API＋web search→記事JSON生成→保存→manifest更新）
+            - `.github/workflows/daily-article.yml`（毎朝7時JST cron → 生成 → 検証ゲート → commit/push → Pages自動デプロイ）
+      - [ ] **朱音さんの操作待ち**：GitHubに Secret `ANTHROPIC_API_KEY` を登録する（私はキーを扱えないため）。登録後に手動実行で初回確認。
 
 ## フェーズ5：デザイン適用と仕上げ 🎨（一部前倒し実施中）
 

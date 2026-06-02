@@ -1,0 +1,64 @@
+# 毎日1記事を自動生成して公開する（GitHubのクラウドで動く＝PCオフでもOK）
+name: Daily Article
+
+on:
+  schedule:
+    # 22:00 UTC = 07:00 JST（毎朝7時 日本時間）
+    - cron: "0 22 * * *"
+  workflow_dispatch: {} # 手動実行も可能
+
+permissions:
+  contents: write   # 生成した記事をコミット＆push するため
+  pages: write      # GitHub Pages へ公開するため
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Node.js を準備
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 記事を1本生成（Claude API + Web検索）
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node tools/generate-article.js
+
+      - name: 検証ゲート（通らなければここで失敗＝公開しない）
+        run: node tools/validate-articles.js
+
+      - name: 生成物をコミット＆push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "変更なし（生成されませんでした）"
+          else
+            git commit -m "content: 自動生成 daily記事 ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Pages の設定
+        uses: actions/configure-pages@v5
+
+      - name: 公開する中身（src/）をまとめる
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./src
+
+      - name: 公開する
+        id: deployment
+        uses: actions/deploy-pages@v4

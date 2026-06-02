@@ -92,3 +92,13 @@
 - **試し生成を実施**（手順書どおり手動実行）：trendを選択→AIエージェントの記事を検索→Salesforce(403)はAIsmileyへ差し替え→
   本文を読み記事化「AIエージェントとは？ 2026年の行動するAI入門」→検証ゲート通過→公開。記事は計6本・17問に。
 - スケジュール登録（毎日7時JST）はバックエンド接続が一時的に不可のため保留 → 後日再試行。仕組み・手順・検証は完成済み。
+
+## 2026-06-02（毎日自動公開を GitHub Actions で実現）
+
+- `/schedule`（クラウド版ルーティン）が登録できなかった原因を究明：Anthropic障害ではなく、
+  **この環境に claude.ai サブスクのログインが無い（APIキー方式）**ためと判断（status正常・`.credentials.json`無し・`oauthAccount`無し・`ANTHROPIC_API_KEY`有り）。
+- 代替として **GitHub Actions による真の自動化**を採用（朱音さんのAPIキーを使い、GitHubのクラウドで実行＝PCオフでも毎朝動く）：
+  - `tools/generate-article.js` — Node標準fetchで Anthropic Messages API（モデル `claude-opus-4-8`）＋ `web_search_20260209` ツールを呼び、
+    最新記事を1本探して「要約＋4択クイズ」JSONを生成→`src/data/articles/`保存→`manifest.json`更新。pause_turn対応・JSON抽出・プロンプトキャッシュ入り。
+  - `.github/workflows/daily-article.yml` — 毎朝7時JST（cron `0 22 * * *`）に 生成 → `validate-articles.js` 検証ゲート → commit/push → Pages自動デプロイ。
+- 残作業：GitHub Secret `ANTHROPIC_API_KEY` の登録（朱音さんの操作。Claudeはキーを扱えない）。登録後に手動実行で初回確認予定。
