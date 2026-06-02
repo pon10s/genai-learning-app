@@ -1,13 +1,10 @@
 // ============================================================
 // 生成AI学習アプリ — クイズプレイヤー（ポップ・ゲーム風UI）
 //
-// やること：
-//   1. data/manifest.json を読む（クイズファイルの一覧）
-//   2. 各クイズファイルを読み込んで1つの配列にまとめる
-//   3. 1問ずつ出題 → 回答 → 正誤判定（演出つき）→ 解説＋出典 → 次へ
-//   4. 最後に成績をまとめて表示
+// 画面の流れ：
+//   ホーム（成績・ストリーク表示）→ 出題 → 回答（演出）→ 解説 → … → 結果
 //
-// ※ 進捗の保存（localStorage）はフェーズ2で追加する。ここではまだやらない。
+// 進捗の保存は storage.js（window.Progress）に任せる。
 // ============================================================
 
 const CATEGORY_LABELS = {
@@ -20,19 +17,19 @@ const state = {
   quizzes: [],
   current: 0,
   correct: 0,
-  combo: 0,       // 連続正解数
+  combo: 0,
   answered: false,
+  progress: null,   // localStorage から読んだ累計の記録
 };
 
 const appEl = document.getElementById("app");
-
-// 動きを控えるべきか（OSの設定を尊重）
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 // ------------------------------------------------------------
-// 起動
+// 起動：記録を読み、クイズを読み、ホーム画面へ
 // ------------------------------------------------------------
 async function init() {
+  state.progress = window.Progress.load();
   renderLoading();
   try {
     const manifest = await fetchJson("data/manifest.json");
@@ -44,7 +41,7 @@ async function init() {
       renderMessage("まだクイズがありません 🐣", "Claude Codeに「クイズ作って」と頼んで追加できます。");
       return;
     }
-    renderQuestion();
+    renderHome();
   } catch (err) {
     console.error(err);
     renderMessage(
@@ -75,6 +72,56 @@ function renderMessage(title, body) {
 }
 
 // ------------------------------------------------------------
+// 画面：ホーム（成績・ストリーク・はじめる）
+// ------------------------------------------------------------
+function renderHome() {
+  const p = state.progress;
+  const acc = window.Progress.accuracy(p);
+  const streak = p.streak.current;
+  const total = state.quizzes.length;
+
+  appEl.innerHTML = `
+    <div class="card home-card">
+      <div class="stat-grid">
+        <div class="stat">
+          <div class="stat-num">${streak >= 1 ? "🔥" + streak : "0"}</div>
+          <div class="stat-label">連続学習日数</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">${p.stats.totalAnswered}</div>
+          <div class="stat-label">これまで解いた</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">${acc}<span class="unit">%</span></div>
+          <div class="stat-label">通算 正答率</div>
+        </div>
+      </div>
+      <p class="home-lead">今日のクイズは <b>全 ${total} 問</b>。サクッと挑戦しよう！</p>
+      <button id="startBtn" class="primary">はじめる ▶</button>
+      ${p.stats.totalAnswered > 0 ? `<button id="resetBtn" class="ghost">記録をリセット</button>` : ""}
+    </div>`;
+
+  document.getElementById("startBtn").addEventListener("click", startQuiz);
+  const resetBtn = document.getElementById("resetBtn");
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      if (confirm("これまでの学習記録（正答率・連続日数）をすべて消します。よろしいですか？")) {
+        state.progress = window.Progress.reset();
+        renderHome();
+      }
+    });
+  }
+}
+
+function startQuiz() {
+  state.current = 0;
+  state.correct = 0;
+  state.combo = 0;
+  renderQuestion();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// ------------------------------------------------------------
 // 画面：問題を出す
 // ------------------------------------------------------------
 function renderQuestion() {
@@ -83,7 +130,7 @@ function renderQuestion() {
   const total = state.quizzes.length;
   const num = state.current + 1;
   const catLabel = CATEGORY_LABELS[q.category] || q.category;
-  const progress = Math.round((state.current / total) * 100); // 解く前の進み具合
+  const progress = Math.round((state.current / total) * 100);
 
   const choicesHtml = q.choices
     .map(
@@ -126,12 +173,14 @@ function onAnswer(selectedIndex, selectedBtn) {
   const q = state.quizzes[state.current];
   const isCorrect = selectedIndex === q.answerIndex;
 
-  if (isCorrect) {
-    state.correct++;
-    state.combo++;
-  } else {
-    state.combo = 0;
-  }
+  if (isCorrect) { state.correct++; state.combo++; }
+  else { state.combo = 0; }
+
+  // --- 記録を更新して保存 ---
+  const p = state.progress;
+  window.Progress.touchStreakToday(p);     // 今日学習した（連続日数を更新）
+  window.Progress.recordAnswer(p, q.id, isCorrect);
+  window.Progress.save(p);
 
   // 選択肢に色をつけて押せなくする＋演出
   appEl.querySelectorAll(".choice").forEach((btn) => {
@@ -145,14 +194,12 @@ function onAnswer(selectedIndex, selectedBtn) {
     const correctBtn = appEl.querySelector(".choice.correct");
     if (correctBtn) correctBtn.classList.add("bounce");
     launchConfetti();
-    // 進捗バーを「この問題ぶん」前進させる
     const fill = appEl.querySelector(".pbar-fill");
     if (fill) fill.style.width = Math.round(((state.current + 1) / state.quizzes.length) * 100) + "%";
   } else if (selectedBtn) {
     selectedBtn.classList.add("shake");
   }
 
-  // コンボ表示の更新
   const comboEl = appEl.querySelector(".combo");
   if (comboEl) comboEl.textContent = state.combo >= 2 ? "🔥" + state.combo : "";
 
@@ -189,11 +236,12 @@ function goNext() {
 }
 
 // ------------------------------------------------------------
-// 画面：結果
+// 画面：結果（今回の成績＋通算）
 // ------------------------------------------------------------
 function renderResult() {
   const total = state.quizzes.length;
   const rate = Math.round((state.correct / total) * 100);
+  const p = state.progress;
 
   let emoji, message;
   if (rate === 100) { emoji = "🏆"; message = "全問正解！ すごい！"; }
@@ -206,18 +254,21 @@ function renderResult() {
       <div class="result-emoji">${emoji}</div>
       <h2>${escapeHtml(message)}</h2>
       <p class="score">${state.correct} / ${total}</p>
-      <p class="rate">正答率 ${rate}%</p>
-      <p class="muted">解説で出てきた言葉は、用語集にも少しずつ貯めていきます。</p>
+      <p class="rate">今回の正答率 ${rate}%</p>
+      <div class="overall">
+        <span>🔥 連続 ${p.streak.current}日</span>
+        <span>通算 ${window.Progress.accuracy(p)}%</span>
+        <span>累計 ${p.stats.totalAnswered}問</span>
+      </div>
       <button id="retryBtn" class="primary">もう一度挑戦する 🔄</button>
+      <button id="homeBtn" class="ghost">ホームへ戻る</button>
     </div>`;
 
   if (rate >= 67) launchConfetti();
 
-  document.getElementById("retryBtn").addEventListener("click", () => {
-    state.current = 0;
-    state.correct = 0;
-    state.combo = 0;
-    renderQuestion();
+  document.getElementById("retryBtn").addEventListener("click", startQuiz);
+  document.getElementById("homeBtn").addEventListener("click", () => {
+    renderHome();
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
@@ -238,7 +289,6 @@ function launchConfetti() {
     piece.style.animationDelay = Math.random() * 0.2 + "s";
     piece.style.transform = `rotate(${Math.random() * 360}deg)`;
     document.body.appendChild(piece);
-    // 落ち切ったら片付ける
     setTimeout(() => piece.remove(), 3200);
   }
 }

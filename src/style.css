@@ -217,6 +217,53 @@ h1 { font-size: 24px; margin: 0; font-weight: 900; letter-spacing: .02em; }
 .primary:hover { background: var(--purple-d); }
 .primary:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--purple-d); }
 
+/* ===== ホーム画面 ===== */
+.home-card { text-align: center; }
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.stat {
+  background: #fffbeb;
+  border: 1.5px solid #fde68a;
+  border-radius: 16px;
+  padding: 14px 6px;
+}
+.stat-num { font-size: 24px; font-weight: 900; color: var(--purple); line-height: 1.2; }
+.stat-num .unit { font-size: 14px; }
+.stat-label { font-size: 11px; color: var(--muted); font-weight: 700; margin-top: 2px; }
+.home-lead { font-size: 15px; margin: 4px 0 16px; }
+
+/* おまけの控えめボタン */
+.ghost {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 11px;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.ghost:hover { color: var(--text); background: #f5efe6; }
+
+/* 結果画面の通算サマリー */
+.overall {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--muted);
+  margin: 6px 0 4px;
+}
+
 /* ===== 結果画面 ===== */
 .result-card { text-align: center; }
 .result-emoji { font-size: 56px; line-height: 1; margin: 4px 0 6px; animation: bounce .6s; }
