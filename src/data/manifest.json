@@ -4,6 +4,7 @@
     "articles/claude-code-bp.json",
     "articles/llm-compare.json",
     "articles/local-llm.json",
-    "articles/ai-dev-tools.json"
+    "articles/ai-dev-tools.json",
+    "articles/ai-agents.json"
   ]
 }
