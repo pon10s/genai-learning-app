@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/mit-ai-trends-2026.json",
-    "articles/github-copilot-agent-native-2026.json",
-    "articles/cicd-tools-2026-jetbrains.json",
-    "articles/google-io-2026-agentic-era.json",
-    "articles/anthropic-agentic-coding-trends-2026.json"
+    "articles/ai-agent-governance-turning-point-2026.json",
+    "articles/google-io-2026-agentic-dev.json",
+    "articles/software-dev-best-practices-2026.json",
+    "articles/gpt-5-5-release-2026.json",
+    "articles/jetbrains-ai-tools-adoption-2026.json"
   ]
 }

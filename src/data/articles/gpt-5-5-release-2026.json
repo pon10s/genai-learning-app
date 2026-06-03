@@ -1,0 +1,54 @@
+{
+  "id": "art-gpt-5-5-release-2026",
+  "category": "trend",
+  "title": "OpenAI、GPT-5.5リリース——エージェント能力と効率性を両立した最新モデル",
+  "readMinutes": 2,
+  "source": {
+    "title": "Introducing GPT-5.5 | OpenAI",
+    "url": "https://openai.com/index/introducing-gpt-5-5/",
+    "date": "2026-04"
+  },
+  "summary": [
+    "OpenAIは2026年4月23日、新しい大規模言語モデル「GPT-5.5」（コードネーム：Spud）を発表しました。このモデルはOpenAI自身が「これまでで最も賢く、直感的に使えるモデル」と表現しており、Plus・Pro・Business・Enterpriseユーザー向けにChatGPTおよびCodexで順次公開されています。",
+    "GPT-5.5の最大の特徴は、複雑な「エージェント的」タスクへの対応力です。コードの作成・デバッグ、オンライン調査、データ分析、ドキュメント作成に加え、画面を見て操作する「コンピューター操作（Computer Use）」機能も強化され、ユーザーが細かく指示しなくても複数ステップのタスクを自律的にこなせます。特に、エージェンティックコーディング・ナレッジワーク・初期段階の科学研究で大きな向上が見られます。さらに、前世代モデル（GPT-5.4）と同等の応答速度を維持しながら、同じCodexタスクをより少ないトークン数でこなせる「効率性の向上」も実現しており、競合フロンティアモデルの半額で最高水準のコーディング性能を提供するとされています。",
+    "安全性面では、サイバーセキュリティリスクに向けた従来より厳格な分類器を新たに導入しており、OpenAI史上最強の安全対策を備えたリリースとなっています。続いて5月5日には「GPT-5.5 Instant」が発表され、ChatGPTのデフォルトモデルに昇格。医療・法律・金融などの専門領域でのハルシネーション（もっともらしい嘘）の削減が特に強調され、AIME 2025数学テストで旧モデルの65.4点から81.2点へとスコアが大幅に改善しました。"
+  ],
+  "questions": [
+    {
+      "question": "GPT-5.5がOpenAIによって「特に大きな向上があった」と強調した領域はどれか？",
+      "choices": [
+        "アジェンティックコーディング・コンピューター操作・ナレッジワーク・初期科学研究",
+        "音声認識・動画生成・リアルタイム翻訳・多言語音声合成",
+        "画像生成・音楽作曲・3Dモデリング・映像編集",
+        "数学的証明・論理パズル・詩の創作・ゲームプレイ"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "OpenAIの公式発表には「The gains are especially strong in agentic coding, computer use, knowledge work, and early scientific research」と明記されています。音声・画像生成・3Dモデリングは今回の強調点ではなく、他の選択肢はいずれもGPT-5.5の発表で特筆された分野ではありません。"
+    },
+    {
+      "question": "GPT-5.5の「効率性」に関して、OpenAIが発表した内容として正しいのはどれか？",
+      "choices": [
+        "GPT-5.4と同等の1トークンあたりのレイテンシを維持しながら、より高い知能を実現した",
+        "GPT-5.4より50%多くのトークンを使うが、出力の精度が大幅に向上した",
+        "GPT-5.5は思考型（Thinking）モデルのみで構成され、高速な標準モデルは廃止された",
+        "GPT-5.4より応答速度が2倍遅くなった代わりに、推論精度が飛躍的に改善した"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "発表文には「GPT‑5.5 matches GPT‑5.4 per-token latency in real-world serving, while performing at a much higher level of intelligence」とあり、速度を落とさずに知能を向上させた点が強調されています。さらに同じCodexタスクを「より少ないトークン数」でこなせるとも述べられており、トークン消費が増えたという選択肢Bは逆の内容です。"
+    },
+    {
+      "question": "2026年5月にリリースされた「GPT-5.5 Instant」が特に改善に重点を置いたのはどの分野か？",
+      "choices": [
+        "法律・医療・金融などセンシティブな領域におけるハルシネーション（誤情報生成）の削減",
+        "コードの実行速度最適化とインタラクティブなデバッグ支援機能の強化",
+        "画像生成の解像度向上と色再現精度の大幅な改善",
+        "音声合成における感情表現力と20言語以上へのリアルタイム翻訳対応"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "TechCrunchの報道によると「the model reduces hallucination in sensitive areas such as law, medicine, and finance」とあり、専門領域での信頼性向上が最大の売りとして打ち出されました。コード実行速度・画像生成・音声合成はGPT-5.5 Instantの発表における焦点ではありません。"
+    }
+  ]
+}
