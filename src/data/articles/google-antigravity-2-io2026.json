@@ -1,0 +1,54 @@
+{
+  "id": "art-google-antigravity-2-io2026",
+  "category": "ai-dev",
+  "title": "GoogleがAntigravity 2.0を発表——「エージェント専用」開発基盤への大転換",
+  "readMinutes": 2,
+  "source": {
+    "title": "I/O 2026 developer highlights: Antigravity, Gemini API, AI Studio",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/",
+    "date": "2026-05"
+  },
+  "summary": [
+    "Googleは2026年5月19日のGoogle I/O 2026で、AI駆動開発プラットフォーム「Google Antigravity 2.0」を発表しました。従来のIDE拡張機能ではなく、エージェントの管理・実行に特化したスタンドアロンのデスクトップアプリとして設計されており、Googleが「プロンプト中心」から「エージェントによる自律的な行動中心」へと開発体験をシフトさせる意志を示した発表です。",
+    "Antigravity 2.0に加え、同時に4つのツールが展開されました。①ターミナル派向けの「Antigravity CLI」（Gemini CLIを完全置き換え）、②自社製品へ組み込めるエージェントハーネスを提供する「Antigravity SDK」、③1回のAPIコールで独立したLinux環境上に推論・ツール利用・コード実行ができるエージェントを起動できる「Managed Agents in Gemini API」、④企業向けにGoogle Cloudプロジェクトと直接連携できる「Gemini Enterprise Agent Platform」です。スケジュールタスク機能により、エージェントをバックグラウンドで自動実行する「常時動く自動化パイプライン」としての運用も可能になりました。",
+    "これらすべてを動かすエンジンが新モデル「Gemini 3.5 Flash」です。Gemini 3.1 Proのほぼ全ベンチマークを上回りながら、4倍高速に動作します。これにより、複数エージェントが連携するリアルタイムな自律ワークフローを低遅延で実現できるようになっています。"
+  ],
+  "questions": [
+    {
+      "question": "Google Antigravity 2.0 の設計上の最大の変化として、記事が強調していることはどれか？",
+      "choices": [
+        "既存のIDE（統合開発環境）の拡張機能として組み込まれ、補完提案機能が強化された",
+        "IDEとは独立したスタンドアロンのデスクトップアプリとして、エージェント管理を主軸に設計された",
+        "ブラウザベースのWebアプリに統一され、ローカルインストールが不要になった",
+        "VSCode専用プラグインとして提供され、JetBrains製IDEのサポートは廃止された"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事は Antigravity 2.0 を「既存のAntigravity IDEとは別の、エージェント最適化されたスタンドアロンデスクトップアプリ」と説明しています。IDE中心の補完支援ではなく、マルチエージェントのオーケストレーション管理が主目的であることが最大の変化です。他の選択肢（ブラウザ化・VSCode専用・IDE拡張強化）はいずれも記事に根拠がありません。"
+    },
+    {
+      "question": "Gemini 3.5 Flash についての説明として、記事の内容と合致するものはどれか？",
+      "choices": [
+        "Gemini 3.1 Pro のほぼ全ベンチマークを上回りながら、Gemini 3.1 Pro より4倍高速に動作する",
+        "品質面ではGemini 3.1 Proに劣るが、応答速度を2倍に改善したコスト重視モデルである",
+        "画像・動画生成に特化して設計されており、コード生成への適用は想定されていない",
+        "Antigravity CLIでのみ利用可能で、Managed Agents APIからは呼び出せない"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事には「3.5 Flash outperforms Gemini 3.1 Pro across almost all benchmarks while running four times faster」と明記されています。品質・速度の両面でGemini 3.1 Proを超える点が特徴です。「速度だけ向上でPro未満の品質」「画像専用」「CLI限定」という他の選択肢はいずれも事実と異なります。"
+    },
+    {
+      "question": "「Managed Agents in Gemini API」の機能として正しいものはどれか？",
+      "choices": [
+        "複数のAPIコールを順番に送ることで、エージェントにステップバイステップの手順を教え込む機能",
+        "1回のAPIコールで、推論・ツール利用・コード実行を独立したLinux環境で行うエージェントを起動できる",
+        "GithubリポジトリのPRレビューのみに特化した、専用エージェントエンドポイント",
+        "Google Cloudの課金アカウントを持つ企業にのみ開放されたエンタープライズ限定API"
+      ],
+      "answerIndex": 1,
+      "difficulty": 3,
+      "explanation": "記事には「With a single API call, you can now spin up an agent that reasons, uses tools and executes code in an isolated Linux environment」と記述されており、1回のAPIコールで完結する点と、隔離されたLinux環境でのコード実行が特徴です。「複数コールで手順を教える」「PRレビュー専用」「エンタープライズ限定」はいずれも記事に根拠がなく誤りです。"
+    }
+  ]
+}

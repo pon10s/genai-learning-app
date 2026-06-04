@@ -1,0 +1,54 @@
+{
+  "id": "art-github-copilot-app-agent-native",
+  "category": "ai-dev",
+  "title": "GitHub Copilot がエージェント専用デスクトップアプリに進化――Microsoft Build 2026",
+  "readMinutes": 2,
+  "source": {
+    "title": "GitHub Copilot app: The agent-native desktop experience",
+    "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+    "date": "2026-06"
+  },
+  "summary": [
+    "GitHub は Microsoft Build 2026 にあわせて、新しいデスクトップアプリ「GitHub Copilot アプリ」を発表した。これまでのようにエディタのサイドパネルで補助する形から大きく転換し、複数のAIエージェントを並列で動かしながら開発全体を統括する「AIエージェントの司令塔」として設計されている。",
+    "アプリの核心は「My Work」ダッシュボードで、接続済みリポジトリをまたいで各エージェントのセッション・Issue・プルリクエスト・バックグラウンド処理を一画面で確認できる。エージェントはそれぞれ独立した Git ワークツリーで動くため、互いに干渉せず並列作業が可能だ。新機能「Canvas」は計画・PR・ブラウザセッション・デプロイ状況を視覚的に表示し、人間とエージェントが双方向で作業を確認・修正できる領域を提供する。",
+    "「Agent Merge」機能により、CI の状態監視・レビュー対応・条件を満たした際の自動マージまでをエージェントに任せられる。テクニカルプレビューは Copilot Pro / Pro+ / Business / Enterprise ユーザー向けにすでに公開済み。GitHub 上のコミット数は月約14億件、GitHub Actions の実行は週20億分超と、エージェント主導の開発が急速に拡大していることが背景にある。"
+  ],
+  "questions": [
+    {
+      "question": "新しい GitHub Copilot アプリに搭載された、複数AIエージェントのセッション・Issue・プルリクエストを一画面で一元管理するダッシュボード機能の名称は何か？",
+      "choices": [
+        "My Work",
+        "Agent Hub",
+        "Dev Console",
+        "Copilot Dashboard"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "「My Work」が正解。接続したリポジトリ横断でアクティブセッション・Issue・PR・バックグラウンド自動処理を一覧表示する中枢ダッシュボードとして紹介された。「Agent Hub」「Dev Console」「Copilot Dashboard」は記事に登場しない架空の名称。"
+    },
+    {
+      "question": "GitHub Copilot アプリで導入された「Canvas」の主な目的として、記事の内容に最も合致するものはどれか？",
+      "choices": [
+        "人間とエージェントが計画・PR・デプロイ状況などを双方向で確認・修正できる視覚的な作業面を提供する",
+        "AIエージェントが人間の承認なしに本番環境へ自動デプロイできるパイプラインを構築する",
+        "複数エージェントが同一ファイルを編集した際のコンフリクトを自動解消するマージツール",
+        "コードの脆弱性のみを検出するセキュリティ特化のコードレビュー機能"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Canvas は「人間とエージェントの双方向作業面（bidirectional work surface）」であり、計画・PR・ブラウザセッション・ターミナル・デプロイ・ワークフロー状態を表示して人間が確認・修正できる場として紹介されている。承認なし自動デプロイや脆弱性検出に特化したツールとは異なる。"
+    },
+    {
+      "question": "「Agent Merge」が担う役割として、記事で説明されている内容に最も近いものはどれか？",
+      "choices": [
+        "PR に対してCIの監視・レビューフィードバックへの対応・マージ条件を満たした際の自動マージまでを行う",
+        "AIが生成したコードをユニットテストに自動変換してバグレポートを作成する",
+        "複数のフィーチャーブランチを定期的にリベースして最新のメインブランチに追従させる",
+        "本番障害発生時にエージェントが自動でロールバックを実行してアラートを送信する"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "記事では Agent Merge について「CI の監視、必要なレビュアーの追跡、失敗チェックへの対応、すべての条件が満たされるまで待機し、設定した条件に応じてマージまで行う」と説明している。自動ユニットテスト生成・定期リベース・自動ロールバックは記事には記載されていない別機能。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "art-nvidia-gtc-taipei-2026-agentic-ai",
+  "category": "trend",
+  "title": "NVIDIAが「エージェントAI時代の到来」を宣言——GTC Taipei 2026 全解説",
+  "readMinutes": 2,
+  "source": {
+    "title": "NVIDIA Kicks Off the Next Generation of AI With Rubin — Six New Chips, One Incredible AI Supercomputer",
+    "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+    "date": "2026-06"
+  },
+  "summary": [
+    "2026年6月1日、NVIDIAのCEOジェンスン・フアン氏は台湾のGTC Taipei 2026基調講演で「役に立つAI（Useful AI）が到来した」「エージェントAI（Agentic AI）の時代が始まった」と宣言しました。AIはもはや質問に答えるだけの存在を超え、ツールを自律的に使いこなして仕事を完遂する「エージェント」として動作する段階に入ったというのが同社の主張です。",
+    "最大の発表は次世代AIコンピューティング基盤「Vera Rubin（ベラ・ルービン）」の量産開始です。Vera Rubinは現行のBlackwellプラットフォームと比べて推論コストを最大10分の1に削減し、MoEモデルの学習に必要なGPU数を4分の1に抑えるとされています。またデータセンター向けCPU「Vera」（88コア／帯域幅1.2TB/s）や、Windows PCをAIエージェント対応に変える新スーパーチップ「RTX Spark」も発表されました。",
+    "フアン氏はNVIDIAをもはや「GPUメーカー」ではなく「AIインフラ企業」と位置づけ、2027年までのAIシステム累計受注額が1兆ドルに達すると予測しました。エージェントAIの本格普及に向けて、クラウドからPCまで一気通貫でAIを動かす基盤整備が加速しています。"
+  ],
+  "questions": [
+    {
+      "question": "NVIDIAが発表した「Vera Rubin」プラットフォームは、現行の Blackwell と比べて推論コスト（1トークンあたり）をどの程度削減すると主張しているか？",
+      "choices": [
+        "約10分の1（最大90%削減）",
+        "約4分の1（最大75%削減）",
+        "約2分の1（最大50%削減）",
+        "約20分の1（最大95%削減）"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "NVIDIA公式発表によれば、Vera Rubinは Blackwell プラットフォームと比べて推論トークンあたりのコストを最大10分の1（10x lower cost per token）に削減するとされています。「4分の1」はMoE学習に必要なGPU台数削減率であり混同しやすいため注意が必要です。"
+    },
+    {
+      "question": "GTC Taipei 2026 で発表された「RTX Spark」の主な用途として正しいものはどれか？",
+      "choices": [
+        "クラウドデータセンター向けの大規模LLM学習アクセラレータ",
+        "Windows PCをAIエージェント対応に変えるための新スーパーチップ",
+        "自動運転車向けのリアルタイム推論専用プロセッサ",
+        "スマートフォン向けのオンデバイス画像生成チップ"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "RTX Sparkは、Windows PCをパーソナルAIエージェント時代に対応させることを目的として設計された新スーパーチップです。Blackwell RTX GPUとGrace CPUをNVLink-C2Cで統合した構成で、PC上でAIモデルをローカル実行することを想定しています。残りの選択肢はデータセンター・自動車・スマホ向けであり、RTX Sparkの対象領域とは異なります。"
+    },
+    {
+      "question": "ジェンスン・フアン氏がGTC Taipei 2026でAIの新フェーズを表現するために使ったキーワードはどれか？",
+      "choices": [
+        "Generative AI（生成AI）",
+        "Narrow AI（特化型AI）",
+        "Agentic AI（エージェントAI）",
+        "Symbolic AI（記号AI）"
+      ],
+      "answerIndex": 2,
+      "difficulty": 1,
+      "explanation": "フアン氏は「Agentic AI has arrived（エージェントAIが到来した）」と宣言し、AIがプロンプトへの応答にとどまらず、ツールを自律的に使って仕事を完遂する段階に移行したと説明しました。Generative AIは前の世代の表現として位置づけられており、今回の講演の主軸キーワードはAgentic AIです。"
+    }
+  ]
+}

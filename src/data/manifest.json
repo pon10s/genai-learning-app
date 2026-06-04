@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/ai-agent-governance-turning-point-2026.json",
-    "articles/google-io-2026-agentic-dev.json",
-    "articles/software-dev-best-practices-2026.json",
-    "articles/gpt-5-5-release-2026.json",
-    "articles/jetbrains-ai-tools-adoption-2026.json"
+    "articles/nvidia-gtc-taipei-2026-agentic-ai.json",
+    "articles/github-copilot-app-agent-native.json",
+    "articles/anthropic-opus48-seriesh-mythos.json",
+    "articles/google-antigravity-2-io2026.json"
   ]
 }
