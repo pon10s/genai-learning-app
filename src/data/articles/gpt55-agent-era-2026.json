@@ -1,0 +1,54 @@
+{
+  "id": "art-gpt55-agent-era-2026",
+  "category": "trend",
+  "title": "GPT-5.5登場：AIは「補助ツール」から「実行者」へ",
+  "readMinutes": 2,
+  "source": {
+    "title": "エージェント型コーディングで82.7%。GPT-5.5が示す、AIモデル選択の新基準",
+    "url": "https://www.hexabase.com/column/gpt-5-5-ai-model-selection-new-standard-2026",
+    "date": "2026-04"
+  },
+  "summary": [
+    "2026年4月23日、OpenAIが新フラッグシップモデル「GPT-5.5」を発表しました。前バージョンのGPT-5.4からわずか7週間という異例のスピードでの世代交代で、GPT-4.5以来初となるフルリトレーニング（学習データ・アーキテクチャ・学習目的すべての刷新）が実施されました。",
+    "最大の変化は「エージェント型AI」への本格転換です。GPT-5.5は自分でツールを使い計画を立て、ユーザーが逐一指示しなくても長時間の複雑な作業を最後までやり遂げる設計になっています。コーディング自動化の指標「Terminal-Bench 2.0」では82.7%を記録し、GPT-5.4（75.1%）から7ポイント以上向上しました。",
+    "一方、同時期にリリースされた競合モデルとの使い分けも重要です。Claude Opus 4.7はソフトウェア開発の実装品質を測る「SWE-bench Pro」でGPT-5.5を上回り、DeepSeek V4はGPT-5.5の約1/50のコストで90%近い品質を実現するとされています。「GPTはビルダー（実行）、DeepSeekはスケール（コスト最適）、Claudeはストラテジスト（推論・戦略）」という役割分担で使い分けるのが2026年春時点の実践的な活用法です。"
+  ],
+  "questions": [
+    {
+      "question": "GPT-5.5がエージェント型コーディング指標「Terminal-Bench 2.0」で記録したスコアはどれか？",
+      "choices": [
+        "82.7%",
+        "75.1%",
+        "69.4%",
+        "93.5%"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "GPT-5.5はTerminal-Bench 2.0で82.7%を記録しました。75.1%は前バージョンGPT-5.4のスコア、69.4%はClaude Opus 4.7のスコアです。93.5%はDeepSeek V4-ProのLiveCodeBenchスコアであり、Terminal-Bench 2.0のスコアではありません。"
+    },
+    {
+      "question": "GPT-5.5がGPT-5.4の次のリリースとして「異例のスピード」と評された理由は何か？",
+      "choices": [
+        "前バージョンから約7週間という短期間でリリースされたから",
+        "発表から24時間以内にすべてのプランで利用可能になったから",
+        "GPT-4.5以来初めてAPIコストが値下げされたから",
+        "リリース前にオープンベータテストを一切行わなかったから"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "GPT-5.5はGPT-5.4リリースからわずか約7週間で発表されました。これがAI業界で「異例のスピード」と評された理由です。APIコストの値下げや「ベータテストなし」といった事実は記事に書かれていません。"
+    },
+    {
+      "question": "2026年4月時点で「SWE-bench Pro（ソフトウェア開発実装品質）」においてGPT-5.5を上回ったモデルはどれか？",
+      "choices": [
+        "Claude Opus 4.7",
+        "DeepSeek V4-Pro",
+        "Gemini 3.5 Pro",
+        "LLM-jp-4"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "SWE-bench ProではClaude Opus 4.7（64.3%）がGPT-5.5（58.6%）を上回りました。DeepSeek V4-ProはSWE-bench Verifiedで優秀なスコアを持ちますが、SWE-bench ProでGPT-5.5を上回ったのはClaude Opus 4.7です。GeminiやLLM-jpについてはこの指標での言及はありません。"
+    }
+  ]
+}
