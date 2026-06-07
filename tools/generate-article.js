@@ -102,6 +102,25 @@ function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); } catch { return fallback; }
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// 一時的なエラー（混雑503・レート429・5xx）は少し待って自動リトライする
+async function fetchJsonWithRetry(url, opts, label, retries = 4) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const res = await fetch(url, opts);
+    if (res.ok) return res.json();
+    const body = await res.text();
+    const retryable = [429, 500, 502, 503, 504].includes(res.status);
+    if (retryable && attempt < retries) {
+      const wait = 4000 * (attempt + 1); // 4s, 8s, 12s, 16s
+      console.error(`  ${label} ${res.status}（一時的）。${wait / 1000}秒待って再試行 (${attempt + 1}/${retries})…`);
+      await sleep(wait);
+      continue;
+    }
+    throw new Error(`${label} ${res.status}: ${body.slice(0, 300)}`);
+  }
+}
+
 // ============================================================
 // プロバイダ別：systemPrompt + userPrompt から本文テキストを得る
 // ============================================================
@@ -115,7 +134,7 @@ async function geminiGenerate(userPrompt) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error("GEMINI_API_KEY が未設定");
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
-  const res = await fetch(url, {
+  const data = await fetchJsonWithRetry(url, {
     method: "POST",
     headers: { "content-type": "application/json", "x-goog-api-key": key },
     body: JSON.stringify({
@@ -124,9 +143,7 @@ async function geminiGenerate(userPrompt) {
       tools: [{ google_search: {} }],
       generationConfig: { temperature: 0.7, maxOutputTokens: 8000 },
     }),
-  });
-  if (!res.ok) throw new Error(`Gemini ${res.status}: ${(await res.text()).slice(0, 400)}`);
-  const data = await res.json();
+  }, "Gemini");
   const um = data.usageMetadata || {};
   usageTotals.inTok += um.promptTokenCount || 0;
   usageTotals.outTok += (um.candidatesTokenCount || 0) + (um.thoughtsTokenCount || 0);
@@ -142,7 +159,7 @@ async function geminiGenerate(userPrompt) {
 async function anthropicCall(messages) {
   const key = process.env.ANTHROPIC_API_KEY;
   if (!key) throw new Error("ANTHROPIC_API_KEY が未設定");
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
+  const json = await fetchJsonWithRetry("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
     body: JSON.stringify({
@@ -154,9 +171,7 @@ async function anthropicCall(messages) {
       tools: [{ type: "web_search_20260209", name: "web_search" }],
       messages,
     }),
-  });
-  if (!res.ok) throw new Error(`Anthropic ${res.status}: ${(await res.text()).slice(0, 400)}`);
-  const json = await res.json();
+  }, "Anthropic");
   const u = json.usage || {};
   usageTotals.inTok += u.input_tokens || 0;
   usageTotals.outTok += u.output_tokens || 0;
