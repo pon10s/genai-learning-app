@@ -1,8 +1,9 @@
 {
   "articles": [
-    "articles/gpt55-agent-era-2026.json",
-    "articles/ai-coding-agent-workflow-2026.json",
-    "articles/github-actions-cicd-basics.json",
-    "articles/google-io-2026-agentic-era.json"
+    "articles/ai-trend-2026-june.json",
+    "articles/terrascape-blade-ai-dev.json",
+    "articles/agile-development-basics-2026.json",
+    "articles/google-io-2026-search-ai.json",
+    "articles/ai-driven-dev-guide-2026.json"
   ]
 }
