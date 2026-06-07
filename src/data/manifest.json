@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-2026-june.json",
-    "articles/terrascape-blade-ai-dev.json",
-    "articles/agile-development-basics-2026.json",
-    "articles/google-io-2026-search-ai.json",
+    "articles/ai-coding-agents-enterprise-dev.json",
+    "articles/ai-driven-development-2026-guide.json",
+    "articles/clean-code-best-practices.json",
+    "articles/anthropic-ai-self-evolution-warning.json",
     "articles/ai-driven-dev-guide-2026.json"
   ]
 }
