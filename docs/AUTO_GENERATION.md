@@ -10,6 +10,8 @@
 - push されると GitHub Pages が自動デプロイし、そのまま公開される（人の確認は挟まない）。
 - だからこそ **検証ゲートを必ず通す**。通らなければ push しない。
 - 実装は `tools/generate-article.js`（COUNT=5 既定）。最低3本作れなければ入れ替えを中止する。
+- **使うAIは切替式**：`PROVIDER=gemini`（既定・安い／Google検索グラウンディング）または `PROVIDER=anthropic`（Claude＋web search）。
+  モデルは `MODEL`、APIキーは `GEMINI_API_KEY` / `ANTHROPIC_API_KEY`。実行ログ末尾に今回のコスト概算が出る。
 
 ## 手順
 

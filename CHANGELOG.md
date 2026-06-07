@@ -121,3 +121,15 @@
   （例: `claude-haiku-4-5` でさらに安く / `claude-opus-4-8` で最高品質）。Opusの試走は費用が高いためキャンセルし、Sonnetで再実行。
 - **本番動作確認**：Sonnetで手動実行 → 5記事を生成（Google I/O 2026・AIコーディングエージェント比較・CI/CD基礎・GPT-5.5・Kiro）
   → 検証通過 → きれいに入れ替え → 公開（5記事）。品質良好・出典付き・最近の記事を確認。
+- `tools/generate-article.js` に **今回のコスト概算**（トークン・検索回数・推定金額）の表示を追加。
+
+## 2026-06-02（コスト削減：生成AIを Gemini に切り替え）
+
+- 朱音さんの希望で、生成を **Google Gemini（安いFlash系）** に対応。`generate-article.js` を **プロバイダ切替式**に改修：
+  - `PROVIDER=gemini`（既定）… Gemini API + Google検索グラウンディング（`tools:[{google_search:{}}]`）。既定モデル `gemini-2.5-flash`。
+  - `PROVIDER=anthropic` … 従来の Claude API + web search（モデル既定 `claude-sonnet-4-6`）。
+  - JSONはコードブロックで出力させて抽出（グラウンディング併用のため structured output は使わない）。
+- 料金メモ：Gemini 2.5 Flash は 入力$0.30 / 出力$2.50（/1M）、**Google検索は1日1,500回まで無料**。
+  5記事/日なら検索は無料枠内・トークン代もごく少額（1回 約10円前後の見込み。Sonnetの約1/10）。
+- workflow を Gemini 既定に変更（`PROVIDER`/`MODEL` はリポジトリ変数で上書き可、キーは `GEMINI_API_KEY`）。
+- 残作業：GitHub Secret `GEMINI_API_KEY` の登録（朱音さんの操作。鍵は Google AI Studio で無料取得）。登録後に手動実行で確認。

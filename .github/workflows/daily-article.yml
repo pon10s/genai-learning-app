@@ -31,13 +31,16 @@ jobs:
         with:
           node-version: "20"
 
-      - name: 今日の5記事を生成して入れ替え（Claude API + Web検索）
+      - name: 今日の5記事を生成して入れ替え（Gemini / Web検索）
         env:
+          # 使うAI。既定は Gemini（安い）。
+          # 変えたいときは Settings → Secrets and variables → Actions → Variables で変数を作る:
+          #   PROVIDER = gemini か anthropic
+          #   MODEL    = 例) gemini-2.5-flash-lite（もっと安い）/ gemini-2.5-flash / claude-sonnet-4-6
+          PROVIDER: ${{ vars.PROVIDER || 'gemini' }}
+          MODEL: ${{ vars.MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # 生成モデル。安く保つため既定は Sonnet 4.6。
-          # 変えたいときは GitHub の Settings → Secrets and variables → Actions → Variables で
-          # "MODEL" という変数を作って値を入れる（例: claude-haiku-4-5 / claude-opus-4-8）。
-          MODEL: ${{ vars.MODEL || 'claude-sonnet-4-6' }}
         run: node tools/generate-article.js
 
       - name: 検証ゲート（通らなければここで失敗＝公開しない）
