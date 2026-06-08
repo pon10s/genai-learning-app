@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-coding-agents-enterprise-dev.json",
-    "articles/ai-driven-development-2026-guide.json",
-    "articles/clean-code-best-practices.json",
-    "articles/anthropic-ai-self-evolution-warning.json",
-    "articles/ai-driven-dev-guide-2026.json"
+    "articles/ai-trend-2026-may.json",
+    "articles/ai-driven-development-guide-2026.json",
+    "articles/programming-roadmap-2026.json",
+    "articles/generative-ai-trend-2026-guide.json",
+    "articles/ai-driven-dev-risks.json"
   ]
 }
