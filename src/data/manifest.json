@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-2026-may.json",
-    "articles/ai-driven-development-guide-2026.json",
+    "articles/ai-weekly-news-20260601.json",
+    "articles/ai-driven-development-2026.json",
     "articles/programming-roadmap-2026.json",
-    "articles/generative-ai-trend-2026-guide.json",
-    "articles/ai-driven-dev-risks.json"
+    "articles/generative-ai-trends-2026-sotatek.json",
+    "articles/blade-ai-driven-dev.json"
   ]
 }
