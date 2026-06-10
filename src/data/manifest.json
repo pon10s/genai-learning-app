@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-weekly-news-20260601.json",
-    "articles/ai-driven-development-2026.json",
-    "articles/programming-roadmap-2026.json",
-    "articles/generative-ai-trends-2026-sotatek.json",
-    "articles/blade-ai-driven-dev.json"
+    "articles/ai-model-trends-june-2026.json",
+    "articles/ai-hybrid-engineer-2026.json",
+    "articles/clean-code-best-practices-2026.json",
+    "articles/ai-value-creation-pwc-2026.json",
+    "articles/terrasukai-blade-ai-dev.json"
   ]
 }
