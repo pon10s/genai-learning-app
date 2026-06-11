@@ -1,0 +1,43 @@
+{
+  "id": "art-github-copilot-build2026",
+  "category": "ai-dev",
+  "title": "Microsoft Build 2026で発表されたGitHub Copilotの進化",
+  "readMinutes": 2,
+  "source": {
+    "title": "Microsoft Build 2026で発表されたGitHub・GitHub Copilotのまとめ",
+    "url": "https://zenn.dev/sh_tamura/articles/20260606_microsoft_build_2026_github_copilot_summary",
+    "date": "2026-06"
+  },
+  "summary": [
+    "2026年6月に開催されたMicrosoft Buildでは、「AIエージェント時代のFrontier Intelligence Ecosystemへの参加」が主要テーマでした。",
+    "特にGitHubとGitHub Copilotに関する発表が注目され、GitHubは単なるコードリポジトリから、あらゆるAIエージェントを統括する「コントロールプレーン」へと進化していることが強調されました。これに伴い、リポジトリ作成、プルリクエスト、API、GitHub Actionsといったエージェントによるワークフローが大幅に加速しています。",
+    "GitHub上でのコミット数は前年比で約2倍に増加し、月間14億件を突破。GitHub Actionsの利用も週20億分を超えるなど、AIエージェントが自律的にコードを生成・コミットする動きが背景にあるとされています。",
+    "主な新発表として、CLIの速度とIDEの機能を兼ね備え、無限のエージェントセッションに対応する新しいGitHub Copilotデスクトップアプリのテクニカルプレビューが公開されました。また、Copilotアプリの実行環境を自社のアプリやツールに組み込めるGitHub Copilot SDKの一般提供も開始されています。さらに、Copilot CLIもUI改善、プロンプトスケジューリング、音声入力など大幅にアップデートされました。"
+  ],
+  "questions": [
+    {
+      "question": "Microsoft Build 2026で発表されたGitHubの進化について、最も適切に説明しているのはどれですか？",
+      "choices": [
+        "GitHubは、コードリポジトリとしての機能から、AIエージェントのワークフローを統括する「コントロールプレーン」へと進化している。",
+        "GitHubは、AIモデルの学習データを提供する主要なソースとして、その役割を強化している。",
+        "GitHubは、既存のCI/CDパイプラインを完全にAIエージェントに置き換え、人間の介入を不要にするプラットフォームになった。",
+        "GitHubは、AIエージェントが生成したコードの著作権問題を自動的に解決する新機能を導入した。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、GitHubはコードリポジトリに留まらず「全エージェントのコントロールプレーン」になりつつあり、エージェントによるワークフローを加速していると述べられています。他の選択肢は記事の内容と異なります。"
+    },
+    {
+      "question": "Microsoft Build 2026で発表されたGitHub Copilotに関する新機能のうち、誤っているものはどれですか？",
+      "choices": [
+        "新しいGitHub Copilotデスクトップアプリがテクニカルプレビューとして公開され、CLIの速度とIDEの機能を統合する。",
+        "GitHub Copilot SDKが一般提供され、Copilotアプリと同じエージェントランタイムを自社アプリに組み込めるようになった。",
+        "GitHub Copilot CLIが大幅にアップデートされ、UI改善、プロンプトスケジューリング、音声入力機能が追加された。",
+        "GitHub Copilotのすべてのプランにおいて、AIモデルの学習にユーザーのインタラクションデータが自動的に使用されるようになった。"
+      ],
+      "answerIndex": 3,
+      "difficulty": 3,
+      "explanation": "記事では、新しいCopilotデスクトップアプリ、Copilot SDKの一般提供、Copilot CLIのアップデートについて言及されています。しかし、「すべてのプランにおいて、AIモデルの学習にユーザーのインタラクションデータが自動的に使用される」という記述は、本記事では確認できません。"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-model-trends-june-2026.json",
-    "articles/ai-hybrid-engineer-2026.json",
-    "articles/clean-code-best-practices-2026.json",
-    "articles/ai-value-creation-pwc-2026.json",
-    "articles/terrasukai-blade-ai-dev.json"
+    "articles/genai-pwc-survey-2026-spring.json",
+    "articles/github-copilot-build2026.json",
+    "articles/infra-basics-202605.json",
+    "articles/llm-price-competition-202606.json",
+    "articles/ai-driven-dev-guide-2026.json"
   ]
 }
