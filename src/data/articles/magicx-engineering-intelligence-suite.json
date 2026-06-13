@@ -1,0 +1,55 @@
+{
+  "id": "art-magicx-engineering-intelligence-suite",
+  "category": "ai-dev",
+  "title": "博報堂DY ONEら、AI駆動開発サービス「Magicx Engineering Intelligence Suite」提供開始",
+  "readMinutes": 2,
+  "source": {
+    "title": "Hakuhodo DY ONEとReD.が一体運営するMagicx consulting、AI駆動開発サービス「Magicx Engineering Intelligence Suite」を提供開始",
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000143899.html",
+    "date": "2026-06"
+  },
+  "summary": [
+    "博報堂DY ONEとReD.が共同運営する「Magicx consulting」は、企業のシステム開発をAIで支援する新サービス「Magicx Engineering Intelligence Suite」の提供を開始しました。",
+    "このサービスは、要件定義から運用保守まで、開発プロセス全体をAI駆動で高度化することを目的としています。特に、エンタープライズ領域で求められる品質、セキュリティ、ガバナンス、非機能要件に対応し、AIによる成果物作成支援と工程間のトレーサビリティを提供します。",
+    "独自の「AI Readyプロジェクト推進」手法と組み合わせることで、開発スピードの向上、品質管理の高度化、内製化の推進を支援し、一部工程では最大70%の工数削減を目指します。",
+    "IT人材不足や開発コスト増といった課題を解決し、人とAIが共創する自律的な開発体制を確立することで、AI時代の新たなシステム開発モデルを創造することを目指しています。"
+  ],
+  "questions": [
+    {
+      "question": "Hakuhodo DY ONEが提供を開始したAI駆動開発サービス「Magicx Engineering Intelligence Suite」の主な目的は何ですか？",
+      "choices": [
+        "最新のAIモデルを開発者へ提供し、個人のコーディング効率を最大化すること。",
+        "企業のシステム開発における要件定義から運用保守まで、開発プロセス全体をAI駆動で高度化すること。",
+        "AIエージェントを導入し、人間が不要な完全自動開発を実現すること。",
+        "クラウドインフラの最適化をAIで行い、運用コストを削減すること。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事には「企業のシステム開発における要件定義から運用保守に至る開発プロセス全体を支援するAI駆動開発サービス『Magicx Engineering Intelligence Suite』の提供を開始いたします」と明記されています。"
+    },
+    {
+      "question": "「Magicx Engineering Intelligence Suite」がエンタープライズ開発において特に重視している要素として、記事で複数挙げられているものはどれですか？",
+      "choices": [
+        "プログラミング言語の多様性、OS互換性、ユーザーインターフェースの柔軟性。",
+        "品質、セキュリティ、ガバナンス、非機能要件。",
+        "低コスト、高速デプロイ、オープンソース利用、コミュニティ支援。",
+        "マルチクラウド対応、エッジコンピューティング、量子コンピューティング統合。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事には「エンタープライズ開発に求められる品質、セキュリティ、ガバナンス、非機能要件への対応を可能にします」と記載されています。"
+    },
+    {
+      "question": "「Magicx Engineering Intelligence Suite」が目指す効果として、記事で言及されているものは何ですか？",
+      "choices": [
+        "既存のレガシーシステムを全てAIが自動で最新技術へ置き換えること。",
+        "開発チーム全員がAIエンジニアとしてのスキルを習得すること。",
+        "開発スピードの向上、品質管理の高度化、内製化の推進、および一部工程での工数削減。",
+        "AIが自動で顧客の要望を分析し、要件定義書を完全に自動生成すること。"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事には「企業の開発スピードの向上や品質管理の高度化、内製化の推進を支援します。一部工程では、従来比30〜70％程度の工数削減を実現し、要件変更に即応できる開発体制の構築を目指します」とあります。"
+    }
+  ]
+}

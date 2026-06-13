@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-dev-trends-2026-may.json",
-    "articles/ai-driven-development-2026-guide.json",
-    "articles/programming-basics-2026.json",
-    "articles/gemma-4-12b-local-llm.json",
-    "articles/loop-engineering-ai-driven-dev.json"
+    "articles/anthropic-fable5-stop.json",
+    "articles/magicx-engineering-intelligence-suite.json",
+    "articles/programming-roadmap-2026.json",
+    "articles/ai-agent-augmented-enterprise.json",
+    "articles/claude-autonomous-code.json"
   ]
 }
