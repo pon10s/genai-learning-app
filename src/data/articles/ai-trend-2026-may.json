@@ -1,0 +1,56 @@
+{
+  "id": "art-ai-trend-2026-may",
+  "category": "trend",
+  "title": "2026年最新AIトレンド5選：AIエージェント実用化と新規格",
+  "readMinutes": 2,
+  "source": {
+    "title": "2026年のAIはここまで来た──今知っておくべき最新トレンド5選｜株式会社アジアンビジネスネットワーク",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpIxlj1-DuuA7rb0PA3HvR_sXw22A9cPAVLocWm_G4fn-_sPiifI16nKbeXfNT_QUjIEB2Rm0k6JaIxYA5nAXGri4Iv1a-QCHYQ6T6XGVkFM-q1YG8FmnCB2dLBLbov7zUzPToSUn2Jwh9UMFxgBGamk8=",
+    "date": "2026-05"
+  },
+  "summary": [
+    "2026年のAI業界では、Anthropicが企業向け（B2B）に特化し、高い信頼性を確立することでOpenAIを上回る企業価値を達成しました。これにより、AIの活用は「ChatGPTだけ」という時代から、目的に応じて最適なモデルを使い分けるフェーズへと移行しています。",
+    "AIエージェントは、研究開発や実証実験（PoC）の段階を終え、実際のビジネス現場での「本番運用」フェーズに突入しています。これにより、人材業界での求人広告作成や製造業での生産ライン監視など、具体的な業務での大幅な効率化やコスト削減が実現し始めています。",
+    "AIと外部ツールをシームレスに連携させるための共通規格「MCP（Model Context Protocol）」が、「AIのためのUSBポート」として業界標準になりつつあります。この規格は、AIの汎用性と実用性を高める上で重要な役割を担っています。",
+    "マルチモーダルAIも進化を続けており、テキストだけでなく画像、音声、動画といった多様な形式のデータをAIが扱えるようになっています。これにより、AIの適用範囲が広がり、より複雑な業務やクリエイティブな分野での活用が期待されています。",
+    "大規模なLLM（Large Language Model）だけでなく、特定のタスクに特化した軽量な「Small Language Model（SLM）」の台頭も注目されています。SLMは、エッジデバイスやローカル環境でのAI利用を促進し、より多くの場面でAIの恩恵を受けられるようにしています。"
+  ],
+  "questions": [
+    {
+      "question": "記事で述べられている2026年のAIトレンドとして、AnthropicがOpenAIを上回る成長を見せた主な要因は何ですか？",
+      "choices": [
+        "A. 大規模な消費者向けサービス展開",
+        "B. 企業向け（B2B）市場への特化と信頼性の確立",
+        "C. オープンソースモデルの積極的な公開",
+        "D. 無料での高度なAI機能提供"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "Anthropicは、医療・法律・金融といった正確性が求められる業界向けにClaudeの信頼性を高め、企業向け（B2B）市場に特化することで企業価値を大きく伸ばしました。"
+    },
+    {
+      "question": "記事によると、AIエージェントが現在どのフェーズに移行したと述べられていますか？",
+      "choices": [
+        "A. 研究開発の初期段階",
+        "B. 大規模な実証実験（PoC）段階",
+        "C. 実際のビジネスにおける「本番運用」フェーズ",
+        "D. 一般消費者向けのエンターテイメント利用"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、AIエージェントが「2025年は『作って試す』段階だったが、2026年は実際のビジネスで成果が出始めている」と述べられており、本番運用フェーズへの移行を示しています。"
+    },
+    {
+      "question": "「AIのためのUSBポート」と例えられ、AIと外部ツールの連携を促進する共通規格として注目されているのは何ですか？",
+      "choices": [
+        "A. LLM (Large Language Model)",
+        "B. SLM (Small Language Model)",
+        "C. MCP (Model Context Protocol)",
+        "D. GQA (Grouped Query Attention)"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では「MCP（Model Context Protocol）が業界標準になりつつあり、これは『AIのためのUSBポート』と表現できる」と説明されています。"
+    }
+  ]
+}

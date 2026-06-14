@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/anthropic-fable5-stop.json",
-    "articles/magicx-engineering-intelligence-suite.json",
-    "articles/programming-roadmap-2026.json",
-    "articles/ai-agent-augmented-enterprise.json",
-    "articles/claude-autonomous-code.json"
+    "articles/ai-trend-2026-may.json",
+    "articles/ai-code-generation-impact.json",
+    "articles/git-github-complete-guide-2026.json",
+    "articles/llm-architecture-long-context.json",
+    "articles/ai-dev-governance-202606.json"
   ]
 }
