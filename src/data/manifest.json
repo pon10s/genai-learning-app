@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-2026-may.json",
-    "articles/ai-code-generation-impact.json",
-    "articles/git-github-complete-guide-2026.json",
-    "articles/llm-architecture-long-context.json",
-    "articles/ai-dev-governance-202606.json"
+    "articles/ai-agent-augmented-enterprise-2026.json",
+    "articles/ai-driven-dev-current-state.json",
+    "articles/developer-skills-2026.json",
+    "articles/ai-chip-commoditization-2026.json",
+    "articles/ai-driven-development-2026-status.json"
   ]
 }
