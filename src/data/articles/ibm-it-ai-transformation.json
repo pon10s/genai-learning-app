@@ -1,0 +1,42 @@
+{
+  "id": "art-ibm-it-ai-transformation",
+  "category": "ai-dev",
+  "title": "IBMが提唱するAI時代のエンタープライズ開発変革",
+  "readMinutes": 2,
+  "source": {
+    "title": "日本IBMが示す「IT変革のためのAI」",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1Y4Pthcn_mggzlZuqjdoC0RcDBPodfLSOzGjfhRkOBYQXdG_h4kdeSvwdWB0pghMPnCI4SLRRRHSOZj0hqbguXi-zNFn8bgb6K-VLsMgEgHg6vh9fw7RYUY_9OX__QXjQwfeXV9j46cesz4ufe0uAlMaNs_TP2VEGQkBa6Kn8sHD8IxSSp0gaKrQRtzW7pLR5QQ5GEiIQ4Wc4FOgNz3rb0fosX0AxVUrlDvPV7mDPElB60wf6cqhlShkBdx1C6_TwMYCz_A76t1VIxuFqiJ79uCXoymHRtdn-DF3_I8AceA==",
+    "date": "2026-06"
+  },
+  "summary": [
+    "日本IBMは、エンタープライズ向け大規模システム開発において、生成AIを活用する上での課題解決とIT変革を推進する考え方を提唱しています。特に、同社が開発を進める「AI Lifecycle Shared Engineering Artifacts（ALSEA）」は、AIに与える仕様やルール、コンテキストを組織全体で管理・共有するための標準ソリューションです。",
+    "生成AIは開発やテストで生産性向上に貢献する一方で、企業全体での品質の再現性、説明責任、ガバナンスの確保が大きな課題となっています。ALSEAはこれらの課題を解決し、エンタープライズでのAI本格活用を可能にすることを目指します。",
+    "IBM BobのようなAIエージェントが開発の生産性を高める「スーパーエンジニア」であるのに対し、ALSEAは「組織の知」としてAI活用の標準化と統制を担います。また、単なるツール導入に留まらず、組織変革のためのチェンジマネジメントと人材育成の重要性も強調されています。"
+  ],
+  "questions": [
+    {
+      "question": "記事によると、企業が生成AIを開発に本格導入する際に直面する主要な課題は何ですか？",
+      "choices": [
+        "AIモデルの学習データ不足",
+        "開発コストの急激な増加",
+        "品質再現性、説明責任、ガバナンスの不足",
+        "既存システムとの互換性の問題"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、生成AIが開発現場で生産性向上をもたらす一方で、エンタープライズ全体として品質の再現性、説明責任、ガバナンスの確保が課題であると明記されています。"
+    },
+    {
+      "question": "日本IBMが開発を進める「AI Lifecycle Shared Engineering Artifacts（ALSEA）」の主な目的は何ですか？",
+      "choices": [
+        "AIモデルの自動選定と最適化",
+        "AIによるコード生成の速度を最大化する",
+        "AIに与える仕様やルール、コンテキストを組織として標準化・管理する",
+        "開発プロジェクトの予算管理をAIで自動化する"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "ALSEAは、AIに与える仕様、ルール、コンテキストを組織として管理・共有できる状態を作り、エンタープライズでAIを本格活用するための鍵となるソリューションであると説明されています。"
+    }
+  ]
+}
