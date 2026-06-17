@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-app-trends-2026.json",
-    "articles/ibm-it-ai-transformation.json",
-    "articles/system-dev-trends-2026.json",
-    "articles/anthropic-fable5-suspension.json",
-    "articles/saiddar-ai-driven-dev-os.json"
+    "articles/llm-trend-shift-202605.json",
+    "articles/ai-driven-dev-risks.json",
+    "articles/clean-code-2026-guide.json",
+    "articles/eu-ai-content-labeling.json",
+    "articles/ai-driven-dev-2026-status.json"
   ]
 }
