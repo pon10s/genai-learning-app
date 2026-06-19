@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-augmented-enterprise.json",
-    "articles/ibm-alsea-spec-driven-ai-dev.json",
-    "articles/engineer-roadmap-2026.json",
-    "articles/ai-autonomous-agent-competition.json",
-    "articles/ai-driven-dev-2026-current-state.json"
+    "articles/claude-fable5-suspension-ai-builds-itself.json",
+    "articles/ai-driven-dev-tigereye-framework.json",
+    "articles/software-engineering-best-practices-ai-era.json",
+    "articles/ai-agent-org-transformation.json",
+    "articles/hitachi-ai-dlc-unicorn-gym.json"
   ]
 }
