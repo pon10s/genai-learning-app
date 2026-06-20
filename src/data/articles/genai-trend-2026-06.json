@@ -1,0 +1,54 @@
+{
+  "id": "art-genai-trend-2026-06",
+  "category": "trend",
+  "title": "2026年最新 生成AIトレンド：モデル進化と「AIエージェント」の台頭",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年最新】生成AIの最新トレンド7選｜ChatGPT・Claude・Geminiの違いと“今知るべき変化”",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1XFJvvwn9BQCDsPUsqwTUeFT7S4IQgjM_rfSgg2jOnGnzoeS8c2l5ZnPQH5H4SPOWgmGwce_AhliO9w3TIkRyzycOYfwLQeNvtx2G7biHqXXYBTy1FkP9QuoqtHJK0zSMJMAzlw==",
+    "date": "2026-06"
+  },
+  "summary": [
+    "2026年5月、主要な生成AIサービスであるChatGPT、Claude、Geminiが相次いで主力モデルを更新しました。これにより、利用料金は据え置きのまま、AIの回答精度や処理能力が向上しています。",
+    "今年の生成AIの大きなトレンドは、「AIが“会話するツール”から“作業を任せる相手”へ進化した」点にあります。特に「AIエージェント」が2026年の最大のキーワードとされており、これは目標を伝えるだけでAIが自ら手順を考えて作業を進める能力を指します。",
+    "各AIサービスには特徴があり、ChatGPTは万能型、Claudeは文章・コード・長文読解に強くビジネス文書作成向き、GeminiはGoogle連携とエージェント機能に特化しています。用途に応じて使い分けることが推奨されています。"
+  ],
+  "questions": [
+    {
+      "question": "記事によると、2026年上半期の生成AIの主要な変化として最も適切でないものはどれですか？",
+      "choices": [
+        "主要AIサービスの主力モデルが更新され、回答精度が向上した。",
+        "AIが「会話するツール」から「作業を任せる相手」へと進化した。",
+        "AIエージェントが、指示に答えるだけでなく目標達成のために自律的に作業を進めるようになった。",
+        "生成AIの利用料金が大幅に引き下げられ、誰もが無料で高性能モデルを使えるようになった。"
+      ],
+      "answerIndex": 3,
+      "difficulty": 2,
+      "explanation": "記事では、主要AIモデルの更新による性能向上、AIの「会話するツール」から「作業を任せる相手」への進化、そしてAIエージェントの台頭が強調されています。利用料金については「同じ料金のままAIが賢くなった」とあり、大幅な値下げや完全無料化については言及されていません。"
+    },
+    {
+      "question": "記事で「2026年最大のキーワード」とされている「AIエージェント」の主な特徴は何ですか？",
+      "choices": [
+        "人間が逐一指示を与えることで、特定のタスクを効率的に処理する。",
+        "与えられた目標に対し、AI自身が手順を考えて作業を自律的に進める。",
+        "主にテキスト生成に特化しており、画像や音声の生成はできない。",
+        "クラウド上でのみ動作し、ローカル環境での利用は不可能である。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "AIエージェントは、指示に答えるだけでなく、目標を伝えると自分で手順を考えて作業を進めるAIと定義されています。 他の選択肢は記事の内容と異なります。"
+    },
+    {
+      "question": "記事で紹介されている主要な生成AIサービスのうち、文章・コード・長文読解に強みを持つとされているのはどれですか？",
+      "choices": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "GPT-5.5 Instant"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、Claudeが「文章・コード・長文読解に強い。ビジネス文書づくり向き」と具体的に説明されています。 ChatGPTは万能型、GeminiはGoogle連携とエージェントに全振り、GPT-5.5 InstantはChatGPTの主力モデルの名称です。"
+    }
+  ]
+}

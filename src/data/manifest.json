@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/claude-fable5-suspension-ai-builds-itself.json",
-    "articles/ai-driven-dev-tigereye-framework.json",
-    "articles/software-engineering-best-practices-ai-era.json",
-    "articles/ai-agent-org-transformation.json",
-    "articles/hitachi-ai-dlc-unicorn-gym.json"
+    "articles/genai-trend-2026-06.json",
+    "articles/ai-dlc-unicorn-gym.json",
+    "articles/clean-code-ai-era.json",
+    "articles/claude-3-5-sonnet.json",
+    "articles/ai-dev-trends-2026.json"
   ]
 }
