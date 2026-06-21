@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/genai-trend-2026-06.json",
-    "articles/ai-dlc-unicorn-gym.json",
-    "articles/clean-code-ai-era.json",
-    "articles/claude-3-5-sonnet.json",
-    "articles/ai-dev-trends-2026.json"
+    "articles/gen-ai-market-share-shift.json",
+    "articles/ai-driven-dev-claude-fable5.json",
+    "articles/agile-development-2026.json",
+    "articles/ai-2026-problem.json",
+    "articles/ai-driven-dev-2026-status.json"
   ]
 }
