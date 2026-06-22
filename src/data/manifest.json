@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/gen-ai-market-share-shift.json",
-    "articles/ai-driven-dev-claude-fable5.json",
-    "articles/agile-development-2026.json",
-    "articles/ai-2026-problem.json",
-    "articles/ai-driven-dev-2026-status.json"
+    "articles/google-io-2026-agentic-ai.json",
+    "articles/ai-driven-dev-overview-2026.json",
+    "articles/programming-roadmap-2026.json",
+    "articles/ai-governance-coso-aibom.json",
+    "articles/ai-driven-dev-shadow.json"
   ]
 }
