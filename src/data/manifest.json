@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/google-io-2026-agentic-ai.json",
-    "articles/ai-driven-dev-overview-2026.json",
-    "articles/programming-roadmap-2026.json",
-    "articles/ai-governance-coso-aibom.json",
-    "articles/ai-driven-dev-shadow.json"
+    "articles/pwc-genai-survey-2026-spring.json",
+    "articles/ai-driven-dev-2026.json",
+    "articles/tdd-roadmap-2026.json",
+    "articles/ai-trend-2026-05-summary.json",
+    "articles/ai-builds-ai-anthropic.json"
   ]
 }
