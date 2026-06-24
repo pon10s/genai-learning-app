@@ -1,0 +1,54 @@
+{
+  "id": "art-generative-ai-trends-2026",
+  "category": "trend",
+  "title": "2026年上半期の生成AIトレンド：エージェントとモデル進化",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年最新】生成AIの最新トレンド7選｜ChatGPT・Claude・Geminiの違いと“今知るべき変化”",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErLNC8RFVdOTbySvWs1cXxjj4giVczE9Sz0BCPLA0n5fZZ5-gGUwL2TB0qWAkGMUrOsst-ejmeQ0sUNWXVPQ666MbCLTT_0_4RPs6lsYa5OM9kafHNnEGCqLVUUMEF55QenCUiyz4=",
+    "date": "2026-06"
+  },
+  "summary": [
+    "2026年上半期の生成AIの主要トレンドは、「料金据え置きでAIの賢さが向上したこと」と「AIが単なる会話ツールから、目標を与えると自律的に作業を遂行する『AIエージェント』へと進化したこと」の二点です。主要な生成AIサービスは2026年5月に主力モデルを更新し、回答精度が向上しました。",
+    "特に「AIエージェント」は今年の最大のキーワードとされており、指示に答えるだけでなく、目標を伝えると自分で手順を考えて作業を進めるAIを指します。Googleは24時間稼働するパーソナルAI「Gemini Spark」を発表し、AppleもiOS 27の新機能「Extensions」でSiriのデフォルトAIを他社製モデルから選択可能にする予定です。",
+    "企業でのAI活用においては、社内データの適切な整理が成功の鍵となります。各モデルの特性として、Claudeは文章・コード・長文読解に強くビジネス文書向き、GeminiはGoogle連携とエージェント機能に特化、ChatGPTは万能型と位置づけられています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年上半期の生成AIトレンドにおける「最大のキーワード」として記事で挙げられているものは何ですか？",
+      "choices": [
+        "AIエージェントの進化",
+        "マルチモーダルAIの普及",
+        "コスト効率の良いAIモデル",
+        "リアルタイム動画生成"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では「AIエージェント」が2026年最大のキーワードであると明確に述べられています。"
+    },
+    {
+      "question": "記事によると、AppleのiOS 27で導入される新機能「Extensions」によって何が可能になりますか？",
+      "choices": [
+        "AIモデルの自社開発",
+        "Siriの機能を完全にオフにする",
+        "SiriのデフォルトAIを他社製モデルに変更",
+        "iPhoneでAIエージェントをローカル実行"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事には「AppleはiOS 27の新機能『Extensions』を発表。SiriのデフォルトAIを、Claude・ChatGPT・Geminiなどから選べるようになります」と記載されています。"
+    },
+    {
+      "question": "企業が生成AIを効果的に活用するための重要な前提条件として、記事で言及されているのは何ですか？",
+      "choices": [
+        "高性能なGPUサーバーの導入",
+        "大規模なAI予算の確保",
+        "社内データの適切な整理",
+        "専門的なAI開発チームの編成"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では「車内データが整理されていなければ活用できないからです。」と述べ、社内データの整理がAI活用成功の鍵であることを強調しています。"
+    }
+  ]
+}
