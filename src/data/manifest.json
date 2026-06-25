@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-2026.json",
-    "articles/devin-jp-release-202606.json",
-    "articles/dev-basics-2026-06.json",
-    "articles/ai-semiconductor-market-growth-2026.json",
-    "articles/ai-driven-dev-current-state-202606.json"
+    "articles/ai-trend-2026-may.json",
+    "articles/ai-sdlc-governance.json",
+    "articles/git-jenkins-software-dev.json",
+    "articles/ai-2026-problem.json",
+    "articles/newrelic-kiro-ai-dev.json"
   ]
 }
