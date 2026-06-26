@@ -1,0 +1,54 @@
+{
+  "id": "art-unreal-engine-version-control",
+  "category": "basics",
+  "title": "Unreal Engine開発におけるバージョン管理の基礎",
+  "readMinutes": 2,
+  "source": {
+    "title": "TECH ROOM：このソフト、どこまでやれる？ #12【Unreal Engine】バージョン管理、そのポイントについて考える会！",
+    "url": "https://cgworld.jp/feature/202606-tech-room12.html",
+    "date": "2026-06"
+  },
+  "summary": [
+    "ソフトウェア開発においてバージョン管理は不可欠な基礎技術であり、特にUnreal Engine（UE）のようなゲーム開発では、BlueprintやLevelといった大容量のバイナリ資産を扱うため、その重要性が高まります。チーム開発を安全かつ効率的に進める上で、適切なバージョン管理システムの選択が求められます。",
+    "主要なバージョン管理システムには、Perforce、Git、Plastic SCM、Subversion（SVN）などがあります。Perforceはゲーム業界で広く利用され、バイナリファイルの扱いやファイルロックに強みがあり、UEを用いた大規模チーム開発に適しています。",
+    "一方、Gitはテキストベースのコード管理に強く、C++主体の開発と相性が良いですが、UEのバイナリ資産を扱うにはGit LFSなどの工夫が必要です。Plastic SCMはゲーム開発向けに設計されたハイブリッド型で、柔軟なブランチ管理とファイルロックをサポートし、中規模チームに適しています。SVNはシンプルですが、大規模な並行開発には不向きとされています。"
+  ],
+  "questions": [
+    {
+      "question": "Unreal Engine開発において、特にバージョン管理システムを選ぶ際に考慮すべき重要な点として、記事中で挙げられているのはどれですか？",
+      "choices": [
+        "大容量のバイナリ資産（BlueprintやLevelなど）の効率的な管理。",
+        "プログラミング言語の多様性への対応能力。",
+        "AIによるコード自動生成機能の有無。",
+        "開発チームのメンバーの地理的分布。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、Unreal Engine開発におけるバージョン管理のポイントとして、BlueprintやLevelといった大容量のバイナリ資産の扱いが特に重要であると述べられています。"
+    },
+    {
+      "question": "ゲーム業界、特にAAAスタジオで広く使われ、大容量バイナリファイルとファイルロックに強みを持つバージョン管理システムはどれですか？",
+      "choices": [
+        "Perforce",
+        "Git",
+        "Subversion (SVN)",
+        "Plastic SCM"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、Perforceはゲーム業界で最も広く使われており、AAAスタジオでは標準と言える存在で、バイナリファイルの扱いに非常に強く、ファイルロック運用が前提になっていると説明されています。"
+    },
+    {
+      "question": "Gitがテキストベースのコード管理に強い一方で、Unreal Engineのようなバイナリ資産が多い環境で利用する際に必要となる工夫として、記事で言及されているものはどれですか？",
+      "choices": [
+        "Git LFS（Large File Storage）の活用。",
+        "専用のAIエージェントによる自動最適化。",
+        "クラウドベースの統合開発環境への移行。",
+        "リアルタイムコラボレーション機能の無効化。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "Gitはテキストベースのコード管理に非常に強いですが、UEのようにバイナリ資産が多い環境ではGit LFS（Large File Storage）を使うことで大きなアセットも扱えるが、ロック運用はやや弱めだと説明されています。"
+    }
+  ]
+}
