@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-gpt-5-6-release.json",
-    "articles/newrelic-kiro-integration.json",
-    "articles/engineer-basics-ai-era.json",
-    "articles/frontier-ai-governance.json",
-    "articles/ai-recursive-self-improvement.json"
+    "articles/generative-ai-trends-2026-h1.json",
+    "articles/aws-summit-ai-dlc-2026.json",
+    "articles/ai-era-software-engineer-basics.json",
+    "articles/ai-industry-shift-may-2026.json",
+    "articles/ai-driven-dev-2026-status.json"
   ]
 }
