@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-2026-h1.json",
-    "articles/ai-driven-dev-future.json",
-    "articles/programming-roadmap-2026.json",
-    "articles/ai-trend-may-2026.json",
-    "articles/ai-driven-dev-current-state.json"
+    "articles/ai-trends-2026-may.json",
+    "articles/future-ai-driven-dev-202606.json",
+    "articles/software-quality-ai-era.json",
+    "articles/ai-governance-trism.json",
+    "articles/microsoft-ai-deployment-investment.json"
   ]
 }
