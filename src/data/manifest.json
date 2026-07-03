@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trends-2026-may.json",
-    "articles/future-ai-driven-dev-202606.json",
-    "articles/software-quality-ai-era.json",
-    "articles/ai-governance-trism.json",
-    "articles/microsoft-ai-deployment-investment.json"
+    "articles/openai-gpt5-6-release.json",
+    "articles/ai-driven-dev-i3design.json",
+    "articles/software-dev-2026-t-wada.json",
+    "articles/claude-sonnet-5.json",
+    "articles/future-ai-driven-dev.json"
   ]
 }
