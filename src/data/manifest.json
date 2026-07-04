@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-gpt5-6-release.json",
-    "articles/ai-driven-dev-i3design.json",
-    "articles/software-dev-2026-t-wada.json",
-    "articles/claude-sonnet-5.json",
-    "articles/future-ai-driven-dev.json"
+    "articles/generative-ai-trends-2026-june.json",
+    "articles/ai-driven-development-2026.json",
+    "articles/programming-roadmap-2026.json",
+    "articles/ai-tech-trends-2026.json",
+    "articles/ai-driven-dev-2026-guide.json"
   ]
 }

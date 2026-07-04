@@ -1,0 +1,55 @@
+{
+  "id": "art-ai-driven-dev-2026-guide",
+  "category": "ai-dev",
+  "title": "2026年のAI駆動開発：アプリ構築の現代的ガイド",
+  "readMinutes": 2,
+  "source": {
+    "title": "Building Apps in 2026: A Modern Guide to AI-Driven Development",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkKADL2061elg58q0yhRUTLkQ-WqK4Mg0kEDuJ157MKhFDvIhst-X4WABJerVq_VGy3_K1YmACUvaYDwDgT1TF7o_9c-gZBp9m40IsIPhri3nve2EWBN91fOY_4-iNOtNBKMHkGelItDklxQIgr5Rqtk_dIJ2P-_j8LdyqqqXqOrBHkZEM5Ge0GJA3oEZ0BST-ypmno3gGiG38Jva1ik3pToxa",
+    "date": "2026-05"
+  },
+  "summary": [
+    "2026年現在、アプリ開発はAIの進化により、より速く、スマートに、そしてデータ駆動型へと大きく変化しています。この記事では、AIを活用した画像・動画ツール「Clova」の事例を通して、現代のAI駆動開発のプロセスを紹介しています。",
+    "開発の重要なステップの一つは「データに耳を傾け、ピボットする」ことです。Clovaは当初の多機能プラットフォームから、ユーザーの関心が高い画像生成に特化した「オープンキャンバス」へと方向転換しました。これは、ユーザーデータに基づいて迅速に戦略を変更することの重要性を示しています。",
+    "現代の技術スタックとしては、フロントエンドとバックエンドにNext.jsとNode.js、データベースにSupabase、そしてコーディングにはClaude CodeのOpus 4.6モデルが推奨されています。AIがコードを読み書きしやすいように最適化されたスターターリポジトリの活用も、開発の効率化に貢献します。",
+    "AIがコードの大部分を生成するため、開発者の役割は「指揮者」のように変化します。複数のターミナルを操作し、AIを管理しながら、複雑な機能をわずか数日で構築できるようになります。このアプローチでは、常に新しいアイデアを実験し、迅速に構築、テスト、データ分析、リリースを繰り返す「スクラップ（倹約・迅速）な」姿勢が成功の鍵とされています。"
+  ],
+  "questions": [
+    {
+      "question": "記事で紹介された2026年のAI駆動開発において、成功の鍵として強調されている原則は何ですか？",
+      "choices": [
+        "ユーザーデータに基づいて迅速に方向転換（ピボット）する柔軟性",
+        "強固なセキュリティ対策を最優先し、堅牢なシステムを構築する",
+        "最新のAIモデルを常に自社で開発し、技術的優位性を保つこと",
+        "大規模な開発チームを編成し、並行して多数の機能を開発すること"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、Clovaの事例を挙げ、ユーザーデータに基づいて方向転換（ピボット）することの重要性を強調しており、「スクラップな」姿勢で迅速なイテレーションを繰り返すことが成功の鍵とされています。"
+    },
+    {
+      "question": "記事で言及されている2026年のAI駆動開発における、開発者の役割の変化として最も適切なものはどれですか？",
+      "choices": [
+        "AIモデルのアルゴリズムをゼロから設計し、最適化する専門家",
+        "AIが生成したコードを手動でデバッグし、品質を保証する品質管理担当者",
+        "AIにタスクを指示し、複数のAIツールやプロセスを管理する「指揮者」",
+        "主にユーザーインターフェースのデザインを担当し、AIの関与は最小限に抑える"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では「AIがコードの大部分を記述するため、開発者は『指揮者』のように振る舞い、複数のターミナルを管理する」と説明されており、AIを指示・管理する役割へと変化していることが示されています。"
+    },
+    {
+      "question": "2026年のAI駆動開発で推奨される技術スタックの一部として、コーディングツールとして具体的に挙げられているものは何ですか？",
+      "choices": [
+        "GitHub Copilot X",
+        "OpenAI Codex",
+        "Claude Code (Opus 4.6モデル)",
+        "Google Gemini Code"
+      ],
+      "answerIndex": 2,
+      "difficulty": 3,
+      "explanation": "記事の「The 2026 Tech Stack」のセクションで、高レベルの開発者が「Claude Code (特にOpus 4.6モデル)」を使用していると明記されています。"
+    }
+  ]
+}
