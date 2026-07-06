@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trends-june-2026.json",
-    "articles/ai-driven-dev-2026-trends.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/ai-trends-2026-july-05.json",
-    "articles/future-ai-driven-dev.json"
+    "articles/generative-ai-trend-202607.json",
+    "articles/github-copilot-enterprise-billing-change-202606.json",
+    "articles/thinking-update-basics.json",
+    "articles/ai-industry-shift-202606.json",
+    "articles/devin-japan-launch.json"
   ]
 }
