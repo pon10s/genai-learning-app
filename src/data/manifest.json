@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trend-202607.json",
-    "articles/github-copilot-enterprise-billing-change-202606.json",
-    "articles/thinking-update-basics.json",
-    "articles/ai-industry-shift-202606.json",
-    "articles/devin-japan-launch.json"
+    "articles/ai-agent-biz-systems-june2026.json",
+    "articles/ai-dev-github-copilot-build2026.json",
+    "articles/programming-in-ai-era.json",
+    "articles/medical-ai-practical-phase-2026.json",
+    "articles/ai-driven-dev-finance-2026-07.json"
   ]
 }

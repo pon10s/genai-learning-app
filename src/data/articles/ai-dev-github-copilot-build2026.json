@@ -1,0 +1,54 @@
+{
+  "id": "art-ai-dev-github-copilot-build2026",
+  "category": "ai-dev",
+  "title": "GitHub Copilotの進化：Build 2026で発表されたエージェント型開発の最新動向",
+  "readMinutes": 2,
+  "source": {
+    "title": "GitHub CopilotはBuild 2026でどう進化した？Copilot appとエージェント型開発の最新動向",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdFkfe-XGAHUdUJD8poKcIdNVzUTrauqgJhx5aUxKrDFRFGVHreotykHM08PrV4Dbg5yrYjyKhoDSzct0CLKReul-UJXgwjTC-BE4-Nx1xmsHWaQ3Ys5uW-iAX7Ow-Yuw785hwiv8SpkTV6Qj6QZpi7QB8J_J0CA==",
+    "date": "2026-06"
+  },
+  "summary": [
+    "Microsoft Build 2026では、GitHub Copilotがコード補完ツールから、開発プロセス全体を支援する「エージェント型開発」の中核へと進化する最新動向が発表されました。主な発表内容として、複数のエージェントを一元管理するデスクトップアプリケーション「GitHub Copilot app」の登場が挙げられます。",
+    "また、「Copilot CLI」には、メインエージェントの計画やレビューを別のAIモデルに依頼する「Rubber Duck」機能が正式提供されるなど、大幅な強化が図られました。さらに、社内システムやSaaS、ナレッジ検索など外部リソースをCopilotエージェントから扱えるようにする「MCP（Model Context Protocol）」の対応拡大も進んでいます。",
+    "これらの進化により、GitHub Copilotは、要件整理から実装、修正まで開発ループ全体をカバーするエージェント型開発の基盤を強化しています。サンドボックス機能と組み合わせることで、エージェントによる安全な操作が可能となり、開発者はより効率的かつ安全にAIを活用した開発を進められるようになります。"
+  ],
+  "questions": [
+    {
+      "question": "Microsoft Build 2026で発表されたGitHub Copilotの主要な新機能は何ですか？",
+      "choices": [
+        "AIが自動でプロジェクトの予算を最適化する機能。",
+        "複数のAIエージェントを一元管理するデスクトップアプリケーション「GitHub Copilot app」。",
+        "コードを画像として出力するビジュアルプログラミング機能。",
+        "開発チームメンバーの感情を分析し、モチベーションを向上させる機能。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事によると、Build 2026では「GitHub Copilot app」が登場し、複数のエージェントをデスクトップから一元管理できるように設計されていると述べられています。"
+    },
+    {
+      "question": "GitHub Copilot CLIの強化で、メインエージェントの計画やレビューを別のAIモデルに依頼できるようになった機能は何と呼ばれていますか？",
+      "choices": [
+        "Copilot Navigator",
+        "AI Pair Programmer Plus",
+        "Rubber Duck",
+        "Code Orchestrator"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "「Copilot CLI」の大幅な強化点として、メインエージェントの計画やレビューを異なるモデルファミリーに依頼できるセカンドオピニオン機能「Rubber Duck」が正式提供されたと記載されています。"
+    },
+    {
+      "question": "「MCP（Model Context Protocol）」の対応拡大により、GitHub Copilotエージェントは何を扱えるようになりますか？",
+      "choices": [
+        "AIモデルの学習データセットの自動生成。",
+        "開発者の生体認証情報を用いたセキュリティ強化。",
+        "社内システム、SaaS、ナレッジ検索などの外部リソース。",
+        "ソフトウェアのリリース後のマーケティング戦略。"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、MCP対応の拡大により、GitHub Copilotエージェントが「社内システム、SaaS、ナレッジ検索といった外部リソースを扱えるようになった」と説明されています。"
+    }
+  ]
+}
