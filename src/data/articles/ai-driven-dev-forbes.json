@@ -1,0 +1,55 @@
+{
+  "id": "art-ai-driven-dev-forbes",
+  "category": "ai-dev",
+  "title": "AI駆動開発と変化する開発者の役割",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI Won't Replace Developers: Developers Using AI Might Replace Others",
+    "url": "https://www.forbes.com/sites/forbestechcouncil/2026/07/08/ai-wont-replace-developers-developers-using-ai-might-replace-others/",
+    "date": "2026-07"
+  },
+  "summary": [
+    "生成AIの進化により、ソフトウェア開発の現場は大きな変革期を迎えています。記事では、AIが開発者そのものを代替するのではなく、AIツールを効果的に活用できる開発者が、そうでない開発者に取って代わる可能性を指摘しています。",
+    "開発におけるAIの活用には、「Vibe Coding」と「AI駆動開発（AIDD）」の二つのアプローチがあります。「Vibe Coding」は、迅速なプロンプト駆動で、デモや試作には適しますが、品質の予測が難しいという特徴があります。",
+    "これに対し、「AI駆動開発（AIDD）」は、エンジニアリングの規律、スケーラビリティ、信頼性を重視し、開発者の生産性を高めることを目指します。AIは定型的なコード生成、ユニットテストの作成、リファクタリング、デバッグ支援など、開発工程の一部を効率化するのに優れています。",
+    "この変化に伴い、開発者の役割は、アーキテクチャ設計、リスク評価、統合監視といった高レベルな意思決定にシフトし、よりビジネス文脈を理解したプロダクト志向のエンジニアが求められるようになります。"
+  ],
+  "questions": [
+    {
+      "question": "記事の主要な主張として、AIがソフトウェア開発者に与える影響について最も適切に述べているのはどれですか？",
+      "choices": [
+        "AIはすべてのソフトウェア開発者の仕事を完全に自動化し、開発者の必要性はなくなる。",
+        "AIは開発者の一部を置き換えるが、AIを使いこなす開発者はより価値が高まる。",
+        "AIは開発者の生産性を向上させるが、開発者の役割や必要性に変化はない。",
+        "AIは主にジュニア開発者の仕事を奪い、シニア開発者には影響しない。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事は「AI won't replace software developers, but developers using AI may replace those failing to adapt.」と明確に述べており、AIを使いこなす能力が重要になることを強調しています。"
+    },
+    {
+      "question": "記事で定義されている「Vibe Coding」と「AI駆動開発（AIDD）」の主な違いは何ですか？",
+      "choices": [
+        "Vibe Codingは大規模なエンタープライズシステム向け、AIDDは小規模なプロトタイプ向けである。",
+        "Vibe Codingは品質よりもスピードを重視し、AIDDはエンジニアリングの規律と信頼性を重視する。",
+        "Vibe Codingは人間がコードを書き、AIDDはAIが完全にコードを生成する。",
+        "Vibe CodingはAIツールを使わない開発手法で、AIDDはAIツールを全面的に使う。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、「Vibe coding is prompt-driven, fast and lightly structured. It optimizes for speed to a visible result. ... For a demo or a quick experiment, it's fine, but this makes quality unpredictable.」とあり、一方AIDDは「companies with developers that can multiply their impact with AI, without sacrificing engineering discipline, scalability or trust.」と説明されています。"
+    },
+    {
+      "question": "AIがソフトウェア開発において特に得意とするタスクとして、記事で挙げられているのはどのようなものですか？",
+      "choices": [
+        "複雑なシステムアーキテクチャの設計と意思決定。",
+        "新規ビジネス要件の定義と顧客とのコミュニケーション。",
+        "定型的なコード生成、ユニットテスト、リファクタリング、デバッグ支援。",
+        "プロジェクト全体の進捗管理とチームメンバーのモチベーション向上。"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では「AI is genuinely good at boilerplate generation, CRUD functionality, documentation drafts, unit test scaffolding, repetitive refactoring and debugging assistance.」と具体的に述べられています。"
+    }
+  ]
+}
