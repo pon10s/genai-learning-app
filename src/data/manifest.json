@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/genai-july-2026-updates.json",
-    "articles/mu-fg-ai-dev-partnership-202607.json",
-    "articles/waterfall-dev-basics.json",
-    "articles/generative-ai-trends-2026-july.json",
-    "articles/ai-driven-dev-2026-productivity.json"
+    "articles/ai-creativity-homogenization.json",
+    "articles/mu-fg-ai-dev-partnership.json",
+    "articles/platform-engineering-basics-2026.json",
+    "articles/ai-trends-july-2026.json",
+    "articles/true-ai-driven-dev.json"
   ]
 }
