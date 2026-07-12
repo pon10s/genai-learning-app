@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-creativity-homogenization.json",
-    "articles/mu-fg-ai-dev-partnership.json",
-    "articles/platform-engineering-basics-2026.json",
-    "articles/ai-trends-july-2026.json",
-    "articles/true-ai-driven-dev.json"
+    "articles/ai-national-infrastructure-2026-07.json",
+    "articles/mu-fg-ai-driven-dev.json",
+    "articles/tdd-basics.json",
+    "articles/ai-agent-future-work.json",
+    "articles/ai-driven-dev-2026-trends.json"
   ]
 }
