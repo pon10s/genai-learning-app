@@ -1,8 +1,8 @@
 {
   "articles": [
-    "articles/anthropic-claude-mythos-impact.json",
-    "articles/ai-driven-kintone-dev-case.json",
-    "articles/engineer-basics-ai-era.json",
+    "articles/llm-portfolio-2026.json",
+    "articles/kddi-ai-driven-dev.json",
+    "articles/dev-basics-2026-ai-era.json",
     "articles/generative-ai-trends-2026.json",
     "articles/sier-ai-driven-dev-survival.json"
   ]
