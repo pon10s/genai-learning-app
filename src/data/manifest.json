@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-2026-sme.json",
-    "articles/ai-driven-dev-future-monoi.json",
-    "articles/web-app-roadmap-2026.json",
-    "articles/ai-trends-smes-2026.json",
-    "articles/ibm-alsea-ai-dev.json"
+    "articles/llm-portfolio-design-2026.json",
+    "articles/ibm-alsea-ai-driven-dev.json",
+    "articles/ai-era-dev-basics.json",
+    "articles/ai-agent-shift-2026.json",
+    "articles/future-ai-driven-dev.json"
   ]
 }

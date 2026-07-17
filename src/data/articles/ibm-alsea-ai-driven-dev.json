@@ -1,0 +1,55 @@
+{
+  "id": "art-ibm-alsea-ai-driven-dev",
+  "category": "ai-dev",
+  "title": "日本IBM、エンタープライズ向けAI駆動開発「ALSEA」を本格展開",
+  "readMinutes": 2,
+  "source": {
+    "title": "日本IBM、エンタープライズ向けAI駆動開発を本格展開 - PR TIMES",
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000143878.html",
+    "date": "2026-07"
+  },
+  "summary": [
+    "日本IBMは、エンタープライズ向けAI駆動開発ソリューション「AI Lifecycle Shared Engineering Artifacts（ALSEA）」を2026年7月15日から提供開始しました。このソリューションは、大規模システム開発で培われたIBMの長年の方法論と開発標準を基盤としています。",
+    "ALSEAの主な特徴は、AIが開発に必要な知見やルールを理解できるよう体系化された「コンテキスト」と、AIの動作を制御し生成される成果物の品質と整合性を保証する「ハーネス」です。これらは、IBMのAIエージェント駆動開発支援パートナーである「IBM Bob」と連携します。",
+    "この導入により、企業はAIを主体とした開発手法を、再現性と一貫性を保ちながら大規模システム開発に適用し、運用を拡大することが可能になります。",
+    "提供開始に先立ち、2026年4月以降、80社以上の企業でALSEAの適用に向けた事前検証が行われており、その効果が期待されています。"
+  ],
+  "questions": [
+    {
+      "question": "日本IBMが2026年7月15日に提供開始した、エンタープライズ向けAI駆動開発ソリューションの正式名称は何ですか？",
+      "choices": [
+        "AI Lifecycle Shared Engineering Artifacts (ALSEA)",
+        "IBM Watson Development Suite",
+        "Enterprise AI Development Platform (EADP)",
+        "Global AI Integration System (GAIS)"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事に明記されている通り、日本IBMが提供開始したソリューションの正式名称は「AI Lifecycle Shared Engineering Artifacts（ALSEA）」です。"
+    },
+    {
+      "question": "日本IBMのALSEAソリューションにおいて、AIが生成する成果物の品質と整合性を確保するために提供される二つの主要な仕組みは何ですか？",
+      "choices": [
+        "コードリポジトリとCI/CDパイプライン",
+        "コンテキストとハーネス",
+        "データレイクと機械学習モデル",
+        "プロンプトエンジニアリングとファインチューニング"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "ALSEAは、AIが知見やルールを理解する「コンテキスト」と、AIの挙動を制御し品質・整合性を保つ「ハーネス」を提供することで、成果物の品質と整合性を確保します。"
+    },
+    {
+      "question": "ALSEAを導入することで、企業はどのような開発手法の運用拡大を目指しますか？",
+      "choices": [
+        "手動でのコーディングと徹底した人間によるレビューを重視する開発",
+        "AI主体の開発手法を再現性と一貫性を確保しつつ大規模システム開発に適用する",
+        "オープンソースAIツールの活用に限定し、コストを最小限に抑える開発",
+        "開発者のスキルアップを最優先し、AIは補助的な役割に留める開発"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "ALSEAは、企業が「AIが主体となる開発手法の運用を拡大」し、その際に「再現性と一貫性を確保」することを支援します。"
+    }
+  ]
+}
