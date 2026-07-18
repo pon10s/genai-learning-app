@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-portfolio-design-2026.json",
-    "articles/ibm-alsea-ai-driven-dev.json",
-    "articles/ai-era-dev-basics.json",
-    "articles/ai-agent-shift-2026.json",
-    "articles/future-ai-driven-dev.json"
+    "articles/llm-generational-change-202607.json",
+    "articles/ibm-alsea-ai-dev.json",
+    "articles/git-workflow-2026.json",
+    "articles/ai-trend-2026-guide.json",
+    "articles/future-ai-driven-dev-2026.json"
   ]
 }
