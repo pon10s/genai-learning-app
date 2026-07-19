@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/llm-generational-change-202607.json",
-    "articles/ibm-alsea-ai-dev.json",
-    "articles/git-workflow-2026.json",
-    "articles/ai-trend-2026-guide.json",
-    "articles/future-ai-driven-dev-2026.json"
+    "articles/ai-agent-augmented-enterprise-2026.json",
+    "articles/future-ai-driven-dev-monoit.json",
+    "articles/noetra-multimodal-ai.json",
+    "articles/phennec-context-engineering.json"
   ]
 }

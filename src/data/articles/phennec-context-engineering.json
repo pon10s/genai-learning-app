@@ -1,0 +1,55 @@
+{
+  "id": "art-phennec-context-engineering",
+  "category": "ai-dev",
+  "title": "AI駆動開発を支える「コンテキスト基盤」の重要性",
+  "readMinutes": 2,
+  "source": {
+    "title": "アイスリーデザイン、AI駆動開発を支えるコンテキスト基盤「Phennec」の専用サイトをリニューアル",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqRQB9D95liGRSyN3lj92mvI0Si44A7ZsSc8t_ZnB6bW2NdkgkOtzCB1qceEoXrYlxcYL3AqTi7N27M_iLl9vaCF1u19xctnMTQMMzpcqojw4sufvOS-El93K9uXKk3niUX7a0kNk8I2kcpbOEx5adghlhoSA",
+    "date": "2026-07"
+  },
+  "summary": [
+    "株式会社アイスリーデザインは、AI駆動開発を効率的に進めるためのコンテキスト基盤「Phennec（フェネック）」の専用サイトをリニューアルしました。近年、AIエージェントの性能が向上する中で、開発成果を左右する重要な要素は「タスクに必要な文脈（コンテキスト）をいかに正確にAIに届けるか」であるとされています。",
+    "この「コンテキストエンジニアリング」の課題を解決するため、Phennecは組織内に分散する多様なドメイン知識（Git、GitHub、Notion、Slack、Google Driveなど）を構造化し、AIエージェントがその時々で必要とする情報だけを抽出して提供します。",
+    "Phennecの主な特長は、社内情報ソースのリアルタイム統合、RAG（Retrieval Augmented Generation）による文脈の最適化、MCP（Model Context Protocol）への対応、そして組織のノウハウをAIが活用できる形で整備し、チーム全体で共有・管理できる点です。",
+    "これにより、AI応答精度の大幅な向上や投資対効果（ROI）の改善、QA・文書作成工数の削減といった具体的な効果が期待されています。特定のLLMやツールに依存しない中立設計のため、既存の開発環境にも柔軟に導入可能です。"
+  ],
+  "questions": [
+    {
+      "question": "記事で述べられている、AI駆動開発の成果を左右する重要な要素は何ですか？",
+      "choices": [
+        "タスクに必要な文脈（コンテキスト）をいかに正確にAIに届けるか",
+        "最新の高性能な大規模言語モデル（LLM）を導入すること",
+        "AIエージェントの数を増やし、並列処理能力を高めること",
+        "AIにコード生成を完全に任せ、人間の介入を最小限にすること"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、AIエージェントの性能が成熟した今、成果を左右するのは「どれだけの情報を与えるか」ではなく「今のタスクに必要な文脈だけをどう届けるか」というコンテキストエンジニアリングの重要性が強調されています。"
+    },
+    {
+      "question": "コンテキスト基盤「Phennec」の主な役割として、最も適切ではないものはどれですか？",
+      "choices": [
+        "組織内のドメイン知識を構造化し、AIエージェントに必要な文脈を提供する",
+        "AIエージェントが生成したコードの最終的なレビューと承認を行う",
+        "RAG技術を用いて、意味を理解した上でタスクに必要な情報を抽出する",
+        "特定のLLMやツールに依存せず、既存の開発環境に統合可能である"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "PhennecはAIエージェントに文脈を提供し、その精度を高める基盤ですが、AIが生成したコードの最終的なレビューや承認は人間の役割です。Phennecの役割は情報提供と最適化にあります。"
+    },
+    {
+      "question": "Phennecの特長として挙げられている「MCPへの対応」とは、具体的にどのような利点をもたらしますか？",
+      "choices": [
+        "社内の知識を安全に、CursorやClaudeなどの既存AIツールへ接続できる",
+        "AIエージェントが自律的に新しいプログラミング言語を学習できるようになる",
+        "AIモデルのトレーニングデータを自動で収集・更新する機能を提供する",
+        "物理的なロボットアームと連携し、ハードウェア開発を自動化できる"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "記事では、Phennecの特長として「MCPへの対応：Cursor・Claudeなど既存のAIツールへ、社内の知識を安全に接続」と説明されています。これにより、様々なAIツールで社内情報を活用できるようになります。"
+    }
+  ]
+}
