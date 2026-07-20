@@ -1,0 +1,55 @@
+{
+  "id": "art-ai-adoption-governance-lag",
+  "category": "ai-dev",
+  "title": "AI駆動開発：生産性向上とガバナンスの課題",
+  "readMinutes": 2,
+  "source": {
+    "title": "94% of Developers Report AI Productivity Gains, but Governance Maturity Lags Behind Adoption, Finds New Study From Info-Tech Research Group",
+    "url": "https://www.prnewswire.com/news-releases/94-of-developers-report-ai-productivity-gains-but-governance-maturity-lags-behind-adoption-finds-new-study-from-info-tech-research-group-302206778.html",
+    "date": "2026-07"
+  },
+  "summary": [
+    "Info-Tech Research Groupの最新調査「AI Adoption and Impact Study」によると、AIはソフトウェア開発ライフサイクル（SDLC）全体に深く浸透しています。開発者の94%がAIによる生産性向上を報告し、83%が欠陥の削減を実感しています。",
+    "しかし、AI導入には課題も存在します。AIが生成したコードは、人間が書いたコードよりも多くのテストを必要とすることが判明しました。また、セキュリティへの懸念やレガシーコードの存在が、AI活用の効果を制限する主要な障壁となっています。",
+    "多くの企業では、AIの急速な導入ペースに対し、ガバナンス、セキュリティ、レビューの体制整備が追いついていません。AI生成コードに対する標準的な運用手順や明確なレビュー要件が不足しているため、AI導入が拡大するにつれて品質の一貫性が損なわれるリスクが指摘されています。",
+    "AIは特に「構築」フェーズ（分析、設計、開発、テスト）で広く利用されていますが、同時にレビュー要件も増加していることが示されており、AIを活用しつつ品質を維持するためのバランスが求められています。"
+  ],
+  "questions": [
+    {
+      "question": "Info-Tech Research Groupの調査によると、AI駆動開発における主要な課題の一つとして挙げられているのは次のうちどれですか？",
+      "choices": [
+        "AIが生成したコードは、人間が書いたコードよりも多くのテストを必要とする。",
+        "AIツールの導入コストが非常に高く、中小企業には手が届かない。",
+        "AIはクリエイティブな設計作業には全く貢献できない。",
+        "AIモデルの性能が低く、期待される生産性向上が得られていない。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、AIが生成したコードは人間が書いたコードよりも多くのテストを必要とすることが、主要な課題として挙げられています。"
+    },
+    {
+      "question": "本記事で言及されている、AI駆動開発における生産性向上以外のメリットは何ですか？",
+      "choices": [
+        "欠陥の大幅な削減。",
+        "開発チームの規模を半分にできる。",
+        "レガシーシステムの完全な自動移行。",
+        "AIモデルの学習データが不要になる。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、開発者の83%がAIによって欠陥が大幅に削減されたと報告しています。"
+    },
+    {
+      "question": "AI駆動開発の導入が急速に進む中で、多くの組織で遅れていると指摘されているのは次のどの側面ですか？",
+      "choices": [
+        "ガバナンス、セキュリティ、レビューの体制整備。",
+        "新しいAIモデルの研究開発投資。",
+        "開発者のAI教育プログラムの拡充。",
+        "AI駆動開発に特化したプログラミング言語の採用。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "記事では、AIの急速な導入ペースに対し、ガバナンス、セキュリティ、レビューの体制整備が追いついていないと指摘されています。これにより、品質の一貫性が損なわれるリスクがあるとしています。"
+    }
+  ]
+}

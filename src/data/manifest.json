@@ -1,8 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-augmented-enterprise-2026.json",
-    "articles/future-ai-driven-dev-monoit.json",
-    "articles/noetra-multimodal-ai.json",
-    "articles/phennec-context-engineering.json"
+    "articles/ai-price-war-july-2026.json",
+    "articles/future-ai-driven-dev.json",
+    "articles/software-dev-basics-2026.json",
+    "articles/ai-models-july-2026.json",
+    "articles/ai-adoption-governance-lag.json"
   ]
 }

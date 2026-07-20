@@ -1,0 +1,56 @@
+{
+  "id": "art-ai-models-july-2026",
+  "category": "trend",
+  "title": "2026年7月 主要AIモデルの最新動向",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年7月最新】主要AIモデル早わかり一覧｜用途別おすすめと現ステータス",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhYj_RKPKhqnYoO5S_KF4r0LdUqF172kANV6kANOb1MZ-ATHwhk3GUnwoEET15Fadi400Z9P5OYsRH6h2vQqkm_wOeEZx9AuXvg_x4psmRKfGn8BWGmyUrZOIhHI21bodPtHCZUdvi77BVszAqkYh0JiTmipjMiQ==",
+    "date": "2026-07"
+  },
+  "summary": [
+    "2026年7月現在、主要な生成AIモデルの状況は急速に変化し、フロンティアモデルの世代交代が進んでいます。",
+    "OpenAIは、GPT-5.6（Sol/Terra/Lunaの3階層）と、自律エージェント「ChatGPT Work」、会話中にリアルタイムで話せる音声モデル「GPT-Live」を正式公開しました。",
+    "Anthropicは、一時的に停止していたClaude Fable 5とMythos 5の提供を再開し、Fable 5の無料枠の扱いが変更されました。",
+    "また、xAIはコーディングエージェントに特化したGrok 4.5を、Moonshot AIは2.8兆パラメータを持つKimi K3をそれぞれ発表しています。",
+    "GoogleはAIエージェント「Gemini Spark」の日本語提供を開始しましたが、次世代フラッグシップであるGemini 3.5 Proはまだ限定プレビューの状態です。このように各社が次々と新モデルを投入しており、企業は用途や目的に応じて最適なモデルを選択する必要性が高まっています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年7月時点で、GPT-5.6（Sol/Terra/Luna）、自律エージェント「ChatGPT Work」、リアルタイム音声モデル「GPT-Live」を正式公開したのはどの企業ですか？",
+      "choices": [
+        "OpenAI",
+        "Google",
+        "Anthropic",
+        "xAI"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、OpenAIが2026年7月上旬にGPT-5.6の3階層モデル、自律エージェント「ChatGPT Work」、リアルタイム音声の「GPT-Live」をまとめて投入しました。"
+    },
+    {
+      "question": "2026年7月上旬にxAIが公開した、コーディングエージェントに特化した新モデルの名称は何ですか？",
+      "choices": [
+        "Grok 4.5",
+        "Kimi K3",
+        "Claude Fable 5",
+        "Gemini Spark"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、xAIが7月8日にコーディングエージェント特化のGrok 4.5を公開したと述べられています。"
+    },
+    {
+      "question": "2026年7月時点におけるGoogleの次世代フラッグシップモデル「Gemini 3.5 Pro」の状況について、記事で述べられているのは次のうちどれですか？",
+      "choices": [
+        "正式に一般公開され、日本語提供も開始された。",
+        "限定プレビューが継続中で、まだ一般公開されていない。",
+        "2.8兆パラメータを持つモデルとして新たに発表された。",
+        "一時的に停止された後、提供が再開された。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事には「Googleだけが次世代フラッグシップ（Gemini 3.5 Pro）をまだ出せずにいます（限定プレビュー継続中。7月17日GA説は非公式）」と明記されています。"
+    }
+  ]
+}
