@@ -1,0 +1,55 @@
+{
+  "id": "art-ibm-alsea-ai-dev",
+  "category": "ai-dev",
+  "title": "日本IBM、エンタープライズ向けAI駆動開発ソリューション「ALSEA」を本格展開",
+  "readMinutes": 2,
+  "source": {
+    "title": "日本IBM、エンタープライズ向けAI駆動開発を本格展開",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs5uykV-I1H8mh8k_CBL3M1dHTGFJgUnVok3kOdHQzuoUa__PqEkxLoVJEaKuAOieAypMxVkC8W822baW5YGGmZq1mnYDduHJ73sANzeDWGGLxmOG1hCuXfcI5kTQfL2KXG0JPzIJumAkpEteu5xGS7WGnUJUSpWDyaxUyG-bD08NUyXhBMij-hR1FMP6jURK_I3I=",
+    "date": "2026-07"
+  },
+  "summary": [
+    "日本IBMは、大規模システム開発向けにAI駆動開発ソリューション「AI Lifecycle Shared Engineering Artifacts（ALSEA）」の本格提供を開始しました。",
+    "ALSEAは、システム開発の知見やルールをAIが活用できる形で体系化した「コンテキスト」と、AIの挙動を制御して成果物の品質と整合性を保つ「ハーネス」という二つの主要な仕組みで構成されます。",
+    "このソリューションにより、要件定義から設計、実装に至る開発プロセス全体において、AIが主体となる開発手法を、再現性と一貫性を確保しながら大規模システムで運用することが可能になります。",
+    "生成AIの活用が個別の作業支援から開発プロセス全体へと拡大する中、日本IBMは長年の大規模システム開発ノウハウを活かし、金融機関や製造業など80社以上での事前検証を経て本ソリューションを展開しています。"
+  ],
+  "questions": [
+    {
+      "question": "日本IBMがエンタープライズ向けに本格提供を開始したAI駆動開発ソリューションの名称は何ですか？",
+      "choices": [
+        "AI Lifecycle Shared Engineering Artifacts (ALSEA)",
+        "AI Driven Development Platform (ADDP)",
+        "Enterprise AI Development Kit (EADK)",
+        "Global AI Integration System (GAIIS)"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、日本IBMが本格提供を開始したのは「AI Lifecycle Shared Engineering Artifacts（ALSEA）」です。"
+    },
+    {
+      "question": "ALSEAの主要な構成要素である「ハーネス」の役割として、最も適切なものはどれですか？",
+      "choices": [
+        "システム開発に必要な知見やルールをAIが活用可能な形で体系化する。",
+        "AIの挙動を制御し、生成される成果物の品質と整合性を維持する。",
+        "開発されたAIモデルの学習データを自動で収集・整理する。",
+        "既存のレガシーシステムをAIが理解できる形式に変換する。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では「ハーネス」について、「AIの挙動を制御し、成果物の品質と整合性を維持する仕組み」と説明されています。 選択肢Aは「コンテキスト」の説明です。"
+    },
+    {
+      "question": "日本IBMがALSEAを提供する背景として、記事中で述べられている主な変化は何ですか？",
+      "choices": [
+        "AI開発のコストが大幅に削減されたため。",
+        "生成AIの活用が、個別の作業支援からシステム開発プロセス全体へと拡大しているため。",
+        "多くの企業が自社でAIモデルを開発するようになったため。",
+        "AIによるコード生成の精度が人間のそれを完全に上回ったため。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 3,
+      "explanation": "記事には、「生成AIの活用は、コード生成やテスト支援といった個別の開発作業から、システム開発プロセス全体へと広がりつつあります」とあり、これがALSEA提供の背景として挙げられています。"
+    }
+  ]
+}

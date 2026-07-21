@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-price-war-july-2026.json",
-    "articles/future-ai-driven-dev.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/ai-models-july-2026.json",
-    "articles/ai-adoption-governance-lag.json"
+    "articles/google-io-2026-ai-agent.json",
+    "articles/cresco-ai-driven-dev.json",
+    "articles/tdd-basics.json",
+    "articles/noetra-multimodal-ai-project.json",
+    "articles/ibm-alsea-ai-dev.json"
   ]
 }
