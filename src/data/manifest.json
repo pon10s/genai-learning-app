@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/google-io-2026-ai-agent.json",
-    "articles/cresco-ai-driven-dev.json",
-    "articles/tdd-basics.json",
-    "articles/noetra-multimodal-ai-project.json",
-    "articles/ibm-alsea-ai-dev.json"
+    "articles/llm-external-control.json",
+    "articles/ai-dlc-unicorn-gym-2026.json",
+    "articles/it-infra-basics-2026.json",
+    "articles/llm-model-portfolio-2026.json",
+    "articles/autify-qa-platform.json"
   ]
 }
