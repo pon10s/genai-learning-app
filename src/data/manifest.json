@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-external-control.json",
-    "articles/ai-dlc-unicorn-gym-2026.json",
-    "articles/it-infra-basics-2026.json",
+    "articles/ai-market-growth-2026-gartner.json",
+    "articles/ai-dlc-unicorn-gym.json",
+    "articles/agile-basics-2026.json",
     "articles/llm-model-portfolio-2026.json",
-    "articles/autify-qa-platform.json"
+    "articles/cresco-ai-driven-dev-qa.json"
   ]
 }
