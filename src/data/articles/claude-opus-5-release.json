@@ -1,0 +1,54 @@
+{
+  "id": "art-claude-opus-5-release",
+  "category": "trend",
+  "title": "Anthropicが新AIモデル「Claude Opus 5」を提供開始",
+  "readMinutes": 2,
+  "source": {
+    "title": "Anthropic、「Claude Opus 5」の提供を開始",
+    "url": "https://gihyo.jp/article/2026/07/25/anthropic-claude-opus-5",
+    "date": "2026-07"
+  },
+  "summary": [
+    "Anthropicは2026年7月24日、新たなAIモデル「Claude Opus 5」の提供を開始しました。このモデルは、コーディング、長期にわたるエージェントタスク、知識労働といった分野で、以前のClaude Opus 4.8から大幅な性能向上を遂げています。特に、科学・工学の実務課題を解くベンチマーク「FrontierBench v0.1」では、GPT-5.6 SolやClaude Fable 5を上回る高いスコアを記録しました。",
+    "Claude Opus 5は、デフォルトおよび最大で100万トークンという広範なコンテキストウィンドウをサポートしています。また、モデルが思考の要否と量を自動で判断する「思考機能」がデフォルトで有効化され、`effort`パラメーターでその度合いを調整できるようになりました。",
+    "APIの利用料金は、上位モデルであるClaude Fable 5の約半額に設定されており、約2.5倍の速度で動作するFast modeもFable 5と同等の価格で提供されます。これにより、高度な性能をより手頃なコストで利用できるようになり、開発者や企業にとって幅広い活用が期待されます。"
+  ],
+  "questions": [
+    {
+      "question": "Claude Opus 5が特に性能向上を強調している主要な分野として、記事中で挙げられているのはどれですか？",
+      "choices": [
+        "データ分析、画像生成、ネットワーク最適化",
+        "コーディング、長期エージェントタスク、知識労働",
+        "データベース管理、3Dモデリング、量子計算",
+        "サイバーセキュリティ、組み込みシステム開発、ロボット制御"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、Claude Opus 5が「コーディングや長期にわたるエージェントタスク、知識労働を中心に、Claude Opus 4.8から性能を高めている」と明確に述べられています。"
+    },
+    {
+      "question": "Claude Opus 5の新しい「思考機能」に関する記述として、正しいものはどれですか？",
+      "choices": [
+        "思考機能は手動でオンにする必要があり、常に最大のエフォートで動作する。",
+        "思考機能はデフォルトで有効化され、モデルが思考の要否と量を自動で判断する。",
+        "思考機能は廃止され、ユーザーが直接プロンプトで思考プロセスを指示する必要がある。",
+        "思考機能はOpus 4.8から変更がなく、`thinking: {\"type\": \"disabled\"}`を設定すると性能が向上する。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事によると、Opus 5では「思考がデフォルトで有効になり、モデルが各ターンで思考の要否と量を判断する」とされています。また、`effort`パラメーターで調整可能ですが、常に最大で動作するわけではありません。"
+    },
+    {
+      "question": "Claude Opus 5のAPI利用料金について、Claude Fable 5と比較して記事中で述べられている内容はどれですか？",
+      "choices": [
+        "Claude Opus 5はClaude Fable 5の約2倍の価格である。",
+        "Claude Opus 5はClaude Fable 5の約半額で提供され、Fast modeはFable 5と同等の価格である。",
+        "Claude Opus 5は無料プランのみで提供され、Fable 5とは異なる料金体系である。",
+        "Claude Opus 5の料金はFable 5と同じだが、Fast modeはFable 5より高価である。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では「Opus 5はFable 5の半額に当たる」と記載されており、また「Opus 5のFast modeは通常の約2.5倍の速度で動作し、入力100万トークン当たり10ドル、出力100万トークン当たり50ドルで提供する」とあり、これはFable 5と同等の価格設定と説明されています。"
+    }
+  ]
+}
