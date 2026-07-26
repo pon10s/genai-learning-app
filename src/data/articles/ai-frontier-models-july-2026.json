@@ -1,0 +1,56 @@
+{
+  "id": "art-ai-frontier-models-july-2026",
+  "category": "trend",
+  "title": "主要AIラボが最先端モデルを続々発表、自律的タスク遂行が競争軸に",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI大手各社が3週間で4つの最先端モデルを相次いで発表し、競争がさらに激化しています。",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEwjInpdzWcdftGKaEqvJ1gknrWLA-3cMSYiYYh8GRZR2xRzQPTznpvlqQ3vUlXfs1iXdTIOaPOO5W-70qBFqZiEhHH6bHMkMPzDO9dyzKYv2AfU7PgGymS9Zi-iCxHS8-r9W12Vo5rufwFmPoLZ0JEIjxnhfA_8TmDl5wenbT4i_6Tn9DeSm3F0Zw3sCZAUCImtANPL1VGmGbA5e-46x3HPa6ExGzoVp6-DSkASIyTBGOlQb5FFxMkUGuH2Ok12Gd8lpMrv5op-iq3Ec_",
+    "date": "2026-07"
+  },
+  "summary": [
+    "2026年7月の過去3週間で、xAI、Anthropic、OpenAI、Moonshot AIといった主要なAI開発企業が、それぞれ最先端の言語モデルを相次いで発表し、競争が激化しています。これにより、人間の介入なしにAIが生成する結果と従来のシステムとの性能差が劇的に縮まりました。",
+    "発表された新モデルには、xAIのGrok 4.5、AnthropicのClaude Opus 5、OpenAIのGPT-5.6ファミリー（Sol、Terra、Luna）、そしてMoonshot AIのKimi K3などがあります。",
+    "これらのモデル群の共通の目標は、AIシステムが調査、コーディング、構造化レポート作成といった長時間にわたる複雑なタスクを、計画を見失うことなく自律的に遂行できるようにすることです。",
+    "特にGrok 4.5は実際の開発者セッションデータで学習され、競争力のある価格設定がされています。また、Moonshot AIのKimi K3は、現在公開されているオープンウェイトモデルとして最大規模を誇ります。",
+    "この動向は、AIが単なる質問応答ツールから、より複雑な業務をこなす自律的なエージェントへと進化していることを示しており、AI業界の競争軸が大きく変化していることを浮き彫りにしています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年7月の過去3週間に最先端モデルを発表したと記事で言及されているAIラボはどれですか？",
+      "choices": [
+        "xAI, Anthropic, OpenAI, Moonshot AI",
+        "Google DeepMind, Meta, Amazon, IBM",
+        "Microsoft, Apple, Baidu, Tencent",
+        "Preferred Networks, Stability AI, Cohere, Mistral AI"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、2026年7月の過去3週間に最先端モデルを発表したAIラボとして、xAI、Anthropic, OpenAI, Moonshot AIの4社が具体的に挙げられています。"
+    },
+    {
+      "question": "記事によると、2026年7月に発表された最先端AIモデル群の共通の目標は何ですか？",
+      "choices": [
+        "大規模な画像生成能力を向上させること",
+        "AIシステムが長時間にわたる複雑なタスクを計画を見失わずに遂行できるようにすること",
+        "音声認識と多言語翻訳の精度を大幅に向上させること",
+        "より小型で低コストなローカル実行可能なモデルを開発すること"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、「xAIのGrok 4.5、AnthropicのClaude Opus 5、OpenAIのGPT-5.6ファミリー、Moonshot AIのKimi K3はいずれも同じ課題に取り組んでいます。それは、AIシステムに調査からコーディング、構造化されたレポート作成に至るまで、数時間にわたるタスクを計画を見失うことなく遂行させることです」と述べられています。"
+    },
+    {
+      "question": "記事で言及されている新モデルの中で、「現在公開されているオープンウェイトモデルとしては最大規模」とされているのはどれですか？",
+      "choices": [
+        "Grok 4.5",
+        "Claude Opus 5",
+        "GPT-5.6 Sol",
+        "Kimi K3"
+      ],
+      "answerIndex": 3,
+      "difficulty": 2,
+      "explanation": "記事には、「Moonshot AIは、パラメータ数2.8兆という同社最大規模のモデル『Kimi K3』を公開しました。K3は現在公開されているオープンウェイトモデルとしては最大規模で、これまで広く使われていた最大規模のオープンモデルよりも約75％大きい」と明記されています。"
+    }
+  ]
+}
