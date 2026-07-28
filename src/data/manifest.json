@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-frontier-models-july-2026.json",
-    "articles/ai-dlc-unicorn-gym.json",
-    "articles/sdlc-2026-basics.json",
-    "articles/ai-market-report-2026.json",
-    "articles/ai-driven-dev-2026-07.json"
+    "articles/anthropic-open-weights-position.json",
+    "articles/astemo-ai-driven-dev.json",
+    "articles/web-app-roadmap-2026.json",
+    "articles/llm-portfolio-design-2026.json",
+    "articles/fixstars-vega-embedded-ai-dev.json"
   ]
 }
