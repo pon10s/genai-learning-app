@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/anthropic-open-weights-position.json",
-    "articles/astemo-ai-driven-dev.json",
-    "articles/web-app-roadmap-2026.json",
-    "articles/llm-portfolio-design-2026.json",
-    "articles/fixstars-vega-embedded-ai-dev.json"
+    "articles/generative-ai-market-2026.json",
+    "articles/ai-driven-dev-models.json",
+    "articles/ai-native-dev-trends-2026.json",
+    "articles/local-llm-summer-2026-trends.json",
+    "articles/ai-dev-state-2026-report.json"
   ]
 }
