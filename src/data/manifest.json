@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-market-2026.json",
-    "articles/ai-driven-dev-models.json",
-    "articles/ai-native-dev-trends-2026.json",
-    "articles/local-llm-summer-2026-trends.json",
-    "articles/ai-dev-state-2026-report.json"
+    "articles/openai-agent-safety.json",
+    "articles/ai-coding-cost-gartner.json",
+    "articles/recommended-tech-books-2026.json",
+    "articles/llm-portfolio-design-2026.json",
+    "articles/newrelic-ai-coding-report-2026.json"
   ]
 }
