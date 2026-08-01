@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/industrial-explosion.json",
-    "articles/astemo-ai-driven-dev-case.json",
-    "articles/programming-guide-2026.json",
-    "articles/ai-work-transformed.json",
-    "articles/ai-driven-dev-aws-workshop-202607.json"
+    "articles/google-gemini-specialized-models.json",
+    "articles/newrelic-ai-coding-report-2026.json",
+    "articles/code-review-ai-era.json",
+    "articles/ai-trend-2026-july-summary.json",
+    "articles/ai-reshaping-software-dev-2026.json"
   ]
 }
