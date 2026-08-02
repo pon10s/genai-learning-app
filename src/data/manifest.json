@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/google-gemini-specialized-models.json",
-    "articles/newrelic-ai-coding-report-2026.json",
-    "articles/code-review-ai-era.json",
-    "articles/ai-trend-2026-july-summary.json",
-    "articles/ai-reshaping-software-dev-2026.json"
+    "articles/ai-task-crossover.json",
+    "articles/ai-driven-dev-2026-workflows.json",
+    "articles/programming-beginner-start-2026.json",
+    "articles/eu-ai-act-enforcement.json",
+    "articles/ai-driven-dev-current-state.json"
   ]
 }
