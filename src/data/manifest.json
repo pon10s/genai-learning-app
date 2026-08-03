@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-task-crossover.json",
-    "articles/ai-driven-dev-2026-workflows.json",
-    "articles/programming-beginner-start-2026.json",
-    "articles/eu-ai-act-enforcement.json",
-    "articles/ai-driven-dev-current-state.json"
+    "articles/ai-agent-security-202607.json",
+    "articles/fixstars-vega-embedded-ai-dev.json",
+    "articles/security-by-design-intro.json",
+    "articles/ai-trends-july-2026-summary.json",
+    "articles/ai-driven-dev-trends-2026.json"
   ]
 }
