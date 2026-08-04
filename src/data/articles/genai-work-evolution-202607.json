@@ -1,0 +1,55 @@
+{
+  "id": "art-genai-work-evolution-202607",
+  "category": "trend",
+  "title": "2026年7月生成AIトレンド：AIは「答える」から「仕事を進める」時代へ",
+  "readMinutes": 2,
+  "source": {
+    "title": "2026-07 生成AIニュース月次調査サマリー ｜岡室 俊之 - note",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd238iBSeuOANH6BlpIapYnHqcDXH9AwkpLJv9qnCUERbwXvOl7yrdiG0J5TqZRxHpRpDbGXeaTRLUYtWsFXU7FMcwASTpqhrVjWKgE7VjGFvYQ9Kz4wPMI7J_RMZS0jqO0eGmg=",
+    "date": "2026-08"
+  },
+  "summary": [
+    "2026年7月の生成AI業界では、AIが単に質問に答えるだけでなく、自ら計画を立て、複数のアプリケーションを横断して一連の作業を進める存在へと大きく進化しました。",
+    "この大きな潮流は、AI活用の焦点が、単発の文章生成から、調査、整理、作成、修正といった一連の業務プロセス全体をAIに任せる方向へとシフトしていることを示しています。",
+    "具体的な動きとしては、OpenAIの「ChatGPT Work」やGoogleの「Gemini APIのManaged Agents」、Metaの「Meta AI」といったサービスが、AIが仕事を進める具体的な例として挙げられています。",
+    "このような進化は、企業、特に地方企業において、AIをいきなり複雑な業務に導入するのではなく、会議資料の下書きや週次報告の整理、問い合わせの分類など、人間が最終確認を行うことを前提とした業務から段階的に導入することが現実的であると提案されています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年7月の生成AIの主要な潮流として、記事で最も強調されている変化は何ですか？",
+      "choices": [
+        "AIモデルのパラメータ数が劇的に増加し、より賢くなったこと。",
+        "AIが質問に答えるだけでなく、自ら計画を立てて一連の仕事を進めるようになったこと。",
+        "AIが生成するコンテンツの著作権問題が完全に解決されたこと。",
+        "生成AIの利用料金が大幅に下がり、個人でも気軽に利用できるようになったこと。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事の冒頭で「AIが質問に答えるだけでなく、自ら計画を立て、複数のアプリケーションを横断して一連の作業を進める存在へと大きく進化しました」と、この変化が主要な潮流であることが明確に述べられています。"
+    },
+    {
+      "question": "記事中で、AIが「仕事を進める」ようになった具体的な例として挙げられているサービスや機能はどれですか？",
+      "choices": [
+        "Googleの画像生成AI「Imagen 2」",
+        "Anthropicの最新モデル「Claude Opus 5」",
+        "OpenAIの「ChatGPT Work」",
+        "中国Moonshot AIのオープンソースLLM「Kimi K3」"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、OpenAIの「ChatGPT Work」、Googleの「Gemini APIのManaged Agents」、Metaの「Meta AI」が、AIが仕事を進める具体的なサービスとして挙げられています。他の選択肢は、それぞれ画像生成AI、LLMモデル、オープンソースLLMであり、記事が強調する「仕事を進める」機能の具体的な例ではありません。"
+    },
+    {
+      "question": "記事が提案する、企業が生成AIを導入する際の現実的なアプローチとして、どのような点が挙げられていますか？",
+      "choices": [
+        "全ての業務プロセスを一度にAIに置き換え、効率を最大化すること。",
+        "AIモデルの性能を最優先し、常に最新かつ最高精度のモデルを導入すること。",
+        "人間が最終確認することを前提に、会議資料の下書きや報告書の整理などから段階的にAIを活用すること。",
+        "AI導入に際しては、まず大規模な専用開発チームを立ち上げること。"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事の最後の段落で「会議資料の下書き、週次報告の整理、問い合わせの分類など、人が最後に確認できる仕事から始めるのが現実的です」と述べられています。これは、人間が最終確認することを前提とした段階的な導入アプローチを指します。"
+    }
+  ]
+}

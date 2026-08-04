@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-security-202607.json",
-    "articles/fixstars-vega-embedded-ai-dev.json",
-    "articles/security-by-design-intro.json",
-    "articles/ai-trends-july-2026-summary.json",
-    "articles/ai-driven-dev-trends-2026.json"
+    "articles/genai-work-evolution-202607.json",
+    "articles/ai-driven-dev-overview.json",
+    "articles/ai-era-dev-basics.json",
+    "articles/ai-development-pacing-call.json",
+    "articles/fixstars-vega-ai-driven-dev.json"
   ]
 }
