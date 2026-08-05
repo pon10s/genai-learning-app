@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/genai-work-evolution-202607.json",
-    "articles/ai-driven-dev-overview.json",
-    "articles/ai-era-dev-basics.json",
-    "articles/ai-development-pacing-call.json",
-    "articles/fixstars-vega-ai-driven-dev.json"
+    "articles/generative-ai-trends-2026.json",
+    "articles/ai-dev-trends-2026.json",
+    "articles/csharp-programming-basics-2026.json",
+    "articles/ai-industry-july-2026-trends.json",
+    "articles/future-ai-driven-dev.json"
   ]
 }
