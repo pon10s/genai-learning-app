@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-japan-2026-july-trends.json",
-    "articles/ai-driven-dev-2026.json",
-    "articles/secure-by-default-sbom.json",
-    "articles/ai-trend-july-2026-summary.json",
-    "articles/future-ai-dev-productivity.json"
+    "articles/generative-ai-trends-july-2026.json",
+    "articles/ai-driven-dev-future.json",
+    "articles/ai-native-dev-basics-2026.json",
+    "articles/google-ai-july-2026-recap.json",
+    "articles/ai-driven-dev-trust-maintain.json"
   ]
 }
