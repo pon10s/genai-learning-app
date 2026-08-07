@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-2026.json",
-    "articles/ai-dev-trends-2026.json",
-    "articles/csharp-programming-basics-2026.json",
-    "articles/ai-industry-july-2026-trends.json",
-    "articles/future-ai-driven-dev.json"
+    "articles/generative-ai-japan-2026-july-trends.json",
+    "articles/ai-driven-dev-2026.json",
+    "articles/secure-by-default-sbom.json",
+    "articles/ai-trend-july-2026-summary.json",
+    "articles/future-ai-dev-productivity.json"
   ]
 }
