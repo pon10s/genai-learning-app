@@ -1,0 +1,56 @@
+{
+  "id": "art-ai-driven-dev-current-state-2026",
+  "category": "ai-dev",
+  "title": "2026年のAI駆動開発：4つの構造転換とエンジニアの役割変化",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI駆動開発の現在地｜ツール選定・料金・導入パターンを総整理 | AI総合研究所",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkGA9ieq5ndEz6OyY8dFq5kyfXn3V-K-A8nYredcmpWlaEOBMVnIUsSQEgZDVSzwKgYZ4syYZ6ZTMcJfNfe48o_8uiDNxlVThd0-dVtqZu5AhwAQ4vXCiVPtEBSWsb1CuuhtNaJFNPKnD9FPYvLBuPah7THDtd9z1tLw==",
+    "date": "2026-06"
+  },
+  "summary": [
+    "AI駆動開発は、AIを単なる補完ツールとしてではなく、ソフトウェア開発の全工程で自律的に作業するエージェントとして活用する手法です。",
+    "2026年には、この分野で4つの大きな構造転換が確立しました。一つ目は「仕様駆動開発（SDD）」の普及で、AIがコードではなく仕様に基づいて動くようになりました。",
+    "二つ目は、AIエージェントが外部システムと連携するためのオープン標準「MCP（Model Context Protocol）」と、エディタとエージェント間の通信プロトコル「ACP（Agent Communication Protocol）」の確立です。",
+    "三つ目は、複数のAIエージェントが連携して開発を進める「マルチエージェント協調」への移行。そして四つ目は、GitHub Copilotなどの主要ツールの料金体系が「使った分だけ」に変わる大規模な再編です。",
+    "これらの変化により、開発者の役割はコード実装から、設計、レビュー、ガバナンスといったより上位の工程へとシフトしています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年に確立したAI駆動開発の主要な構造転換として、記事で言及されていないものはどれですか？",
+      "choices": [
+        "仕様駆動開発（SDD）の確立",
+        "マルチエージェント協調の浸透",
+        "AIによるテスト工程の完全自動化",
+        "オープン標準プロトコル（MCP, ACP）の登場"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、仕様駆動開発（SDD）、マルチエージェント協調、オープン標準プロトコル（MCP, ACP）が2026年の主要な構造転換として挙げられています。AIによるテスト支援は進化していますが、「完全自動化」が主要な構造転換として確立したとは述べられていません。"
+    },
+    {
+      "question": "記事によると、AI駆動開発の進化に伴い、エンジニアの役割はどのように変化していますか？",
+      "choices": [
+        "AIツールの開発と保守が主要業務になった",
+        "実装の手を動かす部分から、設計・レビュー・統制を設計する部分へシフトした",
+        "プロンプトエンジニアリングのみに特化するようになった",
+        "AIが全ての開発タスクを担うため、マネジメント業務が中心になった"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、AI駆動開発の進化により、エンジニアの仕事は「実装の手を動かす部分」から「設計・レビュー・統制を設計する部分」へとウェイトが大きくなっていると明確に述べられています。"
+    },
+    {
+      "question": "AIエージェントが外部ツールやデータソースに接続するためのオープン標準として、記事で挙げられているプロトコルは何ですか？",
+      "choices": [
+        "ACP（Agent Communication Protocol）",
+        "RAG（Retrieval-Augmented Generation）",
+        "MCP（Model Context Protocol）",
+        "LLM（Large Language Model）"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事によると、AIエージェントが外部ツール・データソースに接続するための標準はMCP（Model Context Protocol）です。ACPはエディタとエージェント間の通信に用いられます。RAGは生成AIの技術の一つ、LLMは大規模言語モデル自体を指します。"
+    }
+  ]
+}

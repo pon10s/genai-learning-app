@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-july-2026.json",
-    "articles/ai-driven-dev-future.json",
-    "articles/ai-native-dev-basics-2026.json",
-    "articles/google-ai-july-2026-recap.json",
-    "articles/ai-driven-dev-trust-maintain.json"
+    "articles/ai-agent-productivity-paradox.json",
+    "articles/future-ai-driven-dev.json",
+    "articles/google-code-review-practices.json",
+    "articles/recursive-self-improvement-2026.json",
+    "articles/ai-driven-dev-current-state-2026.json"
   ]
 }
