@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/private-ai-opportunity-202608.json",
-    "articles/tisi-nablarch-nabledge.json",
-    "articles/dev-basics-20260809.json",
-    "articles/autonomous-ai-cyberattack.json",
-    "articles/future-architect-ai-dev.json"
+    "articles/github-copilot-agentic-study.json",
+    "articles/ai-driven-dev-conf-2026-summer.json",
+    "articles/tdd-basics-202608.json",
+    "articles/ai-autonomous-era.json",
+    "articles/ai-driven-dev-survey-2026-summer.json"
   ]
 }
