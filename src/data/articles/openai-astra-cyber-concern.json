@@ -1,0 +1,55 @@
+{
+  "id": "art-openai-astra-cyber-concern",
+  "category": "trend",
+  "title": "OpenAI、次世代AIモデル「Astra」開発を一時制限：サイバー攻撃能力に懸念",
+  "readMinutes": 2,
+  "source": {
+    "title": "OpenAI次世代モデル「Astra」の開発を一時制限 高いサイバー能力に懸念 - Impress Watch",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER3moRzq69nSLkWxni8lduZvtrncaVVci6SL6lhlhh3vGwrB3iQ7UZ7h-SdeGoUx0oepN6i59i_yfbCZuJor-8l1S3CFwcw4N_SlpcXv503ICR0Ecxi1l7Yblr78OFTLuuP_jiWEqqsjf6jPrep8F-yw==",
+    "date": "2026-08"
+  },
+  "summary": [
+    "OpenAIは、次世代AIモデル「Astra」の開発を一時的に制限し、社内での利用も隔離されたテスト環境以外では停止しました。これは、Astraが社内評価で、AIモデルの安全基準において最高危険度である「Critical（クリティカル）」レベルのサイバー攻撃能力を持つ可能性が否定できないと判断されたためです。",
+    "Astraは以前、高い数学的能力を示し、未解決の数学問題を解決したと報告されていましたが、今回のサイバーセキュリティ上の懸念が判明したことで、安全対策が最優先されました。",
+    "OpenAIは2023年12月に、AIモデルの能力進歩と対策を定める「準備フレームワーク（Preparedness Framework）」を策定しています。既存の最上位モデルである「GPT-5.6 Sol」のサイバー能力が「High」であったのに対し、Astraは「Critical」に達する可能性が指摘されました。",
+    "OpenAIは、高度なサイバー機能を持つモデルは、攻撃者よりも防御側が脆弱性を特定し対処するのに役立つべきだとしています。同社CEOのサム・アルトマン氏は、Astraを広く一般公開したい意向を示しつつも、安全性を確保するための追加対策を政府機関やAI安全団体と協力して検討しています。"
+  ],
+  "questions": [
+    {
+      "question": "OpenAIが次世代モデル「Astra」の開発を一時制限した主な理由は何ですか？",
+      "choices": [
+        "モデルの計算コストが予想以上に高騰したため。",
+        "社内評価で、最高危険度のサイバー攻撃能力を持つ可能性が指摘されたため。",
+        "モデルが意図せず有害なフェイクニュースを大量生成する能力を示したため。",
+        "競合他社がより高性能なモデルを発表し、戦略を見直す必要が生じたため。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事によると、OpenAIがAstraの開発を一時制限した主な理由は、「社内評価で、サイバー攻撃能力が社内の安全ガイドラインで最上位の『Critical(クリティカル)』になる可能性が否定できないと公表し、一部開発を停止」したためです。"
+    },
+    {
+      "question": "OpenAIがAIモデルの安全性を評価するために用いているフレームワークの名称は何ですか？",
+      "choices": [
+        "AI Ethical Guidelines",
+        "Responsible AI Checklist",
+        "Preparedness Framework",
+        "Global Safety Protocol"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "OpenAIは「AIモデルの能力の進歩を特定し、取るべき対策を決める『準備フレームワーク(Preparedness Framework)』を23年12月に策定している」と記事に記載されています。"
+    },
+    {
+      "question": "「Astra」の潜在的なサイバー能力レベルは、既存の最上位モデル「GPT-5.6 Sol」と比較してどのように評価されましたか？",
+      "choices": [
+        "GPT-5.6 Solと同等の「High」レベル。",
+        "GPT-5.6 Solよりも低い「Moderate」レベル。",
+        "GPT-5.6 Solの「High」に対し、Astraは最上位の「Critical」レベル。",
+        "Astraはサイバー能力を持たず、評価対象外。"
+      ],
+      "answerIndex": 2,
+      "difficulty": 3,
+      "explanation": "記事では、「現状の最上位モデル『GPT-5.6 Sol』を含む既存モデルのサイバー能力は『High』にとどまっていたが、Astraでは最上位の『Critical』に達した可能性があるという」と説明されています。"
+    }
+  ]
+}

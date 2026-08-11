@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/github-copilot-agentic-study.json",
-    "articles/ai-driven-dev-conf-2026-summer.json",
-    "articles/tdd-basics-202608.json",
-    "articles/ai-autonomous-era.json",
-    "articles/ai-driven-dev-survey-2026-summer.json"
+    "articles/openai-astra-cyber-concern.json",
+    "articles/future-ai-driven-dev.json",
+    "articles/software-dev-trends-2026.json",
+    "articles/ai-agent-gym-exploit.json",
+    "articles/mizuho-ai-driven-dev.json"
   ]
 }
