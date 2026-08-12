@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-astra-cyber-concern.json",
-    "articles/future-ai-driven-dev.json",
-    "articles/software-dev-trends-2026.json",
-    "articles/ai-agent-gym-exploit.json",
-    "articles/mizuho-ai-driven-dev.json"
+    "articles/generative-ai-trends-2026.json",
+    "articles/ai-driven-dev-future.json",
+    "articles/ai-era-programming-basics.json",
+    "articles/ai-model-top10-202608.json",
+    "articles/ai-driven-dev-patterns.json"
   ]
 }
