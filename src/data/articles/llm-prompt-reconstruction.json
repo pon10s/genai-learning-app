@@ -1,0 +1,55 @@
+{
+  "id": "art-llm-prompt-reconstruction",
+  "category": "trend",
+  "title": "LLMの回答から入力プロンプトを復元する新技術「PTP」の登場",
+  "readMinutes": 2,
+  "source": {
+    "title": "AIの回答から元の質問文を復元：PTPが1応答で64.77%完全一致",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQzZzMY442sr2W7xxwnkz_k9DOcWKoUv5CQbSBpxHIFUFZA9ZYFBbVc4sIhpmhp7WuTRfqorOqEPKU7lTWe79irShQXEjJLbeQLJv00xFmRv-tedpeMEeMImEIRrx_JxpHXsxyYhw2mKZ1S23V",
+    "date": "2026-08"
+  },
+  "summary": [
+    "IIT BombayとAdobe Researchの研究チームが、大規模言語モデル（LLM）の応答から元の入力プロンプトを逆算する新手法「Previous-Token Prediction（PTP）」を発表しました。",
+    "このPTPは、対象となるLLMの内部の重みや表現にアクセスすることなく、たった1つのテキスト応答から元のプロンプトの候補を生成できる点が特徴です。実験では、Qwen3-0.6B Chatの応答から元のプロンプトのトークンを64.77%という高い精度で完全に一致させることに成功しました。",
+    "この結果は、LLMの出力からユーザーが入力した機密性の高い情報や個人情報が推測され得るという、新たなセキュリティおよびプライバシーリスクの可能性を示唆しています。一方で、GPT-4oのような異なるモデルへの適用では復元率が11.36%に低下し、また長いシステムプロンプトでの有効性はまだ十分に検証されていません。",
+    "この研究は、LLMの利用が広がる中で、そのプライバシーとセキュリティに関する新たな側面を浮き彫りにし、今後のモデル開発や利用ガイドラインに影響を与える重要なトレンドとして注目されています。"
+  ],
+  "questions": [
+    {
+      "question": "PTP（Previous-Token Prediction）が主な目的としていることは何ですか？",
+      "choices": [
+        "大規模言語モデル（LLM）の推論速度を向上させること。",
+        "LLMの応答から元の入力プロンプトを再構築すること。",
+        "マルチモーダルLLMの画像生成能力を高めること。",
+        "LLMのハルシネーション（誤情報生成）を完全に防ぐこと。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "PTPの主な目的は、LLMの生成した応答から、ユーザーが入力した元のプロンプト（質問文）を逆算して再構築することです。記事冒頭で「LLMの応答から入力プロンプトを逆算する手法」と明記されています。"
+    },
+    {
+      "question": "PTP手法の重要な特徴として、記事中で述べられているのはどれですか？",
+      "choices": [
+        "対象LLMの学習データをすべて再構築する必要がある。",
+        "LLMの内部表現や重みにアクセスせずに機能する。",
+        "複数のLLMを同時に連携させて処理を実行する。",
+        "大量のプロンプトを事前に用意して学習させる必要がある。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では「対象モデルの重みやlogits、内部表現を読まず、観測したテキスト応答1件から候補を生成する」と説明されており、LLMの内部構造に依存しない点がPTPの重要な特徴です。"
+    },
+    {
+      "question": "記事中の実験で、Qwen3-0.6B Chatの応答から元のプロンプトがトークン単位でどの程度の割合で完全に一致しましたか？",
+      "choices": [
+        "約11%",
+        "約30%",
+        "約65%",
+        "約90%"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "Qwen3-0.6B Chatを用いた実験では、「64.77%で元のプロンプトとトークン列が一致した」と具体的に述べられています。約11%はGPT-4oでの復元率、約90%はプロンプトと応答の意味の近さを示すコサイン類似度であり、完全一致率ではありません。"
+    }
+  ]
+}

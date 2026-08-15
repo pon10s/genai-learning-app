@@ -1,0 +1,54 @@
+{
+  "id": "art-ai-driven-development-aws-summit-2026",
+  "category": "ai-dev",
+  "title": "AWS Summit Japan 2026で語られたAI駆動開発ライフサイクル（AI-DLC）成功の鍵",
+  "readMinutes": 2,
+  "source": {
+    "title": "【AWS Summit Japan 2026】AI-DLCについての話をセッション横断でまとめてみました",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUxoyvNqfZadXTNnVgt4reHR3IdoCOygIN-lJFsJbo3KTJxrTz5n2s255oxgKUWvCJlgLF1AEEfxl9EPccL0cHX6dsiPQAaqNOTvvmesfOZbYXsNU0YdF4U9hIEUjZ_eiXTFyi4mSXSrHMvNqfZadXTNnVgt4reHR3IdoCOygIN-lJFsJbo3KTJxrTz5n2s255oxgKUWvCJlgLF1AEEfxl9EPccL0cHX6dsiPQAaqNOTvvmesfOZbYXsNU0YdF4U9hIEUjZ_eiXTFyi4mSXSrHMvG87PVfKkRgT2RzmMnKpBBqg8RpEGUSwOjr_uMlzE_9z6Jq9AoGVgO9mnNekW8Oh42At8TFd4VlR5E8iAh8X159HM-W6elPEcl_dq0FYkcAYGJwU=",
+    "date": "2026-06"
+  },
+  "summary": [
+    "AWS Summit Japan 2026では、「AI駆動開発ライフサイクル（AI-DLC）」が主要なテーマとして取り上げられ、開発のあらゆるフェーズにAIを統合し、速度、品質、意思決定を向上させる重要性が強調されました。AI-DLCは、企画・設計（INCEPTION）、開発・実装（CONSTRUCTION）、運用・保守（OPERATION）の各段階でAIツールやシステムを活用するアプローチです。",
+    "しかし、AI駆動開発の導入には「スキル侵食の悪循環」や「コードオーナーシップの欠如」といった課題が指摘されています。これに対し、開発者が運用まで責任を持つ、意図的に非効率なプロセスを設けてAIと実践的に協働する、そして「Design for Evaluation」を通じて組織内に知見を蓄積するといった対策が提案されています。",
+    "記事では、AI-DLCを成功させるための「9つの教訓」も紹介されています。これには、AIをシニアエンジニアのように盲目的に信頼せず、コンテキストウィンドウを慎重に管理すること、既存システムへの適用を工夫すること、そしてAIとの協働経験を積むことが含まれます。これらの教訓は、AIが生成したコードの品質保証やガバナンスを確保しつつ、開発者の役割が変化していく中でAIを効果的に活用するための実践的な指針となります。"
+  ],
+  "questions": [
+    {
+      "question": "AI駆動開発ライフサイクル（AI-DLC）が目指す主な目的は何ですか？",
+      "choices": [
+        "ソフトウェア開発の速度、品質、意思決定を向上させること",
+        "開発工程におけるAIツールのコストを最小限に抑えること",
+        "既存のレガシーシステムを完全にAIに置き換えること",
+        "開発者のプロンプトエンジニアリングスキルのみを向上させること"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "AI-DLCは、開発の各フェーズにAIツールやシステムを統合することで、ソフトウェア開発全体の速度、品質、意思決定の向上を目指します。"
+    },
+    {
+      "question": "AI駆動開発を導入する上で、記事で指摘されている主な課題として正しいものはどれですか？",
+      "choices": [
+        "開発者におけるAIスキルの侵食とコードオーナーシップの欠如",
+        "AIモデルの学習データ不足と計算リソースの制約",
+        "AIツール間の互換性の問題とバージョン管理の複雑さ",
+        "AIが生成するコードの過剰な正確性とテストの自動化の難しさ"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、AI駆動開発の課題として「スキル侵食の悪循環」と「オーナーシップの欠如」が挙げられています。"
+    },
+    {
+      "question": "AI駆動開発ライフサイクル（AI-DLC）を成功させるための「9つの教訓」に含まれる実践的なアドバイスとして、適切でないものはどれですか？",
+      "choices": [
+        "最終的なコードの所有権はAIにあり、人間はレビューのみを行う",
+        "AIをシニアエンジニアと同じように信頼せず、検証を怠らない",
+        "コンテキストウィンドウを慎重に管理し、AIに与える情報を最適化する",
+        "既存のコード例を模倣させ、AIに既存システムに合わせたコードを生成させる"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事の「9つの教訓」には「最終的なコードの所有者はあなた」という項目があり、AIが生成したコードであっても最終的な責任と所有権は人間にあると強調されています。"
+    }
+  ]
+}

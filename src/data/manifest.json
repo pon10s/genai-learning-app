@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-dev-trends-2026-08.json",
-    "articles/parallel-ai-agents.json",
-    "articles/clean-code-importance.json",
-    "articles/ai-hakusho-2026-corporate-adoption.json",
-    "articles/genai-strategic-imperative-2026.json"
+    "articles/llm-prompt-reconstruction.json",
+    "articles/github-copilot-ai-team-app.json",
+    "articles/git-basics-team-dev.json",
+    "articles/local-llm-on-mac.json",
+    "articles/ai-driven-development-aws-summit-2026.json"
   ]
 }
