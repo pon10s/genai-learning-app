@@ -1,0 +1,56 @@
+{
+  "id": "art-ai-driven-dev-conf-report",
+  "category": "ai-dev",
+  "title": "AI駆動開発カンファレンス2026夏：AIの役割は「作れるか」から「信頼できるか」へ",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI駆動開発カンファレンス 2026夏 2日目 参加レポート — 「作れるか」から「信頼できるか」へ - Qiita",
+    "url": "https://qiita.com/mizomizor/items/7d8f9e0e5a9c0f0a5d4e",
+    "date": "2026-08"
+  },
+  "summary": [
+    "2026年夏のAI駆動開発カンファレンスでは、AIがソフトウェア開発において「作れるか」という能力の側面から、生成された成果物の「信頼性」へと焦点が移行していることが主要なテーマとして議論されました。",
+    "GitHubの基調講演では、同社のAIコード補完ツールであるGitHub Copilotが5周年を迎え、そのAPIトラフィックが4倍に増加したことが報告されました。",
+    "GitHub Copilotは、当初のコード補完機能から、ユーザーの指示に応答するチャットモードを経て、最終的には自律的にタスクを実行する「Agent Mode」へと進化を遂げています。",
+    "この進化は、AIが開発の「副操縦士」として人間を支援するだけでなく、より能動的かつ自律的な「エージェント」として開発プロセスに深く関わるようになっている現状を示唆しています。",
+    "また、Gartnerが2026年4月に発表した「Magic Quadrant for Enterprise AI Coding Agents」では、GitHubがCursor、Anthropic、OpenAIと共に「Leaders」象限に位置づけられ、AIコーディングエージェント市場における競争の激化と主要プレイヤーの動向が明らかになりました。"
+  ],
+  "questions": [
+    {
+      "question": "2026年夏のAI駆動開発カンファレンスで議論された、AIの役割に関する主要なテーマは何でしたか？",
+      "choices": [
+        "A. AIが「作れるか」から「信頼できるか」への焦点の移行",
+        "B. AIが「コーディング速度」から「デプロイ頻度」への貢献",
+        "C. AIが「個人利用」から「大規模チーム導入」への課題",
+        "D. AIが「開発ツールの多様化」から「単一プラットフォームへの統合」"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事のタイトルおよび内容で、AIがコードを「作れるか」という初期段階から、生成されたコードの「信頼性」を重視する段階へと焦点が移っていることが主要テーマとして挙げられています。"
+    },
+    {
+      "question": "記事によると、GitHub Copilotの機能はどのように進化しましたか？",
+      "choices": [
+        "A. コード補完 → チャットモード → エージェントモード",
+        "B. バグ修正 → ドキュメント生成 → テスト自動化",
+        "C. 要件定義 → 設計支援 → プロジェクト管理",
+        "D. UI/UX改善 → パフォーマンス最適化 → セキュリティ診断"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、Copilotの進化を4段階で説明しており、初期のコード補完から、ユーザーとの対話が可能なチャットモード、そして自律的に動くエージェントモードへと変化したと述べられています。"
+    },
+    {
+      "question": "Gartnerの2026年4月版「Magic Quadrant for Enterprise AI Coding Agents」において、GitHubはどの象限に位置づけられましたか？",
+      "choices": [
+        "A. Leaders",
+        "B. Challengers",
+        "C. Visionaries",
+        "D. Niche Players"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事内で、Gartnerの「Magic Quadrant for Enterprise AI Coding Agents」において、GitHubが「Leaders」象限に位置づけられたと明確に記載されています。"
+    }
+  ]
+}
