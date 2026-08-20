@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-2026-aug.json",
-    "articles/ai-driven-dev-conf-report.json",
-    "articles/software-dev-best-practices-2026.json",
-    "articles/august-2026-ai-trends-shifts.json",
-    "articles/ai-driven-dev-trust-agent.json"
+    "articles/ai-autonomous-era.json",
+    "articles/ai-driven-dev-dora-report.json",
+    "articles/clean-code-principles.json",
+    "articles/ai-autonomous-era-2026-summer.json",
+    "articles/ai-driven-dev-mock-spec.json"
   ]
 }
