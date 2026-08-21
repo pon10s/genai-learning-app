@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-autonomous-era.json",
-    "articles/ai-driven-dev-dora-report.json",
-    "articles/clean-code-principles.json",
-    "articles/ai-autonomous-era-2026-summer.json",
-    "articles/ai-driven-dev-mock-spec.json"
+    "articles/gen-ai-trends-2026.json",
+    "articles/ai-driven-dev-user-focus.json",
+    "articles/business-process-review.json",
+    "articles/generative-ai-market-share-2026.json",
+    "articles/ai-driven-dev-user-focus-dora.json"
   ]
 }
