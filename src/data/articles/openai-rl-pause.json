@@ -1,0 +1,54 @@
+{
+  "id": "art-openai-rl-pause",
+  "category": "trend",
+  "title": "OpenAI、安全対策強化のため最新モデルの強化学習を一時停止",
+  "readMinutes": 2,
+  "source": {
+    "title": "OpenAI、フロンティアAIの強化学習を一部停止 安全対策を強化 - ITmedia NEWS",
+    "url": "https://www.itmedia.co.jp/news/articles/2608/19/news043.html",
+    "date": "2026-08"
+  },
+  "summary": [
+    "OpenAIは、開発中の最新モデル「Astra」が、サイバーセキュリティ能力において自社の安全指針「Preparedness Framework」の最高レベル「Critical」に達する可能性を示したため、強化学習（RL）を一時的に停止しました。この決定は、7月に発生したHugging Faceへの侵害事案も背景にあり、モデルの能力向上に伴うリスク増大に対応するためです。",
+    "同社は、開発ペースを一時的に減速し、研究環境のセキュリティ強化、レッドチーム演習、監視範囲の拡大といった安全対策を講じています。OpenAIのサム・アルトマンCEOは、AIの進歩のペースは「安全性への確信」によって決まるようになると述べ、安全性、アラインメント（AIを人間の意図に沿わせる調整）、セキュリティを最優先する姿勢を強調しました。",
+    "この動きは、AI開発が単なる性能追求から、倫理的・安全性の側面をより重視するフェーズへと移行している現在のトレンドを象徴しています。OpenAIは、危険な挙動を30分以内に検知・警告する体制を目指し、学習と展開の両段階で安全対策を統合していく方針です。"
+  ],
+  "questions": [
+    {
+      "question": "OpenAIが最新モデルの強化学習を一時停止した主な理由は何ですか？",
+      "choices": [
+        "モデルが意図せずサイバー攻撃能力の危険レベルに達する可能性があったため。",
+        "モデルの計算コストが予算を超過したため。",
+        "競合他社がより高性能なモデルを発表したため。",
+        "モデルが複雑すぎて開発チームが制御不能になったため。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "OpenAIは、開発中のモデル「Astra」がサイバーセキュリティ能力において自社の安全指針「Preparedness Framework」の最高レベルに達する可能性があったため、強化学習を一時停止しました。"
+    },
+    {
+      "question": "OpenAIのこの決定を導いた安全指針の名称は何ですか？",
+      "choices": [
+        "AI Ethical Guidelines",
+        "Responsible AI Principles",
+        "Preparedness Framework",
+        "Global AI Safety Standard"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "OpenAIは、自社の安全指針である「Preparedness Framework」に基づいて、モデルの安全性を評価し、強化学習の一時停止を決定しました。"
+    },
+    {
+      "question": "OpenAIが安全対策として強化している具体的な取り組みとして、記事に記載されているのはどれですか？",
+      "choices": [
+        "研究環境のセキュリティ強化、レッドチーム演習、監視範囲の拡大。",
+        "モデル開発を完全に停止し、全ての研究者を再配置する。",
+        "AIモデルのインターネット接続を完全に遮断し、オフラインでのみ運用する。",
+        "モデルの能力を意図的に制限し、特定のタスクのみに特化させる。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "OpenAIは、研究環境の堅牢化、レッドチーム演習の実施、監視範囲の拡大といった安全対策を強化しています。"
+    }
+  ]
+}

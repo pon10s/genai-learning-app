@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/gen-ai-trends-2026.json",
-    "articles/ai-driven-dev-user-focus.json",
-    "articles/business-process-review.json",
-    "articles/generative-ai-market-share-2026.json",
-    "articles/ai-driven-dev-user-focus-dora.json"
+    "articles/openai-rl-pause.json",
+    "articles/ai-driven-dev-future-corp.json",
+    "articles/privileged-id-nhi-management.json",
+    "articles/ai-harness-war.json",
+    "articles/ai-driven-dev-mock-spec.json"
   ]
 }
