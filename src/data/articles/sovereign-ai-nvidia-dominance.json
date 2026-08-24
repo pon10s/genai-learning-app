@@ -1,0 +1,55 @@
+{
+  "id": "art-sovereign-ai-nvidia-dominance",
+  "category": "trend",
+  "title": "ソブリンAIとNVIDIAの半導体寡占：各国の独自AI基盤整備の課題と選択肢",
+  "readMinutes": 2,
+  "source": {
+    "title": "ソブリンAIにおけるNVIDIAの92％シェア分析と各国の独自LLM基盤整備に向けた選択肢",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWpN3kDXM0-eRHT_aiiOiXuHfDPpRoO_pxxB8nLr_8wQDCZEwgNUwFt_0coVARu2ViAVq55cdiB8t-X_KSMgx3lgN37ADlBl8lpkV2bdWGIyiqyMpJg0jOi7TkMJmtnGcr0zfyPtfdunfc5AJp4NT3sRyuh_IQ82KTz40S4v8Xg0Lr0MKUPqWrCQE=",
+    "date": "2026-08"
+  },
+  "summary": [
+    "各国が国家安全保障、データ主権、自国言語への最適化を目指し、「ソブリンAI」として独自のAIモデル開発を加速させています。",
+    "しかし、Counterpoint Researchの2026年8月のレポートによると、米国と中国を除く世界55か国のソブリンAI向け大規模言語モデル（LLM）学習において、NVIDIAのAI半導体が92%という圧倒的なシェアを占めていることが明らかになりました。これは、自国主権を掲げる各国にとって、インフラ確保やコスト面で大きな制約となる計算基盤の寡占状態を示しています。",
+    "この状況に対し、日本はスーパーコンピューター「富岳」の独自CPU「A64FX ARM CPU」を活用した「Fugaku LLM-13B」を開発。また、AIスタートアップのSakana AIは、複数の既存モデルを組み合わせる「進化型モデルマージ技術」により、膨大な計算資源の調達に依存しないLLM構築を試みています。",
+    "欧州ではAMD、中東ではCerebras Systemsなど、NVIDIA以外の代替アーキテクチャや新興半導体企業の活用も模索されており、ソブリンAIの実現に向けた多様な戦略的布石が打たれています。"
+  ],
+  "questions": [
+    {
+      "question": "Counterpoint Researchの2026年8月のレポートで明らかになった、米国と中国を除くソブリンAI向けLLM学習におけるNVIDIAのAI半導体のシェアはどの程度か？",
+      "choices": [
+        "約92%",
+        "約75%",
+        "約50%",
+        "約30%"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、Counterpoint Researchが2026年8月5日に公表したレポートでは、米国と中国を除く世界55か国のソブリンAI向けLLM学習において、NVIDIAのAI半導体が92%のシェアを占めていることが示されています。"
+    },
+    {
+      "question": "NVIDIAの計算基盤への依存を減らすための日本の取り組みとして、記事中で具体的に挙げられているのはどれか？",
+      "choices": [
+        "Google CloudのTPUを積極的に導入し、NVIDIA製品の使用を段階的に廃止する。",
+        "スーパーコンピューター「富岳」の独自CPU「A64FX ARM CPU」を活用したLLMを開発する。",
+        "中国製AI半導体を大量に輸入し、国内でカスタマイズして使用する。",
+        "米AMDと大規模な共同研究施設を設立し、次世代GPUの開発を共同で行う。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、NVIDIAへの依存を減らす日本の取り組みとして、理化学研究所と富士通が共同開発したスーパーコンピューター「富岳」の独自CPU「A64FX ARM CPU」を活用した「Fugaku LLM-13B」の開発が挙げられています。"
+    },
+    {
+      "question": "「ソブリンAI」とは、主にどのような目的で各国が推進している取り組みか？",
+      "choices": [
+        "AI技術の国際標準化と、グローバルなAIエコシステムの構築。",
+        "自国のデータ主権、国家安全保障、自国言語への最適化。",
+        "大手AI企業の市場独占を促進し、技術革新を加速させること。",
+        "AI開発コストを最小限に抑え、汎用モデルを輸入することで効率化を図ること。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 1,
+      "explanation": "記事によると、ソブリンAIは「国家安全保障やデータ主権の確立、自国言語への最適化」を目的として、各国が独自AIモデルの開発を急ぐ取り組みです。"
+    }
+  ]
+}

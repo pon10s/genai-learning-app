@@ -1,0 +1,54 @@
+{
+  "id": "art-ai-driven-dev-conf",
+  "category": "ai-dev",
+  "title": "AI駆動開発の最新動向：カンファレンスから見る未来",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI駆動開発(AI-Driven Development) - AI駆動開発Conference Summer 2days",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC7Wd7JQd1Tl4VsjNxaLyUjee6mQ9pKiTfb1xHWHXNs2iK2qrxB7yCZ7sxqGiv7gIh85N-Yx8S36kOxBaruXrvD8CH0MV5SApeUvJgvYdEe5xp3x1w",
+    "date": "2026-07"
+  },
+  "summary": [
+    "2026年7月30日・31日に開催された「AI駆動開発Conference Summer 2days」は、多数の参加者を集め盛況のうちに終了しました。本カンファレンスでは、AIを活用したソフトウェア開発の最新動向と未来が議論されました。",
+    "AnysphereのNick Miller氏は「Building Your Own Software Factory」をテーマに、AIによる自律的な開発工場の構築について講演しました。",
+    "また、Cognition AI Japanのシバタアキラ氏と正井拓己氏は、AIエージェント「Devin」の国内展開と、エンジニアの役割が「コードを書く」から「ソフトウェア開発全体を推進する」へとシフトする未来像を示しました。次回は2027年冬に開催が予定されています。"
+  ],
+  "questions": [
+    {
+      "question": "「AI駆動開発Conference Summer 2days」の主要なテーマとして、記事中で強調されているのは次のうちどれですか？",
+      "choices": [
+        "AIエージェントによる自律的なソフトウェア開発の未来",
+        "ソブリンAIとNVIDIAの半導体技術の進化",
+        "データサイエンスにおけるLLMの倫理的課題",
+        "クラウドインフラストラクチャのコスト最適化手法"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事全体でAI駆動開発の未来とAIエージェントによる開発へのシフトが主要テーマとして語られています。Anysphereの「Building Your Own Software Factory」やCognition AI Japanの「コーディングの終わりと、ソフトウェア開発の始まり」という講演内容がこれを裏付けています。"
+    },
+    {
+      "question": "記事によると、「AI駆動開発Conference Summer 2days」でCognition AI Japanが国内展開について言及したAIエージェントの名称は何ですか？",
+      "choices": [
+        "Claude Code",
+        "GitHub Copilot",
+        "Devin",
+        "AMANEX"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事中で、Cognition AI Japanのシバタアキラ氏と正井拓己氏が「AIエージェント「Devin」の国内展開と企業導入を推進」について言及したと明記されています。"
+    },
+    {
+      "question": "「AI駆動開発Conference Summer 2days」におけるCognition AI Japanの講演で示唆された、ソフトウェア開発における今後の変化として最も適切なものはどれですか？",
+      "choices": [
+        "AIがコードレビューとテストを完全に自動化し、開発者の負担が大幅に軽減される",
+        "コーディング作業が終わりを迎え、より高次のソフトウェア開発フェーズに焦点が移る",
+        "開発者がAIモデルの微調整（ファインチューニング）を専門的に行うようになる",
+        "AIが要件定義からデプロイまで全ての工程を自律的に担当し、人間の介入が不要になる"
+      ],
+      "answerIndex": 1,
+      "difficulty": 3,
+      "explanation": "Cognition AI Japanの基調講演タイトル「コーディングの終わりと、ソフトウェア開発の始まり」が、この変化を直接的に示唆しています。AIエージェントの活用により、エンジニアの役割はコード記述からより高次の開発プロセスへと移行すると考えられます。"
+    }
+  ]
+}
