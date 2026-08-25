@@ -1,9 +1,9 @@
 {
   "articles": [
     "articles/sovereign-ai-nvidia-dominance.json",
-    "articles/ai-driven-dev-conf.json",
-    "articles/git-github-intro-ctc.json",
-    "articles/altman-ai-slowdown.json",
-    "articles/mock-as-spec-ai-driven-dev.json"
+    "articles/ai-driven-development-future-corp.json",
+    "articles/security-by-design-2026-07.json",
+    "articles/pwc-ai-agent-enterprise-2026.json",
+    "articles/ai-driven-mock-specs.json"
   ]
 }
