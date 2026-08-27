@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/sovereign-ai-nvidia-dominance.json",
-    "articles/ai-driven-development-future-corp.json",
-    "articles/security-by-design-2026-07.json",
-    "articles/pwc-ai-agent-enterprise-2026.json",
-    "articles/ai-driven-mock-specs.json"
+    "articles/ai-developments-august-2026.json",
+    "articles/ai-driven-dev-mock-spec.json",
+    "articles/developer-skill-evolution-2026.json",
+    "articles/llm-model-portfolio-2026.json",
+    "articles/github-copilot-enterprise-overview.json"
   ]
 }
