@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-developments-august-2026.json",
+    "articles/google-gemini-august-2026-updates.json",
     "articles/ai-driven-dev-mock-spec.json",
-    "articles/developer-skill-evolution-2026.json",
-    "articles/llm-model-portfolio-2026.json",
-    "articles/github-copilot-enterprise-overview.json"
+    "articles/software-dev-basics-2026.json",
+    "articles/ai-trends-august-2026.json",
+    "articles/serverworks-ai-dev-refresh.json"
   ]
 }
