@@ -1,0 +1,54 @@
+{
+  "id": "art-ai-coding-agent-trend-2026",
+  "category": "trend",
+  "title": "プロ開発者のAIコーディングエージェント利用状況：Claude CodeがGitHub Copilotを逆転しトップに",
+  "readMinutes": 2,
+  "source": {
+    "title": "プロ開発者の90％がAIコーディングエージェントを週1回以上利用、Claude CodeのシェアがGitHub Copilotを逆転して約2倍差の1位 - GIGAZINE",
+    "url": "https://gigazine.net/news/20260824-ai-coding-agent-adoption-2026/",
+    "date": "2026-08"
+  },
+  "summary": [
+    "JetBrains Researchが実施した「Developer Ecosystem Survey 2026」によると、プロ開発者の間でAIコーディングエージェントの利用が急速に拡大しています。2026年5月から7月にかけて、世界中の1万5000人以上のプロ開発者のうち、90%が週に1回以上、68%が毎日これらのツールを業務で使用していることが明らかになりました。",
+    "特に注目すべきは、AIコーディングエージェントの市場シェアにおける大きな変化です。これまでトップであったGitHub Copilotを抜き、Anthropic社のClaude Codeが約2倍の差をつけて利用シェア1位を獲得しました。",
+    "主要なAIツールの認知度では、GitHub CopilotとClaude Codeが共に79%でトップを並走しており、Claude Codeは直近で急速に認知度を伸ばしています。この調査結果は、AI駆動開発が現代の開発現場において不可欠な存在になっている現状と、ツールの勢力図が変化していることを示しています。"
+  ],
+  "questions": [
+    {
+      "question": "「Developer Ecosystem Survey 2026」によると、プロ開発者のうち週に1回以上AIコーディングエージェントを利用しているのは何パーセントですか？",
+      "choices": [
+        "50%",
+        "68%",
+        "79%",
+        "90%"
+      ],
+      "answerIndex": 3,
+      "difficulty": 2,
+      "explanation": "記事によると、プロ開発者の90%が週に1回以上AIコーディングエージェントを利用し、68%が毎日使用していると報告されています。"
+    },
+    {
+      "question": "2026年5月～7月時点の調査で、業務での利用状況においてGitHub Copilotを大きく上回り、トップシェアを獲得したAIコーディングエージェントは何ですか？",
+      "choices": [
+        "Codex",
+        "Gemini Code",
+        "Claude Code",
+        "Llama Code"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、Claude CodeがGitHub Copilotの約2倍のシェアを獲得し、利用状況で1位になったと述べられています。"
+    },
+    {
+      "question": "2026年5月～7月時点の調査で、GitHub CopilotとClaude Codeの認知度（耳にしたことがあるか）はそれぞれ何パーセントでしたか？",
+      "choices": [
+        "27%",
+        "65%",
+        "79%",
+        "90%"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事によると、GitHub CopilotとClaude Codeの認知度は、2026年5月～7月時点で共に79%でトップを並走しているとされています。"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/google-gemini-august-2026-updates.json",
-    "articles/ai-driven-dev-mock-spec.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/ai-trends-august-2026.json",
-    "articles/serverworks-ai-dev-refresh.json"
+    "articles/ai-coding-agent-trend-2026.json",
+    "articles/waterfall-boost-ai-dev.json",
+    "articles/development-flow-guide.json",
+    "articles/pwc-ai-agent-augmented-enterprise-2026.json",
+    "articles/harness-engineering-ai-dev.json"
   ]
 }
