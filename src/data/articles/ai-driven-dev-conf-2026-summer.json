@@ -1,0 +1,42 @@
+{
+  "id": "art-ai-driven-dev-conf-2026-summer",
+  "category": "ai-dev",
+  "title": "AI駆動開発の最前線：自律型AIエンジニアが拓く未来",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI駆動開発(AI-Driven Development) - AI駆動開発Conference Summer 2days",
+    "url": "https://www.ai-driven.dev/",
+    "date": "2026-07"
+  },
+  "summary": [
+    "2026年7月30日・31日に開催された「AI駆動開発Conference Summer 2days」は、3800人を超える参加者を集め、AIが主導するソフトウェア開発の最新動向が議論されました。",
+    "このカンファレンスでは、Cognition AIの「Devin」やMicrosoftの「AutoDev」といった「自律型エンジニアAI」が特に注目を集めました。これらは、情報の検索からコーディング、プロジェクト展開まで、一連の開発プロセスをAIが自律的に完結させることを目指しています。",
+    "キーノートでは「コーディングの終わりと、ソフトウェア開発の始まり」というテーマが掲げられ、AIが開発の広範なタスクを担うことで、エンジニアの役割が大きく変化し、ソフトウェア開発そのものの定義が再構築される可能性が示唆されました。AI駆動開発は、単なるコード生成を超え、開発プロセス全体の変革へと進化していることが示されています。"
+  ],
+  "questions": [
+    {
+      "question": "「AI駆動開発Conference Summer 2days」で特に注目された、開発プロセス全体を自律的に完結させるAIの名称として記事で挙げられたものはどれですか？",
+      "choices": [
+        "DevinとAutoDev",
+        "AlphaGoとDeepMind",
+        "GitHub CopilotとTabnine",
+        "ChatGPTとBard"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、Cognition AIの「Devin」とMicrosoftの「AutoDev」が、情報の検索からコーディング、プロジェクト展開まで一連の開発プロセスを完結させる「自律型エンジニアAI」として紹介されています。AlphaGoは囲碁AI、DeepMindはAI研究企業、GitHub CopilotとTabnineはコード補完ツール、ChatGPTとBardは汎用チャットAIであり、記事の文脈における「開発プロセス全体を自律的に完結させるAI」とは異なります。"
+    },
+    {
+      "question": "このカンファレンスで示唆された、AI駆動開発におけるエンジニアの役割の変化に関する主要な考え方はどれですか？",
+      "choices": [
+        "エンジニアはAIが生成したコードのデバッグのみを行うようになる。",
+        "コーディング作業は終わりを迎え、AIが広範な開発タスクを担うようになる。",
+        "エンジニアはAIモデルの学習データ準備が主な業務となる。",
+        "AIは補助ツールに過ぎず、エンジニアの役割に大きな変化はない。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、講演テーマとして「コーディングの終わりと、ソフトウェア開発の始まり」が挙げられており、AIが開発の広範なタスクを担うことで、エンジニアの役割が変化し、ソフトウェア開発そのものの定義が大きく変わる可能性が示唆されています。"
+    }
+  ]
+}
