@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/claude-code-non-engineer.json",
-    "articles/ai-driven-development-2026.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/ai-breakthroughs-2026.json",
-    "articles/ai-driven-dev-pitfalls-2026.json"
+    "articles/ai-unpredictable-era-2026-summer.json",
+    "articles/goodpatch-band-acquisition.json",
+    "articles/dev-env-2026.json",
+    "articles/foundation-model-multimodal-trend.json",
+    "articles/ai-driven-development-2026.json"
   ]
 }

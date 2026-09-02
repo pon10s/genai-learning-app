@@ -1,0 +1,54 @@
+{
+  "id": "art-dev-env-2026",
+  "category": "basics",
+  "title": "2026年版 エンジニアの開発環境 最新ガイド",
+  "readMinutes": 2,
+  "source": {
+    "title": "新年度に整えたいエンジニアの開発環境 2026 — 7領域の定番ツールと優先順位",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELdEPM6Ga9Qm0S-L_ChkubkiJwnCLBZhC2-Pr0_1dNvoaiLJnHAMUfB3pCBuvjL_svQp36K6U4vsAGSJOpHOLQN2U2bW-WFAsjkX6jG7e7ifXXEGzSprX9v6F9avR23FkhUGoy8gi3i5f6M172rewIdhKVSFUeiO3of6VWKw==",
+    "date": "2026-07"
+  },
+  "summary": [
+    "2026年のエンジニア向け開発環境は、AIコーディング、CLI、ターミナル、コンテナ、バージョン管理、通知管理、構成管理の7つの主要領域で構成されます。記事では、これら各領域における最新の定番ツールと、それらを選定する際の基準が体系的に解説されています。",
+    "具体的には、AIとの連携が強化されたエディタ（VS Code, Cursor）、高速なCLIツール（ripgrep, eza, uv）、高機能なターミナル（Warp, Ghostty）、開発環境の再現性を高めるコンテナ（Docker Desktop, Colima）、効率的なGit操作を支援するツール（GitHub Desktop, LazyGit）、チーム連携のための通知管理、そして環境の一貫性を保つ構成管理ツール（mise, Homebrew）などが推奨されています。AIの進化に伴い、エディタとAIの連携や高速なCLIツールによる開発効率向上が特に重要視される傾向にあります。",
+    "新しいツールの導入にあたっては、「投資効果マトリクス」を用いて優先順位をつけ、「本当に生産性が上がるか」「既存ワークフローとの摩擦を最小化」「ツール沼に陥らず定期的に見直す」という「やり過ぎない3原則」を守ることが肝要です。これにより、単なるツールの導入ではなく、実質的な開発効率とチーム全体の生産性向上を目指すことが推奨されています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年の開発環境において、エディタに最も求められる機能として記事で強調されているのはどれですか？",
+      "choices": [
+        "高度なグラフィックレンダリング能力",
+        "AIによるコード生成支援機能",
+        "複数人での同時編集機能",
+        "ローカル環境での高速なコンパイル機能"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、AIがコード生成を支援する時代において、VS CodeやCursorのようなエディタはAIとの連携が重要であると強調されています。"
+    },
+    {
+      "question": "記事で推奨されている、新しい開発ツールを導入する際の「やり過ぎない3原則」に含まれないものはどれですか？",
+      "choices": [
+        "本当に生産性が上がるかを問う",
+        "既存のワークフローとの摩擦を最小化する",
+        "最新の流行ツールを常に導入する",
+        "ツール沼にハマらず、定期的に見直す"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "「やり過ぎない3原則」には、「本当に生産性が上がるか？を問う」「既存ワークフローとの摩擦を最小化」「飽きないためのバランス（ツール沼にハマらない）」が含まれます。「最新の流行ツールを常に導入する」は、原則の趣旨に反します。"
+    },
+    {
+      "question": "記事中で、高速なファイル検索に推奨されているCLIツールは何ですか？",
+      "choices": [
+        "eza",
+        "uv",
+        "ripgrep",
+        "mise"
+      ],
+      "answerIndex": 2,
+      "difficulty": 1,
+      "explanation": "CLIツールの領域で、記事は高速な検索ツールとして「ripgrep」を推奨しています。ezaは`ls`の代替、uvはPythonパッケージ管理、miseは構成管理ツールです。"
+    }
+  ]
+}
