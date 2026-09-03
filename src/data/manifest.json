@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-unpredictable-era-2026-summer.json",
-    "articles/goodpatch-band-acquisition.json",
-    "articles/dev-env-2026.json",
-    "articles/foundation-model-multimodal-trend.json",
-    "articles/ai-driven-development-2026.json"
+    "articles/ai-driven-development-2026.json",
+    "articles/ai-driven-dev-productivity.json",
+    "articles/code-refactoring-guide.json",
+    "articles/ai-agentic-era-2026-aug.json",
+    "articles/ai-driven-development-2026-skills.json"
   ]
 }
