@@ -1,0 +1,54 @@
+{
+  "id": "art-gemini-3-8-flash-lgwan",
+  "category": "trend",
+  "title": "Gemini 3.8 Flash、自治体AI zevoで提供開始",
+  "readMinutes": 2,
+  "source": {
+    "title": "【Gemini 3.8 Flash】自治体AI zevoにて2026年9月3日（木曜日）より提供開始！",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO789A-5ZTTgt5UNEOOp-HeJMB5ypdfViD0Dy6bzVJ-MiNQu1ty5v76NR2EJpBhA12SYT__usUvNYgHgeGq06ONhDwKUM5uh8WGfQ_mOI2D1euh2dwZVSOsgy8IIrRSQ--08rYkSUIxi369gp2yGpRgdU7iWlg=",
+    "date": "2026-09"
+  },
+  "summary": [
+    "シフトプラス株式会社は、2026年9月3日より、自治体向け生成AIシステム「自治体AI zevo」でGoogleの最新AIモデル「Gemini 3.8 Flash」の提供を開始しました。自治体AI zevoは、ChatGPTやClaude、Geminiといった生成AIをLGWAN環境（地方公共団体情報システム強靭化モデルに準拠したネットワーク）で安全に利用できるシステムです。",
+    "Gemini 3.8 Flashは、前モデルのGemini 3.7 Flashと比較して、特にコード作成や専門知識を要する業務における多段階の推論能力が大幅に向上しています。これにより、法令や財務といった専門的な内容の読み解き、整理、分析などの複雑な業務にも、その高い推論力を活かして迅速に対応することが可能です。",
+    "この最新モデルは、高性能でありながら前モデルと同水準の利用料金と応答速度を維持しており、コストを抑えつつ幅広い業務での活用が期待されます。自治体AI zevoの利用者は、追加費用なしでこの新しいGemini 3.8 Flashを利用でき、さらなる機能拡張が継続的に進められる予定です。"
+  ],
+  "questions": [
+    {
+      "question": "Gemini 3.8 Flashの主な強化点は何ですか？",
+      "choices": [
+        "コード作成や専門知識を要する業務における多段階の推論能力の向上",
+        "画像認識精度の飛躍的な向上とマルチモーダル機能の追加",
+        "より高速なデータ処理のための新たなハードウェア最適化",
+        "多言語対応能力の強化と翻訳精度の改善"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Gemini 3.8 Flashは、前モデルと比較して、コード作成や専門知識を要する業務における多段階の推論能力が大きく向上しました。"
+    },
+    {
+      "question": "「自治体AI zevo」はどのような目的で開発されたシステムですか？",
+      "choices": [
+        "一般企業が生成AIを導入する際のコンサルティング支援を行うため",
+        "地方公共団体がLGWAN環境で安全に生成AIを活用できるようにするため",
+        "個人開発者が手軽にLLMを試せるオープンソースプラットフォームを提供するため",
+        "AIモデルのベンチマークテストと性能評価を自動化するため"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "自治体AI zevoは、都城市と共同開発され、ChatGPT/Claude/Geminiなどの生成AIを自治体のLGWAN環境で活用できるシステムです。"
+    },
+    {
+      "question": "Gemini 3.8 Flashのコストと性能に関する特徴として正しい記述はどれですか？",
+      "choices": [
+        "性能は向上したが、利用料金も大幅に値上げされた",
+        "前モデルと同水準の利用料金と応答速度を維持しつつ、高性能である",
+        "性能は前モデルと同等だが、利用料金が大幅に引き下げられた",
+        "応答速度は向上したが、利用料金は前モデルよりも高くなった"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "Gemini 3.8 Flashは、高性能でありながら、前モデルと同水準の利用料金・応答速度を維持しており、コストを抑えつつ幅広い業務でご利用いただけます。"
+    }
+  ]
+}

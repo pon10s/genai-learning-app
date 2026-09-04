@@ -1,9 +1,9 @@
 {
   "articles": [
+    "articles/ai-trends-sept-2026.json",
     "articles/ai-driven-development-2026.json",
-    "articles/ai-driven-dev-productivity.json",
-    "articles/code-refactoring-guide.json",
-    "articles/ai-agentic-era-2026-aug.json",
-    "articles/ai-driven-development-2026-skills.json"
+    "articles/software-dev-basics-2026.json",
+    "articles/gemini-3-8-flash-lgwan.json",
+    "articles/ai-driven-dev-productivity-metrics.json"
   ]
 }
