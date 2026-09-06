@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-huggingface-incident-2026.json",
-    "articles/ai-driven-dev-genai.json",
-    "articles/maintainable-code-basics.json",
-    "articles/local-llm-trends-2026-summer.json",
-    "articles/ai-driven-dev-skills.json"
+    "articles/ai-dev-shift.json",
+    "articles/ai-driven-dev-productivity-shift.json",
+    "articles/dev-skill-evolution-2026.json",
+    "articles/gpt6-astra-release.json",
+    "articles/ai-driven-dev-2026-survival-key.json"
   ]
 }
