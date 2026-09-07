@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-dev-shift.json",
-    "articles/ai-driven-dev-productivity-shift.json",
-    "articles/dev-skill-evolution-2026.json",
-    "articles/gpt6-astra-release.json",
-    "articles/ai-driven-dev-2026-survival-key.json"
+    "articles/genai-copy-paste-usage-2026.json",
+    "articles/ai-driven-dev-guidelines.json",
+    "articles/dev-env-2026.json",
+    "articles/ai-2026-problem.json",
+    "articles/ai-driven-dev-productivity.json"
   ]
 }
