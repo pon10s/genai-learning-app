@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/genai-copy-paste-usage-2026.json",
-    "articles/ai-driven-dev-guidelines.json",
-    "articles/dev-env-2026.json",
-    "articles/ai-2026-problem.json",
-    "articles/ai-driven-dev-productivity.json"
+    "articles/openai-automated-intern.json",
+    "articles/ai-driven-dev-sdd-convergence.json",
+    "articles/software-supply-chain-security-2026.json",
+    "articles/generative-ai-copy-paste-usage.json",
+    "articles/ibm-ai-driven-dev-challenges.json"
   ]
 }
