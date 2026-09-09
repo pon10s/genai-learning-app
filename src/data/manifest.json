@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-automated-intern.json",
+    "articles/ai-agentic-era-2026.json",
     "articles/ai-driven-dev-sdd-convergence.json",
-    "articles/software-supply-chain-security-2026.json",
-    "articles/generative-ai-copy-paste-usage.json",
-    "articles/ibm-ai-driven-dev-challenges.json"
+    "articles/developer-skill-evolution-2026.json",
+    "articles/llm-jacking-threat.json",
+    "articles/ai-driven-dev-productivity-metrics.json"
   ]
 }
