@@ -1,0 +1,54 @@
+{
+  "id": "art-gpt6-astra-release",
+  "category": "trend",
+  "title": "OpenAI、次世代AIモデル「GPT-6 Astra」を発表 – AGI時代への一歩",
+  "readMinutes": 2,
+  "source": {
+    "title": "GPT-6とは？Astraの性能・料金・GPT-5.6との違い【2026年9月最新】 - JAPAN AI",
+    "url": "https://japan-ai.co.jp/gpt-6-astra/",
+    "date": "2026-09"
+  },
+  "summary": [
+    "OpenAIは2026年9月3日、次世代のフラッグシップAIモデル「GPT-6 Astra」を正式リリースしました。これはOpenAIが「これまでで最も賢く、最も整合したモデル」と位置づけるもので、テキサス州のStargateデータセンターで10万基超のGPUを使って訓練されました。",
+    "従来のGPTシリーズが「質問に回答するAI」であったのに対し、Astraは「コンピュータを操作して仕事を完了するAI」へと進化を遂げた点が最大の特徴です。OpenAIの社長兼共同創業者であるGreg Brockman氏は、Astraが「すでにAGI（汎用人工知能）と呼べる水準か、少なくともその射程内にある」と述べ、「AGI時代へようこそ」という言葉で締めくくりました。",
+    "GPT-6 Astraは、1,050,000トークンのコンテキストウィンドウと最大128,000トークンの出力に対応し、知識カットオフは2026年4月30日です。ChatGPTの有料プラン（Plus、Pro、Business、Enterprise）やOpenAI APIを通じて利用可能となります。"
+  ],
+  "questions": [
+    {
+      "question": "GPT-6 Astraの最も重要な進化点は、従来のGPTシリーズと比較して何ですか？",
+      "choices": [
+        "コンピュータを操作して仕事を完了する能力の獲得",
+        "画像生成速度が50%向上したこと",
+        "リアルタイムでX（旧Twitter）のデータにアクセスできること",
+        "100万トークンを超える入力に対応したこと"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "GPT-6 Astraは、従来の「質問に回答するAI」から「コンピュータを操作して仕事を完了するAI」へと進化した点が最大の特徴とされています。"
+    },
+    {
+      "question": "OpenAIの社長兼共同創業者であるGreg Brockman氏がGPT-6 Astraの発表に関連して述べた、注目すべき発言は何でしたか？",
+      "choices": [
+        "「AGI時代へようこそ」",
+        "「AIはもはや魔法のツールではない」",
+        "「ローカルLLMの時代が到来した」",
+        "「AI開発は減速すべきである」"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Greg Brockman氏は、GPT-6 Astraが「AGI（汎用人工知能）と呼べる水準か、少なくともその射程内にある」と述べ、「AGI時代へようこそ」という言葉で発表を締めくくりました。"
+    },
+    {
+      "question": "GPT-6 Astraのコンテキストウィンドウサイズは、およそどのくらいですか？",
+      "choices": [
+        "1,050,000トークン",
+        "128,000トークン",
+        "10,000トークン",
+        "500,000トークン"
+      ],
+      "answerIndex": 0,
+      "difficulty": 3,
+      "explanation": "GPT-6 Astraの基本仕様として、コンテキストウィンドウは1,050,000トークンであることが記事に明記されています。128,000トークンは最大出力のサイズです。"
+    }
+  ]
+}
