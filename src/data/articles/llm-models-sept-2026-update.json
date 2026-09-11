@@ -1,0 +1,43 @@
+{
+  "id": "art-llm-models-sept-2026-update",
+  "category": "trend",
+  "title": "2026年9月 主要AIモデル最新動向",
+  "readMinutes": 2,
+  "source": {
+    "title": "AIモデル一覧｜用途別おすすめと最新ステータス【2026年9月】",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF8Pvt7iJwKV2zF6f72rOrmFofaLNaecnBJSlSRCUKMABQjbDRM-bm39nIiBxiN_FxLSWGE1Na6P2iKIUt5CEANCWqRazcQXySgIMm4-0m5KiBTxirPkPGjPPKz5CGqDgIhCUdJYuNu96MC47sbNr5dEuVtabJ-w==",
+    "date": "2026-09"
+  },
+  "summary": [
+    "2026年9月現在、主要なAIモデルの進化は非常に速く、各社からフロンティアモデルの新たなバージョンや機能が次々と発表されています。企業がAI活用を検討する上で、常に最新情報をキャッチアップし、適切なモデル選定を行うことの重要性が高まっています。",
+    "OpenAIは、7月にGPT-5.6（Sol/Terra/Lunaの3階層）と自律エージェント「ChatGPT Work」、会話中に聞きながら話せる音声モデル「GPT-Live」を正式にリリースしました。さらに、9月には高性能な「GPT-6 Astra」を発表しています。",
+    "AnthropicのClaude Fable 5とMythos 5は、6月の停止を経て7月1日に再開され、9月1日にはFable 5.1がリリースされました。Fable 5の無料枠は7月20日に決着し、料金体系も変更されています。",
+    "その他、xAIはコーディング・エージェントに特化したGrok 4.5および4.6を、Moonshot AIは2.8兆パラメータのKimi K3を、GoogleはAIエージェント「Gemini Spark」の日本語版提供を開始するなど、AIエージェント機能の強化や専門特化型モデルの登場が顕著なトレンドとなっています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年7月から9月にかけての主要なAIモデルの動向として、記事に記載されていないものはどれですか？",
+      "choices": [
+        "OpenAIがGPT-5.6と自律エージェント「ChatGPT Work」を正式公開した。",
+        "AnthropicのClaude Fable 5の無料枠が恒久的に提供されることになった。",
+        "xAIがコーディング・エージェント特化のGrok 4.5および4.6を公開した。",
+        "GoogleがAIエージェント「Gemini Spark」の日本語提供を開始した。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事によると、AnthropicのClaude Fable 5の無料枠は2026年7月20日に決着し、Max・Team Premiumは恒久提供、Pro・Team StandardはUsage Credits（従量課金）に移行したとされています。無料枠が恒久的に提供されるわけではありません。"
+    },
+    {
+      "question": "記事中で言及されている、OpenAIが2026年9月3日に公開した最新モデルの名称は何ですか？",
+      "choices": [
+        "GPT-5.6 Terra",
+        "GPT-Live",
+        "GPT-6 Astra",
+        "ChatGPT Work"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事には「9月3日にOpenAIがGPT-6 Astraを公開」と明記されています。 GPT-5.6 Terraは7月9日に公開されたGPT-5.6の3階層の一つ、GPT-Liveは7月8日公開の音声モデル、ChatGPT Workは7月9日公開の自律エージェントです。"
+    }
+  ]
+}

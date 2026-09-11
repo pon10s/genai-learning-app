@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/gpt6-astra-release.json",
-    "articles/ai-first-development-beekle.json",
-    "articles/secure-coding-basics-2026.json",
-    "articles/ai-agent-trend-2026.json",
-    "articles/tdi-ai-dev-framework.json"
+    "articles/openai-research-acceleration-202609.json",
+    "articles/tdi-ai-dev-service.json",
+    "articles/security-by-design.json",
+    "articles/llm-models-sept-2026-update.json",
+    "articles/ai-driven-dev-process-change.json"
   ]
 }

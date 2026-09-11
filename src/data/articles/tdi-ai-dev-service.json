@@ -1,0 +1,54 @@
+{
+  "id": "art-tdi-ai-dev-service",
+  "category": "ai-dev",
+  "title": "TDI、AI駆動開発支援の新サービスを開始",
+  "readMinutes": 2,
+  "source": {
+    "title": "TDI、AI実装の伴走支援「TDI FDEサービス」と AI駆動開発「TDI AI Dev Style Framework」を提供開始",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Jw1yoj5tEoHtBsYtC8M2ViFf8Y9P5hytdOHv1mXX10-jSUz0HDJTfRG3IcUTgC0tPn3JPrP4dOkGWSZerrO1gOjYmnBvIkLp1SRdDYUGbbmip025OURnhzsl-yn6siQ=",
+    "date": "2026-09"
+  },
+  "summary": [
+    "TDI株式会社は2026年9月より、AI技術の導入とシステム開発を支援する二つの新サービス「TDI FDEサービス」と「TDI AI Dev Style Framework」の提供を開始しました。これは、多くの企業がAI導入を進める中で、「業務に定着しない」「自社の業務プロセスにどう組み込めばよいか分からない」といった一般的な課題を解決することを目的としています。",
+    "「TDI FDEサービス」は、FDE（Forward Deployed Engineer）の概念に基づき、顧客の業務最前線に深く入り込み、AIツールの単なる提供にとどまらず、お客様の業務プロセスにAIをどう組み込めば最大の効果が出るかを設計し、実業務で成果が出るまで伴走支援します。これにより、AIが真に業務に定着し、価値を生み出すことを目指します。",
+    "もう一つの「TDI AI Dev Style Framework」は、システム開発の全フェーズでAIを活用するTDI独自のフレームワークです。このフレームワークを導入することで、属人的なミスを削減し、開発リードタイムを短縮することで、高品質なシステムを均一かつスピーディに提供できるようになります。結果として、エンジニアはより創造的で付加価値の高い業務に集中できるようになり、顧客の継続的な成長と企業価値向上に貢献するとされています。"
+  ],
+  "questions": [
+    {
+      "question": "TDI株式会社が2026年9月に提供を開始した新サービスのうち、顧客の業務最前線に入り込み、AI導入から業務定着まで伴走支援するサービスは何ですか？",
+      "choices": [
+        "TDI AI Dev Style Framework",
+        "TDI FDEサービス",
+        "TDI DX Transformation Program",
+        "TDI AI Consulting Suite"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事によると、「TDI FDEサービス」はFDE（Forward Deployed Engineer）の概念に基づき、顧客の業務最前線に入り込み、AI導入から業務定着まで伴走支援するサービスです。"
+    },
+    {
+      "question": "「TDI AI Dev Style Framework」を導入することで期待される主な効果として、記事で言及されているのはどれですか？",
+      "choices": [
+        "AIモデルの自社開発能力の向上",
+        "属人的ミスの削減と開発リードタイムの短縮",
+        "既存システムの大規模な刷新",
+        "AI人材の外部からの大量採用"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、「TDI AI Dev Style Framework」によって「属人的なミスの削減や開発リードタイムの短縮を実現し、高品質なシステムを均一かつスピーディに提供します」と説明されています。"
+    },
+    {
+      "question": "TDI株式会社が新サービス提供の背景として挙げている、AI導入における一般的な課題は何ですか？",
+      "choices": [
+        "AIモデルの性能不足",
+        "AI導入コストの過剰な増大",
+        "導入したAIが業務に定着しない、または組み込み方が分からない",
+        "AI開発に必要なデータが不足している"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事の「背景と目的」において、「導入したものの業務に定着しない」「自社の業務プロセスにどう組み込めばよいか分からない」といった課題が浮き彫りになっていると述べられています。"
+    }
+  ]
+}
