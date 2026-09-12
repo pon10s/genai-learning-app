@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-research-acceleration-202609.json",
-    "articles/tdi-ai-dev-service.json",
-    "articles/security-by-design.json",
-    "articles/llm-models-sept-2026-update.json",
-    "articles/ai-driven-dev-process-change.json"
+    "articles/llm-news-september-2026.json",
+    "articles/ai-driven-dev-productivity-metrics-2026.json",
+    "articles/clean-code-relevance-2026.json",
+    "articles/ai-development-slowdown-proposal.json",
+    "articles/ai-driven-dev-limits-20260903.json"
   ]
 }
