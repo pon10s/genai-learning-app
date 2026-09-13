@@ -1,0 +1,42 @@
+{
+  "id": "art-llm-updates-202608",
+  "category": "trend",
+  "title": "2026年8月版：主要LLMの最新動向と活用ポイント",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年8月版】LLM最新動向まとめ｜3社の更新と現場で使うコツ",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHcXEde8mYpjRv-V3dXhnkh-M-7ySDP0BbI55d0OYi7YSr8oWqGFAnkAkLcewqCasIe5S4EZavMadghrv4W6Xw6VsA35ceb0J4NlxUiUP3QBPZL1jaC-0MsW33qhacpkSWJhEJOtob",
+    "date": "2026-09"
+  },
+  "summary": [
+    "2026年8月の主要な大規模言語モデル（LLM）の動向として、Anthropic、Google、OpenAIの3社からの更新が注目されています。特にAnthropicのClaudeモデルは、8月2日以降に生成されるテキストに対し、読者には見えない電子透かしを埋め込む機能を導入しました。これは、生成されたコンテンツの出所を追跡するためのもので、文章の品質には影響しません。",
+    "Googleからは、コーディングやエージェント用途に特化した主力モデル「Gemini 3.7 Flash」がリリースされました。同時にGoogle Workspaceの新機能として、社内ルールやテンプレートを反映した指示を共有できるようになり、業務アプリケーションでのAI活用がさらに標準化されつつあります。",
+    "これらの動きは、LLMが単なる高機能化だけでなく、信頼性の確保（電子透かし）や、実際の業務環境での利便性向上（業務アプリ連携）といった側面にも注力していることを示しています。記事では、こうした最新トレンドを踏まえ、企業がAIを効果的に活用し続けるための具体的なコツも紹介されています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年8月以降、AnthropicのClaudeモデルに導入された主要な新機能は何ですか？",
+      "choices": [
+        "生成テキストへの電子透かし埋め込み",
+        "リアルタイムでの多言語翻訳機能",
+        "高度な画像生成能力の追加",
+        "音声コマンドによるモデル制御"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "AnthropicのClaudeモデルは、2026年8月2日以降に生成するテキストに、読者には分からない電子透かしを埋め込む機能を導入しました。これは生成されたテキストの出所を追跡するためのものです。"
+    },
+    {
+      "question": "Googleが最近発表したGeminiとGoogle Workspaceに関する更新内容として正しいものはどれですか？",
+      "choices": [
+        "Gemini 3.7 Flashをコーディングとエージェント用途の主力モデルとして公開し、Workspaceでルールに基づく指示共有を可能にした",
+        "Geminiのハードウェアアクセラレータを新開発し、処理速度を大幅に向上させた",
+        "Geminiの画像認識機能のみを強化し、その他の機能は現状維持とした",
+        "Gemini 3.7 Flashの利用に新たな月額サブスクリプションモデルを導入した"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Googleは、コーディングとエージェント用途向けの主力モデルとしてGemini 3.7 Flashを公開しました。また、Google Workspaceの新機能として、社内ルールやテンプレートを反映した指示を共有できるようになったと記事に記載されています。"
+    }
+  ]
+}

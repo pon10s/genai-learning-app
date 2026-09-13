@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-news-september-2026.json",
-    "articles/ai-driven-dev-productivity-metrics-2026.json",
-    "articles/clean-code-relevance-2026.json",
-    "articles/ai-development-slowdown-proposal.json",
-    "articles/ai-driven-dev-limits-20260903.json"
+    "articles/ai-turbulent-week-sept2026.json",
+    "articles/ai-driven-dev-enterprise-202609.json",
+    "articles/technical-debt-as-investment.json",
+    "articles/llm-updates-202608.json",
+    "articles/ai-driven-dev-productivity-metrics.json"
   ]
 }
