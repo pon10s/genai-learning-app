@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-enterprise-trends-2026.json",
-    "articles/ai-driven-dev-trends-2026.json",
-    "articles/engineer-dev-environment-2026.json",
-    "articles/llm-model-portfolio-2026.json",
-    "articles/ai-driven-dev-evolution-2026.json"
+    "articles/meta-muse-agent.json",
+    "articles/ai-driven-dev-overview.json",
+    "articles/free-programming-sites-2026.json",
+    "articles/ai-safety-cooperation-2026-09.json",
+    "articles/ai-driven-dev-overview-5.json"
   ]
 }
