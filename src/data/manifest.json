@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/meta-muse-agent.json",
-    "articles/ai-driven-dev-overview.json",
-    "articles/free-programming-sites-2026.json",
-    "articles/ai-safety-cooperation-2026-09.json",
-    "articles/ai-driven-dev-overview-5.json"
+    "articles/sonybank-fujitsu-genai.json",
+    "articles/ai-driven-dev-productivity-paradox.json",
+    "articles/programming-basics-2026.json",
+    "articles/ai-agent-shift-2026.json",
+    "articles/godd-db-release.json"
   ]
 }
