@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/sonybank-fujitsu-genai.json",
-    "articles/ai-driven-dev-productivity-paradox.json",
-    "articles/programming-basics-2026.json",
-    "articles/ai-agent-shift-2026.json",
-    "articles/godd-db-release.json"
+    "articles/ai-trends-sept-2026.json",
+    "articles/ai-driven-dev-ibm.json",
+    "articles/software-dev-shift-2026.json",
+    "articles/ai-governance-gap.json",
+    "articles/graffer-ricoh-ai-dev.json"
   ]
 }
