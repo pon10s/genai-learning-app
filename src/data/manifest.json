@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trends-sept-2026.json",
-    "articles/ai-driven-dev-ibm.json",
-    "articles/software-dev-shift-2026.json",
-    "articles/ai-governance-gap.json",
-    "articles/graffer-ricoh-ai-dev.json"
+    "articles/anthropic-claude-ai-rd.json",
+    "articles/graffer-ricoh-ai-dev-program.json",
+    "articles/runteq-ai-curriculum-renewal.json",
+    "articles/anthropic-ai-misuse-safety.json",
+    "articles/kampo-ibm-ai-dev.json"
   ]
 }
