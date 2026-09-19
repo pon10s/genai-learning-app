@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/anthropic-claude-ai-rd.json",
-    "articles/graffer-ricoh-ai-dev-program.json",
-    "articles/runteq-ai-curriculum-renewal.json",
-    "articles/anthropic-ai-misuse-safety.json",
-    "articles/kampo-ibm-ai-dev.json"
+    "articles/generative-ai-agent-shift.json",
+    "articles/ai-driven-dev-trends-20260918.json",
+    "articles/runteq-ai-dev-curriculum.json",
+    "articles/ai-trend-2026-kaopiz.json",
+    "articles/ai-driven-development-overview.json"
   ]
 }
