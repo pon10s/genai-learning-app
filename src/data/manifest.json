@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-models-sept-2026-trend.json",
-    "articles/kampo-ibm-ai-dev.json",
-    "articles/system-dev-flow.json",
-    "articles/jev-non-generative-ai.json",
-    "articles/graffer-ricoh-ai-dev.json"
+    "articles/ai-snapshot-sept-2026.json",
+    "articles/ai-dev-2026-data.json",
+    "articles/clean-architecture-basics.json",
+    "articles/jev-ai-model.json",
+    "articles/ai-driven-development-paradox.json"
   ]
 }
