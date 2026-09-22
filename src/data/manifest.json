@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-snapshot-sept-2026.json",
-    "articles/ai-dev-2026-data.json",
-    "articles/clean-architecture-basics.json",
-    "articles/jev-ai-model.json",
-    "articles/ai-driven-development-paradox.json"
+    "articles/jev-system-one-model.json",
+    "articles/ibm-ai-driven-dev-2026.json",
+    "articles/ci-cd-basics-2026.json",
+    "articles/autonomous-ai-agents-enterprise.json",
+    "articles/mizuho-ai-driven-dev.json"
   ]
 }
