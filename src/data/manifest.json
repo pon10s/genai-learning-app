@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/jev-system-one-model.json",
-    "articles/ibm-ai-driven-dev-2026.json",
-    "articles/ci-cd-basics-2026.json",
-    "articles/autonomous-ai-agents-enterprise.json",
-    "articles/mizuho-ai-driven-dev.json"
+    "articles/agentic-ai-trend-202609.json",
+    "articles/ai-driven-dev-productivity-shift.json",
+    "articles/requirements-definition-basics.json",
+    "articles/llm-portfolio-2026.json",
+    "articles/ai-driven-ux-dev-2026.json"
   ]
 }
