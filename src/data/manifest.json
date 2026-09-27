@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/japanese-llm-ranking-2026-september.json",
-    "articles/ai-driven-dev-genai-202607.json",
-    "articles/programming-basics-guide.json",
-    "articles/beyond-llm-limitations.json",
-    "articles/ai-platform-2026.json"
+    "articles/android-bench-2-0.json",
+    "articles/mixi-ai-driven-dev.json",
+    "articles/clean-architecture-2026.json",
+    "articles/generative-ai-sept-2026-trend.json",
+    "articles/ai-driven-dev-conf-2026-summer.json"
   ]
 }
