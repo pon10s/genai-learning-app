@@ -1,0 +1,55 @@
+{
+  "id": "art-microsoft-copilot-2026-update",
+  "category": "ai-dev",
+  "title": "Microsoft Copilot、自律型AIプラットフォームへ進化",
+  "readMinutes": 2,
+  "source": {
+    "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOux_vmRWKicxl7rTCXDltOH6cwN_J_uJ0lPytczPDWL9J-52Vf83CbBePDo4D43Qs8Mv0cSqd_-v09nW9qOqXI9TjXRWGgszPOdRgdD98yWHmfbgHCHjX10EO-wC2yQcHJ2Jcc67omZBf8p5HLm_mAeN03w==",
+    "date": "2026-09"
+  },
+  "summary": [
+    "Microsoft Copilotが2026年9月25日に大規模アップデートを発表し、その役割が「質問に答えるAI」から「仕事を遂行するAIプラットフォーム」へと大きく進化しました。この進化は、生成AIが単なる情報提供ツールを超え、より能動的に業務プロセスに介入する方向性を示しています。",
+    "主な新機能として「Home」「Code」「Autopilot」が導入されました。「Home」はチャットやOfficeアプリケーションとの統合された開始点を提供し、「Code」は自然言語でアプリケーションやダッシュボードなどを開発できるAI駆動開発ツールとして注目されます。",
+    "最も影響が大きいとされる「Autopilot」は、「Personal, Proactive, Persistent」なAIエージェントであり、ユーザーの指示なしに会議準備や進捗確認などのタスクを継続的に実行します。これにより、Copilotは自律的に動作する「最強のチームメンバー」へと変貌を遂げます。",
+    "また、Microsoftは企業での安全なAI利用を支える基盤として、Copilotが企業の業務コンテキストを理解するための「Microsoft IQ」や、AIが作成したアプリケーションをセキュリティやガバナンスを確保しつつ安全に実行するための「Copilot Managed Runtime」なども同時に発表しました。これは、AIをエンタープライズ環境で本格的に活用するための重要なステップを示しています。"
+  ],
+  "questions": [
+    {
+      "question": "Microsoft Copilotの最新アップデートにおいて、その役割がどのように進化すると述べられていますか？",
+      "choices": [
+        "質問に答えるAIから、仕事を遂行するAIプラットフォームへ",
+        "データの分析とレポート作成に特化したツールへ",
+        "プログラミング言語の自動生成に限定された開発補助ツールへ",
+        "個人のスケジュール管理とリマインダー機能に特化したパーソナルアシスタントへ"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、Copilotは「質問に答えるAI」から「仕事を遂行するAIプラットフォーム」へと進化しています。他の選択肢は、その機能の一部ではありますが、全体的な進化の方向性を示すものではありません。"
+    },
+    {
+      "question": "新機能「Autopilot」の最も重要な特徴は何ですか？",
+      "choices": [
+        "自然言語で新しいアプリケーションを開発できる点",
+        "複数のOfficeアプリケーションを統合して一元的に操作できる点",
+        "ユーザーの指示なしにタスクを継続的に実行する自律型AIエージェントである点",
+        "AIモデルの学習データを自動的に更新し、常に最新の情報を反映できる点"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "「Autopilot」は、「仕事を任せると継続して進めてくれる AI」と説明されており、ユーザーの指示なしにタスクを継続的に実行する自律型AIエージェントであることが最も重要な特徴です。アプリケーション開発は「Code」、Office統合は「Home」の機能です。"
+    },
+    {
+      "question": "Microsoftが新しいCopilotと同時に発表した「Copilot Managed Runtime」の主な目的は何ですか？",
+      "choices": [
+        "CopilotのUI/UXをユーザーが自由にカスタマイズするための環境提供",
+        "AIモデルの推論速度を向上させ、応答時間を短縮するための高速実行エンジン",
+        "Copilotが企業の業務コンテキストを学習し、より的確な提案を行うための基盤",
+        "AIが作成したアプリケーションを、セキュリティやガバナンスを確保しつつ安全に実行するための共通基盤"
+      ],
+      "answerIndex": 3,
+      "difficulty": 2,
+      "explanation": "「Copilot Managed Runtime」は、CodeやCoworkで作成したアプリを、認証、権限、セキュリティ、ガバナンス、監視、ライフサイクル管理を含めてMicrosoft 365上で安全に実行するための共通基盤と説明されています。業務コンテキストの理解は「Microsoft IQ」の役割です。"
+    }
+  ]
+}

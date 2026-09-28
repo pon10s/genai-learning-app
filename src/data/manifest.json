@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/android-bench-2-0.json",
-    "articles/mixi-ai-driven-dev.json",
-    "articles/clean-architecture-2026.json",
-    "articles/generative-ai-sept-2026-trend.json",
-    "articles/ai-driven-dev-conf-2026-summer.json"
+    "articles/generative-ai-trends-sept-2026.json",
+    "articles/microsoft-copilot-2026-update.json",
+    "articles/clean-code-principles-2026.json",
+    "articles/ai-regulation-jp-eu.json",
+    "articles/ibm-ai-driven-dev-202609.json"
   ]
 }
