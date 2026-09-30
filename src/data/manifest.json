@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/gartner-japan-ai-cloud-hype-cycle-2026.json",
-    "articles/ai-driven-dev-genai-202607.json",
-    "articles/best-coding-practices-2026.json",
-    "articles/ai-updates-sept-2026.json",
-    "articles/ai-native-dev-2026.json"
+    "articles/ai-breakthroughs-sept-2026.json",
+    "articles/openai-dots-agent.json",
+    "articles/software-dev-basics-202609.json",
+    "articles/specialized-ai-ir.json",
+    "articles/ai-agent-user.json"
   ]
 }
