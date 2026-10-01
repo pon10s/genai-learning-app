@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-breakthroughs-sept-2026.json",
-    "articles/openai-dots-agent.json",
-    "articles/software-dev-basics-202609.json",
-    "articles/specialized-ai-ir.json",
-    "articles/ai-agent-user.json"
+    "articles/ai-trends-sept-2026.json",
+    "articles/murata-ai-r-and-d.json",
+    "articles/refactoring-basics.json",
+    "articles/ai-agent-future-2026.json",
+    "articles/unicoder-ai-driven-development.json"
   ]
 }
