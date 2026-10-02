@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trends-sept-2026.json",
-    "articles/murata-ai-r-and-d.json",
-    "articles/refactoring-basics.json",
-    "articles/ai-agent-future-2026.json",
-    "articles/unicoder-ai-driven-development.json"
+    "articles/gartner-hype-cycle-2026-jp-ai-cloud.json",
+    "articles/ai-driven-dev-platform-engineering.json",
+    "articles/python-roadmap-2026.json",
+    "articles/gemini-4-argon.json",
+    "articles/ai-driven-dev-platform-eng.json"
   ]
 }
