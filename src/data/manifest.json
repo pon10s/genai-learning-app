@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/gartner-hype-cycle-2026-jp-ai-cloud.json",
-    "articles/ai-driven-dev-platform-engineering.json",
-    "articles/python-roadmap-2026.json",
-    "articles/gemini-4-argon.json",
-    "articles/ai-driven-dev-platform-eng.json"
+    "articles/ai-agent-risk-202610.json",
+    "articles/generative-ai-dev-2026.json",
+    "articles/programming-value-2026.json",
+    "articles/generative-ai-multi-strategy-202609.json",
+    "articles/microsoft-ai-sw-factory.json"
   ]
 }
