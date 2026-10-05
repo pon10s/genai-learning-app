@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-sept-2026-recap.json",
-    "articles/unicoder-ai-driven-dev.json",
-    "articles/clean-code-ai-efficiency.json",
-    "articles/gpt-4o-announcement.json",
-    "articles/gartner-hype-cycle-2026-jp.json"
+    "articles/generative-ai-trend-202609.json",
+    "articles/ai-driven-dev-qa-training.json",
+    "articles/git-workflow-strategy-2026.json",
+    "articles/ai-trend-sept-2026.json",
+    "articles/gartner-ai-hype-cycle-2026.json"
   ]
 }
