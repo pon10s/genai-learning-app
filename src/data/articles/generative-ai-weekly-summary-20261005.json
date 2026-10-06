@@ -1,0 +1,54 @@
+{
+  "id": "art-generative-ai-weekly-summary-20261005",
+  "category": "trend",
+  "title": "生成AI最新動向：2026年9月末〜10月初頭の主要発表まとめ",
+  "readMinutes": 2,
+  "source": {
+    "title": "生成AIニュースまとめ 先週【2026年9月28日（月）〜10月4日（日）】のAI公式発表を5分でチェック | TECH NOISY",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3YEZVhnlc5r76nBOzwnEDFQFpfdl0qDXikc-UXJIT8pdU7MDw13ddQ-jTaHUsyaSMa2GLKfPmm4lzysW9vdn02Lhd-XS5lN76oSUooN_AzNDTD3DSx463X62QwYCRjxBs-WPGyKQ2RuruytKDf_Qpm-tix21h5Nx6UBbYs4dUWh50",
+    "date": "2026-10"
+  },
+  "summary": [
+    "2026年9月28日から10月4日の一週間で、生成AI業界では主要企業から数多くの重要な発表がありました。OpenAI、Google、Anthropic、xAIといった各社が、新たなモデルや機能、サービスを相次いで公開し、AI技術の進化を加速させています。",
+    "この期間に発表された主なトレンドとして、高性能かつ効率的な大規模言語モデル（LLM）の登場、PCを閉じた後も自律的に動作するAIエージェントの進化、そして特定の用途に特化したAIソリューションの展開が挙げられます。例えば、Googleは100万トークン対応の「Gemini 4 Argon」をサイバー防御向けに先行公開し、Anthropicは「Claude Sonnet 5.5」を高速化・低コスト化しつつ料金据え置きで提供開始しました。",
+    "さらに、OpenAIはPCを閉じた後も自律的に動く常時稼働エージェント「dots」を発表し、GitHubはAPIなしでレガシーアプリをAIが直接操作できる「Copilot Computer Use」のパブリックプレビューを開始するなど、AIがより広範な業務を自動化・支援する方向へと進化していることが示されています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年9月28日から10月4日の間に発表されたOpenAIの新機能「dots」の主な特徴は何ですか？",
+      "choices": [
+        "PCを閉じた後も自律的に動作する常時稼働エージェント",
+        "銀行口座と信用情報を接続して家計相談ができる機能",
+        "旗艦モデルAstraの5分の1の価格で提供される高性能コーディングモデル",
+        "チーム全員が同一コンテキストで使えるAIチームメイト"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "選択肢Aは、OpenAIが発表した「dots」がPCを閉じた後も自律的に動作する常時稼働エージェントであるという記事の内容と一致します。 選択肢BはChatGPT Finances、CはGPT-6.1 Sol、DはxAIのGrok Team Botsに関する記述です。"
+    },
+    {
+      "question": "Anthropicが発表したClaude Sonnet 5.5に関する改善点として、記事で言及されているのはどれですか？",
+      "choices": [
+        "推論能力が大幅に向上し、より複雑な問題解決に対応",
+        "30%以上高速化され、タスクコストが最大30%削減、料金は据え置き",
+        "100万トークンに対応し、特にサイバー防御分野で先行公開",
+        "TypeScript製プラグインにより、エージェントの動作を柔軟にカスタマイズ可能"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "選択肢Bは、Claude Sonnet 5.5が30%以上高速化され、タスクコストが最大30%削減され、料金が据え置きであるという記事の記述と一致します。 選択肢Aは記事には明記されていません。CはGoogleのGemini 4 Argon、DはClaude Code Modsに関する記述です。"
+    },
+    {
+      "question": "Googleが次世代フラッグシップモデルとして発表した「Gemini 4 Argon」の主な特徴として正しいものはどれですか？",
+      "choices": [
+        "APIがないレガシーアプリケーションもAIが直接操作できる",
+        "リアルタイムでカメラ映像を音声解説するアクセシビリティAI「Guided Vision」が統合されている",
+        "100万トークンに対応し、サイバー防御向けに先行公開された",
+        "60言語に対応し、ストリーミング音声認識の精度で業界首位を獲得した"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "選択肢Cは、Gemini 4 Argonが100万トークンに対応し、サイバー防御向けに先行公開されたという記事の記述と一致します。 選択肢AはGitHub Copilot Computer Use、BはGemini LiveにアクセシビリティAI「Guided Vision」が追加されたこと、DはMicrosoftのMAI-Transcribe-2-Streamingに関する記述です。"
+    }
+  ]
+}

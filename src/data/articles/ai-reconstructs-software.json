@@ -1,0 +1,55 @@
+{
+  "id": "art-ai-reconstructs-software",
+  "category": "trend",
+  "title": "AI時代、業務ソフトは作り直される：Altman氏が語る「生きた文書」",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI時代、業務ソフトは作り直される Altman氏が語る「生きた文書」 - AI新聞",
+    "url": "https://ainews.jp/trend/20261005_living-pages/",
+    "date": "2026-10"
+  },
+  "summary": [
+    "OpenAIのSam Altman CEOは、生成AIの普及に伴い、既存の業務ソフトウェアにAI機能を追加するだけでは不十分であると指摘しています。彼は、AIと人間がシームレスに共同作業できる、根本的に新しいタイプの業務ソフトウェアが必要だと主張しています。",
+    "2026年9月の開発者イベント「DevDay」で、OpenAIは「ChatGPT Space」と「Living Pages（生きた文書）」を発表しました。",
+    "「ChatGPT Space」は、人間のメンバーと常時稼働するAIエージェント「dot」が同じ情報を共有し、協力して作業を進めるためのプラットフォームです。一方、「Living Pages」は、人間とAIが共同で執筆や調査を行い、外部ツールの情報に基づいて内容を自動的に更新する、動的な文書の概念です。",
+    "Altman氏のこのビジョンは、AIが単なるツールではなく、仕事の仕組みそのものを再構築する時代が到来することを示唆しており、AI機能の追加競争から、仕事の仕組みを作り直す競争へと焦点が移ることを予測しています。"
+  ],
+  "questions": [
+    {
+      "question": "Sam Altman氏が提唱する「生きた文書（Living Pages）」の主な特徴は何ですか？",
+      "choices": [
+        "人間とAIが共同で執筆・調査し、外部情報で自動更新される動的な文書",
+        "人間が手動で常に更新する静的な文書",
+        "AIが単独で作成し、人間は閲覧のみを行う文書",
+        "PDF形式で共有され、編集履歴が完全にロックされる文書"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "「Living Pages」は、人間とAIが共同で執筆や調査を行い、接続された外部ツールの情報に応じて内容を自動更新する、動的な文書であると説明されています。"
+    },
+    {
+      "question": "Altman氏が、既存の業務ソフトのAI統合について指摘している主な問題点は何ですか？",
+      "choices": [
+        "AI機能が追加されすぎて、ユーザーインターフェースが複雑になっている点",
+        "既存のソフトウェアが、そもそもAIと人間が共同作業するようには設計されていない点",
+        "AI機能の利用料金が高すぎて、中小企業には手が届かない点",
+        "AIが生成する情報が不正確で、業務に利用できない点"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "Altman氏は、「既存のソフトウェアは、そもそもAIと人間が共同作業するようには設計されていない」と述べています。"
+    },
+    {
+      "question": "OpenAIがDevDay 2026で発表した、AIエージェント「dot」と人間が共同で作業を進めるための新しいプラットフォームの名前は何ですか？",
+      "choices": [
+        "ChatGPT Space",
+        "AI Workbench",
+        "Living Documents Hub",
+        "Project Genesis"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "OpenAIはDevDay 2026で、チームとAIが共同作業するための「ChatGPT Space」を発表しました。Spaceでは、人間だけでなく常時稼働するAIエージェント「dot」も同じ情報を共有しながら仕事を進めます。"
+    }
+  ]
+}
