@@ -1,0 +1,54 @@
+{
+  "id": "art-ctc-mizuho-ai-dev-platform",
+  "category": "ai-dev",
+  "title": "みずほフィナンシャルグループ、CTC支援でAI駆動開発基盤を構築",
+  "readMinutes": 2,
+  "source": {
+    "title": "CTC、みずほフィナンシャルグループのAI駆動開発基盤の構築を支援",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtPZNJN8Ghx38cb4Kj3Ea4YAr48GIW8k701XRqPOa0GKe1Wxx8YT3yM76QYaXFNDhili71G1hkUv5QHXcXLfjfUA-exBJ2_rNm5YWviEU0fvPimlhCFgRwrddSdSJb1bFgIcgsCVr_2vqf7BsJeTCDNnQUw58",
+    "date": "2026-10"
+  },
+  "summary": [
+    "伊藤忠テクノソリューションズ株式会社（CTC）は、みずほフィナンシャルグループがAI駆動開発基盤「C-CodeBlossom」を構築するのを支援しました。この基盤は、生成AIを活用して、要件定義から設計、開発、テストまでのソフトウェア開発工程全体を効率化することを目的としています。",
+    "C-CodeBlossomは、プロンプトや成果物の品質管理と共有を可能にすることで、組織全体の開発プロセスを標準化し、生産性向上を目指します。特に、設計書や仕様書といった開発ドキュメントを、生成AIが参照・解析しやすいMarkdown形式へ変換する機能を備えている点が特徴です。",
+    "また、複数の文書を連続して処理する機能も持ち、開発チームがより効率的にAIを活用できるようになります。この取り組みは、金融業界におけるAI駆動開発の具体的な実践事例として注目されます。"
+  ],
+  "questions": [
+    {
+      "question": "みずほフィナンシャルグループがCTCの支援を受けて構築したAI駆動開発基盤の名称は何ですか？",
+      "choices": [
+        "C-CodeBlossom",
+        "AI-DevFlow",
+        "Mizuho AI-Core",
+        "GenAI Developer Suite"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、みずほフィナンシャルグループがCTCの支援で構築したAI駆動開発基盤の名称は「C-CodeBlossom」です。"
+    },
+    {
+      "question": "C-CodeBlossomが開発プロセスの効率化のために採用している主要な技術は何ですか？",
+      "choices": [
+        "ブロックチェーン",
+        "生成AI",
+        "量子コンピューティング",
+        "ロボティック・プロセス・オートメーション (RPA)"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "C-CodeBlossomは、要件定義からテストまでの工程を効率化するために「生成AI」を活用しています。"
+    },
+    {
+      "question": "C-CodeBlossomが持つ、開発ドキュメントに関する具体的な機能として正しいものはどれですか？",
+      "choices": [
+        "開発ドキュメントを自動的に多言語翻訳する機能",
+        "開発ドキュメントを生成AIが解析しやすいMarkdown形式へ変換する機能",
+        "開発ドキュメントから自動的にUI/UXデザインを生成する機能",
+        "開発ドキュメントの著作権を自動で保護する機能"
+      ],
+      "answerIndex": 1,
+      "difficulty": 3,
+      "explanation": "C-CodeBlossomは、設計書や仕様書を「生成AIが参照・解析しやすいMarkdown形式へ変換する機能」を備えていると記事に記載されています。"
+    }
+  ]
+}

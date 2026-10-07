@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-weekly-summary-20261005.json",
-    "articles/ai-driven-dev-2026-production.json",
-    "articles/engineer-roadmap-2026.json",
-    "articles/ai-reconstructs-software.json",
-    "articles/ibm-bob-self-hosted.json"
+    "articles/ai-trend-sept-2026-models-agents.json",
+    "articles/ctc-mizuho-ai-dev-platform.json",
+    "articles/ai-code-verification-training.json",
+    "articles/recursive-self-improvement-ai-trend.json",
+    "articles/reliable-ai-driven-dev.json"
   ]
 }
