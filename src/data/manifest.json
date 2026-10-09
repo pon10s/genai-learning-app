@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-sept-2026-models-agents.json",
-    "articles/ctc-mizuho-ai-dev-platform.json",
-    "articles/ai-code-verification-training.json",
-    "articles/recursive-self-improvement-ai-trend.json",
-    "articles/reliable-ai-driven-dev.json"
+    "articles/llm-trends-oct2026.json",
+    "articles/ai-driven-dev-productivity.json",
+    "articles/software-dev-flow-2026.json",
+    "articles/ai-agent-evolution-oct2026.json",
+    "articles/ai-driven-dev-paradigm-shift.json"
   ]
 }
