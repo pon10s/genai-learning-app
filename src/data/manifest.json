@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/llm-trends-oct2026.json",
-    "articles/ai-driven-dev-productivity.json",
-    "articles/software-dev-flow-2026.json",
-    "articles/ai-agent-evolution-oct2026.json",
-    "articles/ai-driven-dev-paradigm-shift.json"
+    "articles/llm-news-oct-2026.json",
+    "articles/reliable-ai-driven-dev.json",
+    "articles/software-engineering-basics-reading-map.json",
+    "articles/microsoft-ai-sw-factory.json"
   ]
 }
