@@ -1,0 +1,42 @@
+{
+  "id": "art-microsoft-decision-model",
+  "category": "trend",
+  "title": "Microsoftから「Decisionモデル」が登場：AIの新たな活用法",
+  "readMinutes": 2,
+  "source": {
+    "title": "Microsoft純正Decisionモデル「Microsoft-Decision-1」が登場 - Zenn",
+    "url": "https://zenn.dev/microsoft/articles/microsoft-decision-1-model-foundry",
+    "date": "2026-10"
+  },
+  "summary": [
+    "従来のLLM（大規模言語モデル）とは異なり、自然言語ではなく構造化されたデータを出力する新しいタイプのAIモデル「Decisionモデル」が注目されています。これは、特定の意思決定タスクにおいて、LLMよりも高速かつ低コストで動作することを目的としています。",
+    "この分野では、元OpenAIの研究者が開発した「Jev」が先行していましたが、2026年10月10日にMicrosoftも「Microsoft-Decision-1」を発表し、参入しました。Jevは「スマートなif文」のように構造化された結果を生成すると評されています。",
+    "Microsoft-Decision-1のコストは、入力100万トークンあたり0.042ドルと非常に低く、出力トークンは無料です。これにより、これまでLLMでJSONなどの構造化出力を得る際に発生していたオーバーヘッドを削減し、複雑な意思決定システムを効率的に構築できるようになると期待されています。"
+  ],
+  "questions": [
+    {
+      "question": "記事で紹介されている「Decisionモデル」の主な特徴として、最も適切なものはどれですか？",
+      "choices": [
+        "自然言語の代わりに構造化されたデータを出力する点。",
+        "物理世界をシミュレートし、ロボット制御に特化している点。",
+        "人間のような感情を理解し、共感的な対話を行う点。",
+        "画像や動画を生成するマルチモーダル機能が強化されている点。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Decisionモデルは、従来のLLMが自然言語を出力するのに対し、構造化されたデータを出力することで、特定の意思決定タスクを高速かつ低コストで処理する点が最大の特徴です。"
+    },
+    {
+      "question": "Microsoftが発表した「Microsoft-Decision-1」のコストに関する説明として正しいものはどれですか？",
+      "choices": [
+        "入力100万トークンあたり0.042ドルで、出力トークンは無料。",
+        "入力・出力ともに100万トークンあたり0.042ドル。",
+        "入力は無料だが、出力100万トークンあたり0.042ドル。",
+        "従来のLLMと同程度の高額な料金設定。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、「Microsoft-Decision-1」の価格は、入力100万トークンあたり0.042ドルで、出力トークンは無料とされています。これはJevと同等であり、OpenAIのDecisions APIよりも安価です。"
+    }
+  ]
+}

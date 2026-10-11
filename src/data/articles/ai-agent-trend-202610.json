@@ -1,0 +1,54 @@
+{
+  "id": "art-ai-agent-trend-202610",
+  "category": "trend",
+  "title": "AIが「自律エージェント」へ進化：ビジネス変革の最前線",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI news October 2026: what it means for your business",
+    "url": "https://hellogrowth.com/ai-news-october-2026-what-it-means-for-your-business/",
+    "date": "2026-10"
+  },
+  "summary": [
+    "2026年9月末から10月初旬にかけて、AIは単なるアシスタントから「自律的にタスクを実行するエージェント」へと大きく進化しています。これにより、AIは実験段階からビジネスの実務へと本格的に移行し、企業はコスト管理、権限設定、そして責任の所在を明確にする必要に迫られています。",
+    "主要な動向として、Microsoft Copilotではエージェント機能が利用量に応じた課金モデルに移行し、業務委任、アプリ開発、バックグラウンドでの作業実行を担う新機能が発表されました。Anthropicは、企業内でのAI活用を加速させるため、1億ドルを投じて1万人のエンジニアを育成する「Claude Frontier Academy」を設立し、AI実装人材の不足に対応しています。",
+    "また、OpenAIはモデルの予期せぬ挙動についてより透明性を高める姿勢を見せています。GoogleのGemini Enterpriseは、Google Cloud上のBigQueryなどのデータソースに対し、データをコピーすることなく直接クエリできるプレビュー版を公開しました。これはオープン標準であるMCP（Model Context Protocol）を利用しており、データガバナンスとセキュリティの強化に貢献します。"
+  ],
+  "questions": [
+    {
+      "question": "2026年9月末から10月初旬にかけてのAIトレンドにおける最も顕著な変化は何ですか？",
+      "choices": [
+        "AIが単なるアシスタントから自律的にタスクを実行するエージェントへと進化したこと。",
+        "全ての主要AIモデルが無料で利用可能になったこと。",
+        "AIの利用が規制され、新規開発が大幅に減少したこと。",
+        "AIが画像生成に特化し、テキスト生成機能が廃止されたこと。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、AIは実験段階から実務へ移行し、単なるアシスタントから自律的にタスクを実行するエージェントへとシフトしている点が最も顕著な変化です。 他の選択肢は記事の内容と異なります。"
+    },
+    {
+      "question": "Microsoft Copilotの新しい課金モデルにおける変更点として正しいものはどれですか？",
+      "choices": [
+        "エージェント機能が利用量に応じた課金（Copilot Credits）になった。",
+        "全てのCopilot機能が一律の月額固定料金になった。",
+        "個人利用は無料だが、企業利用は全面的に禁止された。",
+        "Microsoft 365のサブスクリプションに含まれるため、追加費用は不要になった。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では、Microsoft Copilotのエージェント機能（Cowork, Code, Autopilot）がCopilot Creditsによる利用量に応じた課金モデルに移行したと述べられています。 チャット機能などは固定ライセンスに含まれるものの、エージェント機能は別途課金されます。"
+    },
+    {
+      "question": "AnthropicがAI実装人材の不足に対応するために設立したプログラムは何ですか？",
+      "choices": [
+        "Claude Frontier Academy",
+        "Anthropic AI Fellowship",
+        "Pioneering AI Workforce Initiative",
+        "Global AI Talent Exchange"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "Anthropicは、企業内でのAI活用を促進するため、1億ドルを投じて1万人のエンジニアを育成する「Claude Frontier Academy」を設立しました。 これにより、AI実装における人材不足の解消を目指しています。"
+    }
+  ]
+}

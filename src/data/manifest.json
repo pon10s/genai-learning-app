@@ -1,8 +1,9 @@
 {
   "articles": [
-    "articles/llm-news-oct-2026.json",
-    "articles/reliable-ai-driven-dev.json",
-    "articles/software-engineering-basics-reading-map.json",
-    "articles/microsoft-ai-sw-factory.json"
+    "articles/ai-agent-trend-202610.json",
+    "articles/ai-recursive-self-improvement.json",
+    "articles/software-dev-basics-2026.json",
+    "articles/microsoft-decision-model.json",
+    "articles/reliable-ai-driven-dev.json"
   ]
 }
