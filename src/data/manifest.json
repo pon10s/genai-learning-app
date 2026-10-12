@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-trend-202610.json",
-    "articles/ai-recursive-self-improvement.json",
+    "articles/ai-agent-augmented-enterprise.json",
+    "articles/mizuho-ai-dev-ctc.json",
     "articles/software-dev-basics-2026.json",
     "articles/microsoft-decision-model.json",
-    "articles/reliable-ai-driven-dev.json"
+    "articles/deeptier-ai-qa.json"
   ]
 }
