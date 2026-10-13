@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-augmented-enterprise.json",
-    "articles/mizuho-ai-dev-ctc.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/microsoft-decision-model.json",
-    "articles/deeptier-ai-qa.json"
+    "articles/ai-landscape-september-2026.json",
+    "articles/ai-driven-dev-future.json",
+    "articles/git-revert-basics-202608.json",
+    "articles/jev-ai-judgment.json",
+    "articles/ai-driven-dev-meetup-2026.json"
   ]
 }
