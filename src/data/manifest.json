@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-landscape-september-2026.json",
-    "articles/ai-driven-dev-future.json",
-    "articles/git-revert-basics-202608.json",
-    "articles/jev-ai-judgment.json",
-    "articles/ai-driven-dev-meetup-2026.json"
+    "articles/llm-market-sept-oct-2026.json",
+    "articles/ai-code-review-shift.json",
+    "articles/software-engineering-basics-book-review.json",
+    "articles/ai-rsi-elyza.json",
+    "articles/ai-sdd-re-focus-2026.json"
   ]
 }
