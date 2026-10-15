@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-market-sept-oct-2026.json",
-    "articles/ai-code-review-shift.json",
-    "articles/software-engineering-basics-book-review.json",
-    "articles/ai-rsi-elyza.json",
-    "articles/ai-sdd-re-focus-2026.json"
+    "articles/ai-agent-trend-2026.json",
+    "articles/ai-native-ctc-ibm.json",
+    "articles/programming-basics-for-non-engineers.json",
+    "articles/llm-model-comparison-202610.json",
+    "articles/ai-dev-trust-gap-2026.json"
   ]
 }
