@@ -1,0 +1,55 @@
+{
+  "id": "art-ctc-ibm-a-native",
+  "category": "ai-dev",
+  "title": "CTCと日本IBM、AI駆動開発サービス「A-Native」を提供開始",
+  "readMinutes": 2,
+  "source": {
+    "title": "CTC、IBM Bobを採用したAI駆動開発サービス「A-Native」を提供開始 - マイナビニュース",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZOe0gaiVMy5DQSUATQGlk3na3sD1Ay8lGNou3oIDYzDjK7fC-OKz0BKDB268nN9_P4vWBY5KojnsxWyVheQTWP9B-s62-4fXr6FOLfaclaUZW8H9rnx_9bCybMVn933aHlCl-7-FmKLLHgxzvUMBTkiGIsw",
+    "date": "2026-10"
+  },
+  "summary": [
+    "伊藤忠テクノソリューションズ（CTC）と日本IBMは、AIを活用して新規アプリケーション開発と既存システム刷新を支援する「AI駆動開発サービス A-Native」の提供を開始しました。",
+    "A-Nativeは、長年の運用で複雑化したシステムや設計資料の不足といった課題に対し、AI駆動開発を中核として対応します。これにより、制度変更への対応遅れやITコスト増加、業務の属人化といった問題を解決し、開発の迅速化と品質安定化を目指します。",
+    "サービスは「A-Native Develop」「A-Native Modernize」「A-Native Agent」の3つのサービス群で構成されます。A-Native Developは日本IBMの開発支援ツール「IBM Bob」を採用し、要件整理から設計、実装、テストまでをAIで支援します。A-Native Modernizeは既存システムの分析・刷新を、A-Native Agent（2026年12月提供予定）はAIエージェントの開発・提供を行います。",
+    "本サービスは、開発効率化だけでなく、監査ログ管理や作業承認などのガバナンス、セキュリティ、運用管理にも対応し、企業のAI利用における統制を維持しながら、大規模システム開発やクラウド基盤構築の経験を活かして企業のDX推進を支援します。"
+  ],
+  "questions": [
+    {
+      "question": "CTCと日本IBMが提供を開始したAI駆動開発サービス「A-Native」の主な目的は何ですか？",
+      "choices": [
+        "新規アプリケーション開発と既存システムの刷新支援",
+        "AI開発者向け学習プラットフォームの提供",
+        "企業のAI倫理ガイドライン策定支援",
+        "ハードウェアのAI処理能力向上"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "A-Nativeは、AI駆動開発を中核に、新規アプリケーション開発と既存システムの刷新を支援するサービスです。"
+    },
+    {
+      "question": "「A-Native」サービスを構成する3つの要素のうち、2026年12月に提供が予定されているものはどれですか？",
+      "choices": [
+        "A-Native Agent",
+        "A-Native Develop",
+        "A-Native Modernize",
+        "A-Native Core"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "「A-Native Agent」は、社内のナレッジ検索や文書作成、問い合わせ対応などに向けたAIエージェントを扱うもので、2026年12月に提供する予定です。"
+    },
+    {
+      "question": "「A-Native Develop」において、開発支援の中核として採用されている日本IBMのツールは何ですか？",
+      "choices": [
+        "IBM Bob",
+        "IBM Watson",
+        "IBM Cloud Pak",
+        "IBM Quantum"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "A-Native Developの中核には、日本IBMが提供する開発支援ツール「IBM Bob」が採用されています。"
+    }
+  ]
+}

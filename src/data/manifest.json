@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/ai-agent-trend-2026.json",
-    "articles/ai-native-ctc-ibm.json",
-    "articles/programming-basics-for-non-engineers.json",
-    "articles/llm-model-comparison-202610.json",
-    "articles/ai-dev-trust-gap-2026.json"
+    "articles/ai-acting-agents-202610.json",
+    "articles/ctc-ibm-a-native.json",
+    "articles/software-engineering-basics-book-review.json",
+    "articles/ai-interactive-creation-trend.json"
   ]
 }
