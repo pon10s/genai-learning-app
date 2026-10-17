@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-safety-202609.json",
-    "articles/nri-secure-ai-dev-security-202610.json",
-    "articles/software-engineering-basics.json",
-    "articles/ai-trends-oct-2026.json",
-    "articles/copilot-update-202610.json"
+    "articles/generative-ai-reference-sources.json",
+    "articles/ctc-ibm-a-native.json",
+    "articles/microsoft-ai-coding-productivity-2026.json",
+    "articles/ai-superintelligence-battle-industry-specific.json",
+    "articles/nri-secure-ai-dev-security.json"
   ]
 }

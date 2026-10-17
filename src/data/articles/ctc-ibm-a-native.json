@@ -1,0 +1,54 @@
+{
+  "id": "art-ctc-ibm-a-native",
+  "category": "ai-dev",
+  "title": "CTCと日本IBM、AI駆動開発サービス「A-Native」で協業",
+  "readMinutes": 2,
+  "source": {
+    "title": "CTCと日本IBM、IBM Bobを活用したAI駆動開発サービス「A-Native」で協業（2026年10月15日）",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmeloFQucYjbOckBx5mFNxtCLSO6GMraXgQEe8fCnpoO1HCwXFJ-vvzeXc1Xl8sOPUQXYQn44eCKYp_iJ4l427hnkRsYAnraBEQMNsFi100nZqxZh3nI1iNrmKNEMg-iwU26taRuhYTLNq4Lim9ft-VPw=",
+    "date": "2026-10"
+  },
+  "summary": [
+    "伊藤忠テクノソリューションズ（CTC）と日本IBMは、AIを活用したソフトウェア開発支援サービス「A-Native」で協業し、CTCがその提供を開始しました。このサービスは、新規アプリケーションの開発と既存システムの刷新を一貫して支援することを目的としています。",
+    "「A-Native」は、日本IBMが提供するAI駆動開発ツール「IBM Bob」を中核として活用します。企業が直面するシステム開発の迅速化や品質安定化の課題、また長年運用されてきたシステムの複雑化や設計資料不足といった問題の解決を目指します。",
+    "サービス群は主に3つで構成されます。「A-Native Develop」はAIによる開発作業の効率化を、「A-Native Modernize」は既存システムの分析・刷新支援を、「A-Native Agent」は社内ナレッジ検索や文書作成などに活用できるAIエージェントの開発・提供を担います。"
+  ],
+  "questions": [
+    {
+      "question": "CTCと日本IBMが協業して提供を開始したAI駆動開発サービスの名前は何ですか？",
+      "choices": [
+        "A-Native",
+        "IBM Watson Developer",
+        "CodePilot X",
+        "AI-Forge"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、CTCと日本IBMが協業して提供を開始したAI駆動開発サービスは「A-Native」です。"
+    },
+    {
+      "question": "A-Nativeサービスの中核となるAI駆動開発ツールは何ですか？",
+      "choices": [
+        "GitHub Copilot",
+        "IBM Bob",
+        "OpenAI Codex",
+        "Google Gemini"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "A-Nativeの中核となるAI駆動開発ツールは、日本IBMが提供する「IBM Bob」です。"
+    },
+    {
+      "question": "A-Nativeサービスが解決を目指す主要な課題として、記事中で挙げられているものはどれですか？",
+      "choices": [
+        "開発者のAI学習コストの増大",
+        "システム開発の迅速化と品質安定化の要求",
+        "AIモデルの倫理的利用に関する規制強化",
+        "ハードウェアインフラの老朽化"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、企業が事業環境の変化や人材不足を背景に「システム開発の迅速化と品質の安定化」が求められていると述べられており、A-Nativeがこの課題解決を目指します。"
+    }
+  ]
+}
