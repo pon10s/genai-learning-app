@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-reference-sources.json",
-    "articles/ctc-ibm-a-native.json",
-    "articles/microsoft-ai-coding-productivity-2026.json",
-    "articles/ai-superintelligence-battle-industry-specific.json",
-    "articles/nri-secure-ai-dev-security.json"
+    "articles/ai-trend-2026-september.json",
+    "articles/ai-driven-dev-22026-trends.json",
+    "articles/clean-code-basics-202610.json",
+    "articles/embodied-ai-frontier.json",
+    "articles/ai-driven-dev-trends-2026-10.json"
   ]
 }
