@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-2026-september.json",
-    "articles/ai-driven-dev-22026-trends.json",
-    "articles/clean-code-basics-202610.json",
-    "articles/embodied-ai-frontier.json",
-    "articles/ai-driven-dev-trends-2026-10.json"
+    "articles/ai-agent-trend-2026-10.json",
+    "articles/ai-driven-code-modernization-bottleneck.json",
+    "articles/development-flow-guide.json",
+    "articles/world-model-le-cun.json",
+    "articles/ai-driven-dev-2026-trends.json"
   ]
 }
