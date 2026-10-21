@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-trend-2026-10.json",
-    "articles/ai-driven-code-modernization-bottleneck.json",
-    "articles/development-flow-guide.json",
-    "articles/world-model-le-cun.json",
-    "articles/ai-driven-dev-2026-trends.json"
+    "articles/ai-industry-september-2026-recap.json",
+    "articles/ctc-ibm-a-native-ai-dev.json",
+    "articles/scion-git-alternative.json",
+    "articles/llmd-1-0-release.json",
+    "articles/ai-driven-code-modernization-bottleneck.json"
   ]
 }
