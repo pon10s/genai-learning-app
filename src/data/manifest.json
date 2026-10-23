@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/gartner-2027-ai-trends.json",
-    "articles/ai-driven-dev-jp-cases.json",
-    "articles/system-dev-basics-2026.json",
-    "articles/ai-competition-shift-2026-09.json",
-    "articles/ai-driven-dev-2026-trends.json"
+    "articles/llm-trends-2026-fall.json",
+    "articles/ai-driven-dev-methods-2026.json",
+    "articles/software-dev-beginner-2026.json",
+    "articles/edge-ai-intro-2026.json",
+    "articles/ai-finds-php-vulnerability.json"
   ]
 }
