@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-trends-2026-fall.json",
-    "articles/ai-driven-dev-methods-2026.json",
-    "articles/software-dev-beginner-2026.json",
-    "articles/edge-ai-intro-2026.json",
-    "articles/ai-finds-php-vulnerability.json"
+    "articles/generative-ai-trends-2026-oct.json",
+    "articles/ai-driven-tdd-2026-10.json",
+    "articles/software-dev-management-principles-2026.json",
+    "articles/meta-muse-japan-launch.json",
+    "articles/ai-driven-dev-agent-harness.json"
   ]
 }
