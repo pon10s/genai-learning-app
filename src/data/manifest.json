@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-2026-oct.json",
-    "articles/ai-driven-tdd-2026-10.json",
-    "articles/software-dev-management-principles-2026.json",
-    "articles/meta-muse-japan-launch.json",
+    "articles/generative-ai-trends-oct2026.json",
+    "articles/ai-driven-dev-challenges.json",
+    "articles/linpress-academy-dx-basics.json",
+    "articles/openai-internet-cutoff.json",
     "articles/ai-driven-dev-agent-harness.json"
   ]
 }
