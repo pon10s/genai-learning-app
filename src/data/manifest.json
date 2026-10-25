@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-oct2026.json",
-    "articles/ai-driven-dev-challenges.json",
-    "articles/linpress-academy-dx-basics.json",
-    "articles/openai-internet-cutoff.json",
-    "articles/ai-driven-dev-agent-harness.json"
+    "articles/llm-trend-202610.json",
+    "articles/ai-driven-dev-trust-gap-2026.json",
+    "articles/ai-code-review-bottleneck.json",
+    "articles/openai-gcp-model-garden.json",
+    "articles/ai-sdd-2-0-release.json"
   ]
 }
