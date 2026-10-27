@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/llm-trend-202610.json",
-    "articles/ai-driven-dev-trust-gap-2026.json",
-    "articles/ai-code-review-bottleneck.json",
-    "articles/openai-gcp-model-garden.json",
-    "articles/ai-sdd-2-0-release.json"
+    "articles/ai-proactive-shift-oct2026.json",
+    "articles/ai-agent-harness.json",
+    "articles/atdd-with-ai-202610.json",
+    "articles/ai-driven-dev-methods-2026.json"
   ]
 }
