@@ -1,8 +1,9 @@
 {
   "articles": [
-    "articles/ai-proactive-shift-oct2026.json",
-    "articles/ai-agent-harness.json",
-    "articles/atdd-with-ai-202610.json",
-    "articles/ai-driven-dev-methods-2026.json"
+    "articles/anthropic-claude-rsi.json",
+    "articles/agent-harness-ai-dev.json",
+    "articles/tdd-introduction.json",
+    "articles/space-data-center.json",
+    "articles/jbcc-ai-driven-development-reorg.json"
   ]
 }
