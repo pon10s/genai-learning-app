@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/anthropic-claude-rsi.json",
-    "articles/agent-harness-ai-dev.json",
-    "articles/tdd-introduction.json",
-    "articles/space-data-center.json",
-    "articles/jbcc-ai-driven-development-reorg.json"
+    "articles/llm-price-cuts-2026.json",
+    "articles/jbcc-ai-driven-dev-reorg.json",
+    "articles/devops-ci-cd-basics.json",
+    "articles/enterprise-ai-scale-rules.json",
+    "articles/atlassian-ai-native-sdlc.json"
   ]
 }
