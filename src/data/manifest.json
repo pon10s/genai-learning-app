@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-price-cuts-2026.json",
-    "articles/jbcc-ai-driven-dev-reorg.json",
-    "articles/devops-ci-cd-basics.json",
-    "articles/enterprise-ai-scale-rules.json",
-    "articles/atlassian-ai-native-sdlc.json"
+    "articles/anthropic-ai-develops-ai.json",
+    "articles/agent-harness-ai-dev.json",
+    "articles/ai-sdlc-reliability.json",
+    "articles/ai-agent-enterprise-adoption.json",
+    "articles/kokuyo-notion-claude-ai-dev.json"
   ]
 }
