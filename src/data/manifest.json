@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/anthropic-ai-develops-ai.json",
-    "articles/agent-harness-ai-dev.json",
-    "articles/ai-sdlc-reliability.json",
-    "articles/ai-agent-enterprise-adoption.json",
-    "articles/kokuyo-notion-claude-ai-dev.json"
+    "articles/autonomous-ai-agents-2026.json",
+    "articles/github-copilot-fusion-2026.json",
+    "articles/github-octoverse-2026-basics.json",
+    "articles/ai-tech-trends-october-2026.json",
+    "articles/atlassian-ai-native-sdlc.json"
   ]
 }
