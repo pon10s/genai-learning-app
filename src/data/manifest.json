@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/autonomous-ai-agents-2026.json",
-    "articles/github-copilot-fusion-2026.json",
-    "articles/github-octoverse-2026-basics.json",
-    "articles/ai-tech-trends-october-2026.json",
-    "articles/atlassian-ai-native-sdlc.json"
+    "articles/ai-agent-full-scale-adoption-2026-10.json",
+    "articles/jbcc-ai-driven-dev-reorg.json",
+    "articles/system-dev-process.json",
+    "articles/physical-ai-manufacturing.json",
+    "articles/ai-driven-dev-agent-harness.json"
   ]
 }
