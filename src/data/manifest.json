@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-full-scale-adoption-2026-10.json",
-    "articles/jbcc-ai-driven-dev-reorg.json",
-    "articles/system-dev-process.json",
-    "articles/physical-ai-manufacturing.json",
-    "articles/ai-driven-dev-agent-harness.json"
+    "articles/generative-ai-trends-2026.json",
+    "articles/atlassian-ai-sdlc.json",
+    "articles/fastapi-web-dev-basics.json",
+    "articles/google-llm-sleep-framework.json",
+    "articles/github-copilot-universe-2026.json"
   ]
 }

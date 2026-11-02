@@ -1,0 +1,54 @@
+{
+  "id": "art-fastapi-web-dev-basics",
+  "category": "basics",
+  "title": "生成AI時代のモダンWebアプリ開発基礎 FastAPI入門",
+  "readMinutes": 2,
+  "source": {
+    "title": "【新刊案内】モダンWeb開発とAPIサーバー構築のスタンダードを学ぶ『Pythonではじめる生成AI時代のWebアプリ開発 FastAPI入門』発刊。",
+    "url": "https://prtimes.jp/main/html/rd/p/000001850.000002376.html",
+    "date": "2026-10"
+  },
+  "summary": [
+    "現代のWeb開発は、フロントエンドとバックエンドを明確に分離し、APIサーバーを中心とするスタイルへの移行が進んでいます。特に、生成AIのAPI連携やRAG（検索拡張生成）システムにおいて、Pythonの高速フレームワークであるFastAPIの需要が高まっています。",
+    "この潮流を受け、新刊『Pythonではじめる生成AI時代のWebアプリ開発 FastAPI入門』が発刊されます。本書は、Pythonの基礎知識を持つエンジニアが、モダンWeb開発におけるAPIサーバーの構築と、フロントエンド連携を含む全体像を体系的に理解し、実践的なスキルを習得することを目指しています。",
+    "本書の主な学習内容には、JavaScriptと連携した非同期通信によるデータ取得・更新、Pydanticを活用した型安全で堅牢なデータ検証が含まれます。また、気象庁APIなどの外部API連携、SQLite3を用いたデータベースのCRUD操作、セッションとパスワードハッシュ化によるログイン認証といった、Webアプリ構築に不可欠な技術も網羅されています。"
+  ],
+  "questions": [
+    {
+      "question": "記事によると、現代のWeb開発の主流な傾向として、どのようなモデルへの移行が述べられていますか？",
+      "choices": [
+        "フロントエンドとバックエンドを分離したAPIサーバー中心モデル",
+        "モノリシックなアーキテクチャによる統合開発モデル",
+        "クライアントサイドのみで完結するサーバーレスモデル",
+        "すべてをNoSQLデータベースで処理するデータセントリックモデル"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事では「フロントエンドとバックエンドを明確に分離したAPIサーバー中心のモダンなWeb開発への移行がより進んでいます」と明記されています。"
+    },
+    {
+      "question": "『Pythonではじめる生成AI時代のWebアプリ開発 FastAPI入門』で、型安全で堅牢なデータ検証を実現するために活用される主要なライブラリ/ツールは何ですか？",
+      "choices": [
+        "Pydantic",
+        "Django ORM",
+        "Flask-SQLAlchemy",
+        "requests"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事には「Pydanticを活用した型安全で堅牢なデータ検証を完全理解」とあり、Pydanticがその主要なツールであることが示されています。"
+    },
+    {
+      "question": "本書で扱われるWebアプリ構築に必要な必須技術として、データベース関連で具体的に挙げられているものは何ですか？",
+      "choices": [
+        "Oracle Databaseを用いた分散トランザクション処理",
+        "SQLite3を用いたデータベースのCRUD操作",
+        "MongoDBによるドキュメント指向データモデリング",
+        "PostgreSQLによるストアドプロシージャ開発"
+      ],
+      "answerIndex": 1,
+      "difficulty": 3,
+      "explanation": "記事では「SQLite3を用いたデータベースのCRUD操作」が必須技術の一つとして挙げられています。 他の選択肢は記事には書かれていません。"
+    }
+  ]
+}
