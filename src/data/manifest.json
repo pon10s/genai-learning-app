@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-2026.json",
-    "articles/atlassian-ai-sdlc.json",
-    "articles/fastapi-web-dev-basics.json",
-    "articles/google-llm-sleep-framework.json",
-    "articles/github-copilot-universe-2026.json"
+    "articles/llm-trend-2026-10.json",
+    "articles/ai-driven-dev-overview-2026.json",
+    "articles/ai-era-engineer-skills.json",
+    "articles/llm-competition-shift-2026-fall.json",
+    "articles/ai-driven-dev-overview-202611.json"
   ]
 }
