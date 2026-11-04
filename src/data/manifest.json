@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-trend-2026-10.json",
-    "articles/ai-driven-dev-overview-2026.json",
-    "articles/ai-era-engineer-skills.json",
-    "articles/llm-competition-shift-2026-fall.json",
-    "articles/ai-driven-dev-overview-202611.json"
+    "articles/agent-harness-ai-dev.json",
+    "articles/aws-ai-dlc-v2-nissay.json",
+    "articles/software-dev-basics-2026.json",
+    "articles/generative-ai-trends-2026.json",
+    "articles/ai-dlc-v2-aws.json"
   ]
 }

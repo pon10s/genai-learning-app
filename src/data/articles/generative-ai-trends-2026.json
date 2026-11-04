@@ -1,0 +1,55 @@
+{
+  "id": "art-generative-ai-trends-2026",
+  "category": "trend",
+  "title": "2026年の生成AIトレンド：モデルを取り巻くツールが鍵",
+  "readMinutes": 2,
+  "source": {
+    "title": "Generative AI Trends 2026: 8 Shifts Reshaping AI Builds - Future AGI",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFgAupA1Qv9JbsKrtdkBpjj4AfB1TGNXRiVtODAs7-v1Z-KCi5N_GobdMqa6HHL2SggyGFFszs3lhOh_7t6zjOczAIKec8t_nFdfgvinArhFJd9UESQb-cG7LNMDgaEtmtyKmr-EukxnLL1H5dxn2a",
+    "date": "2026-10"
+  },
+  "summary": [
+    "2026年10月現在、OpenAIのGPT-6 Astra、AnthropicのClaude Opus 5.5、GoogleのGemini 4 Argonなど、主要な生成AIモデルが最新バージョンを続々とリリースしています。",
+    "これらのモデルの進化に伴い、生成AIの構築における焦点は「モデルそのもの」から「モデルを効率的に活用するための周辺ツールや構築方法」へと移行しています。",
+    "2026年の主要なトレンドとして、エージェントAIの本格的な実運用、マルチモーダル（多様な形式のデータ）入力の標準化、安価で特定のタスクに特化した小型モデルの活用が挙げられます。",
+    "その他にも、ツール連携のためのMCP標準化、独自のデータに基づいたカスタム評価、複数のモデルを状況に応じて使い分けるルーティング、デバイス上でのAI生成、そして評価と改善を繰り返すクローズドループ評価が、AI構築を再構築する重要な変化として注目されています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年の生成AIトレンドにおいて、記事が最も重要な変化として指摘している焦点は何ですか？",
+      "choices": [
+        "新しいAIモデルの性能向上そのもの",
+        "AIモデルを効率的に活用するための周辺ツールや構築方法",
+        "AIモデルの学習データセットの規模拡大",
+        "AIモデルのコスト削減"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、モデルの進化以上に「モデルを囲むツール」や「ツールを取り巻くトレンド」が重要であると強調されています。"
+    },
+    {
+      "question": "記事で挙げられている「AI構築を再構築する8つのシフト」のうち、含まれていないものはどれですか？",
+      "choices": [
+        "エージェントAIの本格的な実運用",
+        "マルチモーダル入力の標準化",
+        "量子コンピュータによるAIモデルの高速化",
+        "安価な小型タスク特化モデルの活用"
+      ],
+      "answerIndex": 2,
+      "difficulty": 3,
+      "explanation": "記事では、エージェントAI、マルチモーダル、小型モデルの活用は8つのシフトに含まれていますが、量子コンピュータによるAIモデルの高速化は言及されていません。"
+    },
+    {
+      "question": "記事によると、「安価な小型タスク特化モデル」の活用が重要視される理由は何ですか？",
+      "choices": [
+        "大規模モデルよりも汎用性が高いため",
+        "複雑な推論タスクを大規模モデルより高速に処理できるため",
+        "簡単なタスクを安価に処理し、高コストな大規模モデルの利用を削減できるため",
+        "デバイス上でのAI生成にのみ適しているため"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、GPT-6 LunaやClaude Haiku 5.5のような小型モデルが、簡単なタスクを低コストで処理することで、高価な大規模モデルの利用を減らすことができると説明されています。"
+    }
+  ]
+}
