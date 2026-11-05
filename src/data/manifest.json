@@ -1,9 +1,7 @@
 {
   "articles": [
-    "articles/agent-harness-ai-dev.json",
-    "articles/aws-ai-dlc-v2-nissay.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/generative-ai-trends-2026.json",
-    "articles/ai-dlc-v2-aws.json"
+    "articles/ai-dlc-nissay-it.json",
+    "articles/good-code-principles.json",
+    "articles/gientec-ai-salon-aid-practice.json"
   ]
 }
