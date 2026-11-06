@@ -1,7 +1,9 @@
 {
   "articles": [
-    "articles/ai-dlc-nissay-it.json",
-    "articles/good-code-principles.json",
-    "articles/gientec-ai-salon-aid-practice.json"
+    "articles/github-universe-2026-ai-dev-concept.json",
+    "articles/aws-aidlc-v2-nissay-it.json",
+    "articles/software-engineering-basics-reading-map.json",
+    "articles/ai-agent-trend-2026.json",
+    "articles/github-octoverse-2026-ai-impact.json"
   ]
 }
