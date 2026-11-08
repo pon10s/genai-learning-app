@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-rsi-acquisition.json",
-    "articles/ai-dlc-nissei-it.json",
-    "articles/programming-self-study-2026.json",
-    "articles/gartner-2027-tech-trends.json",
-    "articles/ai-driven-dev-trust-paradox-2026.json"
+    "articles/ai-trends-oct2026.json",
+    "articles/ai-dlc-aws-nit.json",
+    "articles/software-dev-basics-2026.json",
+    "articles/ai-agent-pricing-trend-202611.json",
+    "articles/ai-driven-dev-2026-trends.json"
   ]
 }
