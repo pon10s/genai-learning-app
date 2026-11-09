@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trends-oct2026.json",
-    "articles/ai-dlc-aws-nit.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/ai-agent-pricing-trend-202611.json",
-    "articles/ai-driven-dev-2026-trends.json"
+    "articles/agent-frontier-models-2026-09.json",
+    "articles/ai-driven-development-overview-202611.json",
+    "articles/git-basics-20261108.json",
+    "articles/generative-ai-trend-202611.json",
+    "articles/ai-driven-development-overview-202611-5.json"
   ]
 }
