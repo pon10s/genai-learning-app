@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/agent-frontier-models-2026-09.json",
-    "articles/ai-driven-development-overview-202611.json",
-    "articles/git-basics-20261108.json",
-    "articles/generative-ai-trend-202611.json",
-    "articles/ai-driven-development-overview-202611-5.json"
+    "articles/llm-trend-2026-10.json",
+    "articles/chugoku-electric-ai-dd.json",
+    "articles/software-dev-management-basics-2026.json",
+    "articles/ai-shift-to-delegation.json",
+    "articles/aitria-phennec-release.json"
   ]
 }
