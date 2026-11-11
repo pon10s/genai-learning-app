@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-trend-2026-10.json",
-    "articles/chugoku-electric-ai-dd.json",
-    "articles/software-dev-management-basics-2026.json",
-    "articles/ai-shift-to-delegation.json",
-    "articles/aitria-phennec-release.json"
+    "articles/llm-price-agent-safety-oct2026.json",
+    "articles/ai-driven-dev-trends-2026.json",
+    "articles/programming-self-study-ai.json",
+    "articles/llm-trends-2026-q4.json",
+    "articles/ai-driven-dev-future-prediction.json"
   ]
 }
