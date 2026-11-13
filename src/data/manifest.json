@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ntt-llm-tuning-202611.json",
-    "articles/china-electric-ai-driven-dev.json",
-    "articles/it-trend-learning-2026.json",
-    "articles/llm-trend-2026-11.json",
-    "articles/pwc-ai-driven-dev-offering.json"
+    "articles/llm-trends-2026-fall.json",
+    "articles/ai-driven-dev-2026-trends.json",
+    "articles/software-dev-basics-2026.json",
+    "articles/slm-trend-2026-11.json",
+    "articles/ai-driven-dev-bottleneck-aws.json"
   ]
 }
