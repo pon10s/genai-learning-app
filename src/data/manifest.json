@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-trends-2026-fall.json",
-    "articles/ai-driven-dev-2026-trends.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/slm-trend-2026-11.json",
-    "articles/ai-driven-dev-bottleneck-aws.json"
+    "articles/llm-market-trends-nov2026.json",
+    "articles/ibm-sap-ai-dev-service.json",
+    "articles/software-development-lifecycle-basics.json",
+    "articles/b2a-economy-a16z.json",
+    "articles/ai-driven-development-overview-202611.json"
   ]
 }

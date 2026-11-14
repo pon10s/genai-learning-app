@@ -1,0 +1,55 @@
+{
+  "id": "art-ibm-sap-ai-dev-service",
+  "category": "ai-dev",
+  "title": "日本IBM、AIを活用したSAP Cloud ERP導入サービスを開始",
+  "readMinutes": 2,
+  "source": {
+    "title": "日本IBM、AIを活用したSAP Cloud ERP導入サービスを提供開始",
+    "url": "https://codezine.jp/article/detail/19717",
+    "date": "2026-11"
+  },
+  "summary": [
+    "日本IBMは、AIを活用した「SAP Cloud ERP（SAP S/4HANA Cloud Public Edition）」の導入サービス提供を開始しました。このサービスは、SAP ECCの標準保守が2027年末に満了するのに伴い、次期基幹システムへの移行を検討する企業を支援することを目的としています。",
+    "この新サービスでは、主に2つの工程でAIが活用されます。一つは、現行業務の分析とSAP標準機能への適合性検討（Fit to Standard）です。もう一つは、標準機能では対応できない業務の拡張開発です。",
+    "特に、AIエージェント駆動の開発支援パートナー「IBM Bob」と、日本IBMが持つ大規模開発のノウハウを体系化したAI駆動開発ソリューション「ALSEA」が中心的な役割を担います。ALSEAは、SAP環境内のABAP開発だけでなく、周辺アプリケーションの開発にも対応します。",
+    "日本IBMは、これらのAI活用により、拡張開発の工数を従来の開発手法と比較して30%削減することを目指しています。現行システムの仕様が十分に文書化されていないといった、従来の移行作業における課題解決にも貢献が期待されています。"
+  ],
+  "questions": [
+    {
+      "question": "日本IBMが提供を開始したAIを活用したSAP Cloud ERP導入サービスが目指す主な効果は何ですか？",
+      "choices": [
+        "拡張開発の工数を従来の開発手法と比較して30%削減する。",
+        "SAP Cloud ERPの標準機能の数を30%増加させる。",
+        "SAP Cloud ERPの導入期間を従来の半分に短縮する。",
+        "SAP Cloud ERPの運用コストを30%削減する。"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、日本IBMは「拡張開発の工数を従来の開発手法と比べて30％削減することを目指す」と明記されています。"
+    },
+    {
+      "question": "このサービスにおいて、日本IBMがAIエージェント駆動の開発支援パートナーとして活用するツールは何ですか？",
+      "choices": [
+        "SAP ECC",
+        "ALSEA",
+        "IBM Bob",
+        "Fit to Standard"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では「AIエージェント駆動の開発支援パートナー「IBM Bob」と、日本IBMの大規模開発のノウハウを体系化したAI駆動開発ソリューション「ALSEA」を活用する」と説明されています。IBM BobがAIエージェント駆動の開発支援パートナーです。"
+    },
+    {
+      "question": "日本IBMのAI駆動開発ソリューション「ALSEA」が対応する開発範囲として、記事中で言及されているものは何ですか？",
+      "choices": [
+        "SAP Cloud ERPの標準機能のカスタマイズのみ。",
+        "SAP環境内のABAP開発と周辺アプリケーションの開発。",
+        "現行業務のプロセス図作成と記述書生成のみ。",
+        "AIエージェント「IBM Bob」の機能拡張。"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事には「ALSEAはSAP環境内のABAP開発と周辺アプリケーションの開発に対応し」と記載されています。"
+    }
+  ]
+}
