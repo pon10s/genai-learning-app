@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/generative-ai-trends-nov-2026.json",
-    "articles/ai-driven-dev-2026-trends.json",
-    "articles/tdd-basics.json",
-    "articles/agentic-ai-trends-2026.json",
-    "articles/ai-agile-future-2026.json"
+    "articles/llm-trends-2026-oct.json",
+    "articles/nec-ai-native-factory.json",
+    "articles/clean-code-habits-2026.json",
+    "articles/ai-agent-meta-muse-202611.json",
+    "articles/jasa-report-2026-ai-dev.json"
   ]
 }
