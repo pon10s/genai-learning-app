@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/llm-trends-2026-oct.json",
-    "articles/nec-ai-native-factory.json",
-    "articles/clean-code-habits-2026.json",
-    "articles/ai-agent-meta-muse-202611.json",
-    "articles/jasa-report-2026-ai-dev.json"
+    "articles/llm-trends-2026h2.json",
+    "articles/sky-ai-labot-202611.json",
+    "articles/ai-citation-ad-trend.json",
+    "articles/ai-driven-dev-nec-factory.json"
   ]
 }
