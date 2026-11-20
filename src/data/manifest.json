@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/llm-trend-2026-oct.json",
+    "articles/ai-agent-trend-2026.json",
     "articles/ai-driven-dev-design-power.json",
-    "articles/dev-flow-guide.json",
-    "articles/ai-accelerated-competition.json",
-    "articles/openai-research-acceleration.json"
+    "articles/modern-dev-best-practices.json",
+    "articles/latest-llm-trends-oct-2026.json",
+    "articles/ai-dev-security-devin.json"
   ]
 }
