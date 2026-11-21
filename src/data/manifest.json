@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-trend-2026.json",
-    "articles/ai-driven-dev-design-power.json",
-    "articles/modern-dev-best-practices.json",
-    "articles/latest-llm-trends-oct-2026.json",
-    "articles/ai-dev-security-devin.json"
+    "articles/openai-gpt62-astra-sol.json",
+    "articles/openai-research-acceleration.json",
+    "articles/software-dev-basics-2026.json",
+    "articles/microsoft-7-new-ai-models.json",
+    "articles/ai-dev-usage-trust-paradox-2026.json"
   ]
 }

@@ -1,0 +1,55 @@
+{
+  "id": "art-microsoft-7-new-ai-models",
+  "category": "trend",
+  "title": "Microsoft、7つの新AIモデルを発表：価格性能比を追求",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年11月大逆襲】Microsoftが7つの新モデルAIを同時発表!セキュリティ・音声・画像まで価格性能比を追求｜OnsenX【公式】note部",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38PxdWOVVwnaengd9GPY1CtiCMS52C8lwW_SpdiP0v07JD6uRU7awBBN8M91qRn5dOCdINPaiGUctGDsUTAAb5DLrPJf8Gr5ww6WaTEaXdcw4MC8PJayTX2u_jpAkzwEN",
+    "date": "2026-11"
+  },
+  "summary": [
+    "Microsoftは2026年11月17日、年次イベント「Microsoft Ignite 2026」で、自社開発のAIモデルを一挙に7つ発表しました。これらの新モデルは、「価格性能比」を合言葉に、同等の実力をより安価に提供することを目指しています。AI利用のコスト増大という課題に対し、MicrosoftはAIをより身近で頼れる存在にすることを目指しています。",
+    "発表された7つのモデルは、それぞれ特定の用途に特化しています。例えば、「MAI Cyber 2 Flash」はセキュリティ対策、「MAI Code 2」と軽量版の「MAI Code 2 Flash」はコーディング支援、「MAI Image 2.7」は画像の生成と編集、「MAI Realtime 1」は音声での会話、「Dragon Copilot Transcribe」は音声の文字起こし、「Decision 1.1」は判断・振り分けを担います。",
+    "特にコーディング向けの「MAI Code 2 Flash」は、OpenAIのGPT-6 Lunaと同程度の性能を65%の価格で、Claude Haiku 5.5と同程度の性能を20%の価格で提供できるとされています。また、これらのモデル発表と同時に、Microsoftの第2世代AI用チップ「Maia 200」が量産段階に入ったことも明らかにされました。このチップは、1ワットあたりの処理量を1.7倍に向上させています。",
+    "これらの取り組みは、AIが24時間稼働する時代を見据え、いつでも動かし続けられる安価なAI環境を整備することで、AIの「お金の壁」を解消し、より広範なビジネスや個人の活動でのAI活用を加速させる狙いがあります。"
+  ],
+  "questions": [
+    {
+      "question": "Microsoftが2026年11月に発表した新AIモデル群の主要なテーマは何でしたか？",
+      "choices": [
+        "価格性能比の追求",
+        "汎用人工知能（AGI）の実現",
+        "量子コンピューティングとの統合",
+        "完全なAI自律エージェントの開発"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、Microsoftは「価格性能比」を合言葉に、同等の実力をより安く提供することを目指して新モデルを発表しました。"
+    },
+    {
+      "question": "発表された7つの新AIモデルの中に含まれない専門分野は次のうちどれですか？",
+      "choices": [
+        "医療診断支援",
+        "セキュリティ対策",
+        "画像生成と編集",
+        "コーディング支援"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "発表されたモデルには、セキュリティ（MAI Cyber 2 Flash）、コーディング（MAI Code 2）、画像（MAI Image 2.7）、音声（MAI Realtime 1）などの専門分野が含まれますが、医療診断支援は含まれていません。"
+    },
+    {
+      "question": "新AIモデルの発表と同時に、Microsoftからどのようなハードウェアに関する発表がありましたか？",
+      "choices": [
+        "AI専用スーパーコンピュータ「Azure Titan」の稼働開始",
+        "第2世代AI用チップ「Maia 200」の量産開始",
+        "汎用CPUとGPUを統合した新プロセッサ「Fusion Core」",
+        "エッジAIデバイス「Hololens AI Edition」"
+      ],
+      "answerIndex": 1,
+      "difficulty": 3,
+      "explanation": "記事によると、同じ発表でMicrosoft第2世代のAI用チップ「Maia 200」が量産に入ったことも伝えられました。"
+    }
+  ]
+}
