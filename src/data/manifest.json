@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/openai-gpt62-astra-sol.json",
-    "articles/openai-research-acceleration.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/microsoft-7-new-ai-models.json",
-    "articles/ai-dev-usage-trust-paradox-2026.json"
+    "articles/ai-trend-nov-2026.json",
+    "articles/nec-ai-native-factory.json",
+    "articles/robust-web-app-sbom.json",
+    "articles/ai-agent-video-gen-2026.json",
+    "articles/ai-driven-dev-beyond-coding.json"
   ]
 }
