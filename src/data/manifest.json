@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-trend-nov-2026.json",
-    "articles/nec-ai-native-factory.json",
-    "articles/robust-web-app-sbom.json",
-    "articles/ai-agent-video-gen-2026.json",
-    "articles/ai-driven-dev-beyond-coding.json"
+    "articles/llm-trend-late-2026.json",
+    "articles/ai-driven-dev-harness-design.json",
+    "articles/software-engineer-skills-2026.json",
+    "articles/generative-ai-trends-2026h1.json",
+    "articles/ai-dev-quality-skills-202611.json"
   ]
 }
