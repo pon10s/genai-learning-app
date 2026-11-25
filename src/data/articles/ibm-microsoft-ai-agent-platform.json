@@ -1,0 +1,55 @@
+{
+  "id": "art-ibm-microsoft-ai-agent-platform",
+  "category": "trend",
+  "title": "IBMとMicrosoft、AIエージェントプラットフォームを発表",
+  "readMinutes": 2,
+  "source": {
+    "title": "IBMとMicrosoft社、業界特化型の変革を実現する新たなAIエージェント・プラットフォームを発表",
+    "url": "https://www.ibm.com/blogs/news/jp-ja/2026/11/25/ibm-microsoft-ai-agent-platform/",
+    "date": "2026-11"
+  },
+  "summary": [
+    "IBMとMicrosoftは、業界特化型のAIエージェントプラットフォーム「Imagine Enterprise」を発表しました。このプラットフォームは、企業がAIエージェントを構築、運用、ガバナンスするのを支援し、人が業界固有の業務プロセスを遂行するのをサポートすることを目的としています。",
+    "この取り組みでは、IBM Consultingが6,000以上の事前構築済みAIエージェントやアセット、およびその構築経験と業界知見を提供します。一方、MicrosoftはAI、クラウド、セキュリティ技術を提供し、両社が協力して企業のAI導入を加速させます。",
+    "Imagine Enterpriseの主な特徴は、企業の知識を活用して人とAIエージェントの能力を拡張し、インテリジェンスを増幅させる点です。また、特に規制産業において、AIエージェントの統制、可観測性、AIコンプライアンス支援機能を備え、安全な導入を可能にします。",
+    "このプラットフォームは、企業固有のデータや日常業務プロセスとAIエージェントを連携させ、実証から本番運用、そして企業規模での展開までを一貫して支援することで、AIエージェントの実ビジネスへの実装とビジネス変革を加速することが期待されています。"
+  ],
+  "questions": [
+    {
+      "question": "IBMとMicrosoftが共同で発表したAIエージェントプラットフォームの名称は何ですか？",
+      "choices": [
+        "Imagine Enterprise",
+        "Azure AI Agent",
+        "IBM Watson Agent",
+        "Microsoft Copilot Platform"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "IBMとMicrosoftが共同で発表したAIエージェントプラットフォームは「Imagine Enterprise」です。"
+    },
+    {
+      "question": "Imagine Enterpriseプラットフォームにおいて、IBM Consultingが主に提供するものは何ですか？",
+      "choices": [
+        "AI、クラウド、およびセキュリティ技術",
+        "事前構築済みAIエージェントと業界知見",
+        "最新の基盤モデル開発",
+        "ハードウェアインフラの構築"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "IBM Consultingは、6,000を超える事前構築済みAIエージェントやアセット、それらの構築経験、ならびに業界知見を提供します。AI、クラウド、セキュリティ技術はMicrosoftが提供するものです。"
+    },
+    {
+      "question": "Imagine Enterpriseプラットフォームが特に重視している機能の一つとして、記事中で挙げられているのはどれですか？",
+      "choices": [
+        "リアルタイムの画像生成能力",
+        "AIエージェントの統制とAIコンプライアンス支援",
+        "エッジデバイスへのAIモデルのデプロイ",
+        "消費者向けパーソナルアシスタント機能"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "Imagine Enterpriseは、特に規制産業において、AIエージェントの統制、可観測性、およびAIコンプライアンス支援機能により、AIエージェントのガバナンスを実現できるよう設計されています。"
+    }
+  ]
+}
