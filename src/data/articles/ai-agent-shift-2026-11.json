@@ -1,0 +1,55 @@
+{
+  "id": "art-ai-agent-shift-2026-11",
+  "category": "trend",
+  "title": "AIは「会話」から「代行」へ：自律型AIエージェントの最新トレンド",
+  "readMinutes": 2,
+  "source": {
+    "title": "【2026年11月最新】AIは「会話」から「代行」へ。 知っておくべきインパクト絶大なAIトレンドTOP5",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7DUCMTVI4PEZagLECt00zJDyZjFvc4KTTnrKRz_LVAQNF4M12vpBqn-8HCFMgeY5RrW8Ugdg_bnZhR5yCA_YHiWWRiTfyG7sG8xLWxZ0Zn1UXyyHwcwqA7XEHTB67LkQYKWEfH8Y=",
+    "date": "2026-11"
+  },
+  "summary": [
+    "2026年11月現在、AIの主要なトレンドは、単に質問に答える「対話型チャットボット」から、目標を与えると手順を自律的に組み立てて作業を進める「AIエージェント」へと大きく変化しています。この動きは、主要なテクノロジー企業によって加速され、「AIが人間の指示を待たずに作業を遂行する」段階へとシフトしています。",
+    "OpenAIは、次世代モデルの「GPT-6.2 Astra」や「GPT-6.1 Sol」を展開しつつ、AIエージェント「Dots」向けに専用のメール受信トレイ機能を準備。AIが自らメールのCCに入り、日程調整や返金交渉などを自動で行う環境を整えています。さらに、Ciscoと共同でLinuxの脆弱性を自律防御するオープンソースプロジェクト「Shirudo」も発表しました。",
+    "Anthropicは、最新モデル「Claude Fable 5.2」などと共に「Claude Ship」を発表し、AIがコード作成からレビュー、指定ポリシーに基づく本番環境への承認（Approve）までを完全自動化します。また、生成されたアプリケーションをPCに直接インストールできるデスクトップ機能を追加し、AIと外部ツールを接続する「MCP（Model Context Protocol）」のSDKダウンロード数が急増しています。",
+    "Microsoftは「Ignite 2026」にて、バックグラウンドで常に稼働する「Copilot Autopilot」を発表。万が一の誤操作時にファイルを復元できる「Agent Rewind」機能や、利用コストを可視化・管理する「Copilot Credits」を導入し、AIの実務への権限委譲に向けた安全網を構築しています。xAIもSlackやTeamsに常駐して自律的にタスクをこなすチームメンバー型AI「Grok Bot 1.0」を正式リリースするなど、AIが承認、返信、修復といった作業を自律完結する方向へと進化を続けています。"
+  ],
+  "questions": [
+    {
+      "question": "この記事によると、2026年11月現在のAIの主要なトレンドは何ですか？",
+      "choices": [
+        "AIモデルの価格競争の激化",
+        "対話型チャットボットから自律的なタスク遂行型AIエージェントへの移行",
+        "画像生成AIの品質と多様性の向上",
+        "ローカル環境でのLLM実行の普及"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事は、「AIは『会話』から『代行』へ。 知っておくべきインパクト絶大なAIトレンドTOP5」というタイトルで、AIが単なるチャットボットから自律的に作業を遂行するAIエージェントへとシフトしていることを主要なトレンドとして挙げています。"
+    },
+    {
+      "question": "OpenAIが開発しているAIエージェント「Dots」の機能として、記事で言及されているものは何ですか？",
+      "choices": [
+        "3Dモデルの自動生成",
+        "複雑な科学論文の執筆",
+        "メールの受信トレイ管理、日程調整、返金交渉の自動化",
+        "大規模なデータベースの最適化"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、OpenAIのAIエージェント「Dots」が、専用のメール受信トレイ機能を持ち、AIが自らメールのCCに入り、日程調整や返金交渉を自動で行う環境を整えていると説明されています。"
+    },
+    {
+      "question": "Anthropicが発表した「Claude Ship」は何を自動化する機能ですか？",
+      "choices": [
+        "ユーザーからの問い合わせへの自動応答",
+        "コード作成、レビュー、本番環境への承認プロセス",
+        "マルチモーダルコンテンツの生成と編集",
+        "AIモデルの学習データセットの自動収集"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事によると、Anthropicの「Claude Ship」は、AIがコード作成からレビュー、指定ポリシーに基づく本番環境への承認（Approve）までを完全自動化する機能です。"
+    }
+  ]
+}
