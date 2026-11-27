@@ -1,9 +1,9 @@
 {
   "articles": [
-    "articles/ai-agent-shift-2026-11.json",
-    "articles/ai-driven-dev-devin.json",
-    "articles/software-dev-basics-2026.json",
-    "articles/ai-usage-generational-gap-shrinks.json",
-    "articles/openai-research-acceleration-2026-11.json"
+    "articles/llm-trend-2026-late.json",
+    "articles/ai-driven-dev-understanding.json",
+    "articles/ddd-design-thinking-2026.json",
+    "articles/ai-agent-augmented-enterprise.json",
+    "articles/ai-dev-infra-zenn-202611.json"
   ]
 }
