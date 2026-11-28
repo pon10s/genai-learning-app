@@ -1,0 +1,54 @@
+{
+  "id": "art-llm-november-2026-updates",
+  "category": "trend",
+  "title": "2026年11月の主要LLMリリースとAIエージェントのトレンド",
+  "readMinutes": 2,
+  "source": {
+    "title": "AI News November 2026: GPT-6.2, Gemini 4, Claude Fable 5.2 - Arrow AI",
+    "url": "https://arrowai.com/ai-news-november-2026/",
+    "date": "2026-11"
+  },
+  "summary": [
+    "2026年11月は、主要な生成AIモデルのリリースが相次ぎ、AI技術の進化が加速しました。OpenAIからは有料プランのChatGPTで標準となった「GPT-6.2」が登場し、ウェブ検索の信頼性が向上しています。",
+    "Anthropicは長時間の技術作業に特化した「Claude Fable 5.2」をリリースし、Googleは高速かつ低コストで100万トークンのコンテキストを持つ「Gemini 4 Neon」を発表しました。これらは、それぞれの分野でフロンティアモデルとしての役割を担います。",
+    "これらの新モデルの登場に加え、AIエージェントが既存のツールに統合される動きも顕著です。例えば、「Claude Meetings」がGoogle Meetに参加したり、Google WorkspaceのMCPサーバーでAIが活用されたりするなど、日常の業務ツール内でAIがより自律的に機能するようになっています。"
+  ],
+  "questions": [
+    {
+      "question": "2026年11月にリリースされた主要なフロンティアAIモデルとして、記事に挙げられているものの組み合わせはどれですか？",
+      "choices": [
+        "GPT-6.2, Gemini 4 Neon, Claude Fable 5.2",
+        "GPT-5.5, Gemini 3 Ultra, Claude Opus",
+        "GPT-7, Gemini 5 Pro, Claude Sonnet 6",
+        "AlphaFold, DALL-E 3, Stable Diffusion XL"
+      ],
+      "answerIndex": 0,
+      "difficulty": 2,
+      "explanation": "記事によると、2026年11月にはOpenAIのGPT-6.2、GoogleのGemini 4 Neon、AnthropicのClaude Fable 5.2という3つの主要なフロンティアモデルがリリースされました。 他の選択肢は、存在しないモデル名や、時期が異なる、あるいはLLM以外のAIモデルを含んでいます。"
+    },
+    {
+      "question": "2026年11月のAIトレンドとして、記事中で特に強調されている開発の方向性は何ですか？",
+      "choices": [
+        "AIモデルの物理デバイスへの組み込み",
+        "AIエージェントの既存ツールへの統合",
+        "AIによる完全自動運転技術の普及",
+        "量子コンピューティングとAIの融合"
+      ],
+      "answerIndex": 1,
+      "difficulty": 2,
+      "explanation": "記事では、AIエージェントが「Claude Meetings」のようにGoogle Meetに加わるなど、既存のツールやワークフローに統合され、日常業務での活用が拡大している点が主要なトレンドとして挙げられています。"
+    },
+    {
+      "question": "記事によれば、Googleが2026年11月に発表した「Gemini 4 Neon」の主な特徴は何ですか？",
+      "choices": [
+        "200万トークンの大規模コンテキストウィンドウ",
+        "業界最速の画像生成能力",
+        "高速かつ低コストで100万トークンのコンテキストを持つフロンティアモデル",
+        "特定の医療分野に特化した専門AIモデル"
+      ],
+      "answerIndex": 2,
+      "difficulty": 2,
+      "explanation": "記事では、Gemini 4 Neonが「Googleの高速かつ低コストなフロンティアモデルで、100万トークンのコンテキストを持つ」と説明されています。"
+    }
+  ]
+}

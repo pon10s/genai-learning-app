@@ -1,9 +1,8 @@
 {
   "articles": [
-    "articles/llm-trend-2026-late.json",
-    "articles/ai-driven-dev-understanding.json",
-    "articles/ddd-design-thinking-2026.json",
-    "articles/ai-agent-augmented-enterprise.json",
-    "articles/ai-dev-infra-zenn-202611.json"
+    "articles/llm-november-2026-updates.json",
+    "articles/ai-driven-dev-devin-manmonth.json",
+    "articles/generative-ai-trends-2026h1.json",
+    "articles/ai-driven-dev-human-understanding.json"
   ]
 }
